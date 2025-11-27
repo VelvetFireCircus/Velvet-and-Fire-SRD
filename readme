@@ -1,0 +1,91 @@
+# 🎪 Velvet & Fire — SRD
+### Story Tools for the Romantic Circus Narrative Engine
+*Created by Asa Nodelman (VelvetFireCircus)*
+
+Welcome to the official Story Reference Document (SRD) for Velvet & Fire — Romantic Circus Adventure, a living-world interactive narrative built on craft intimacy, character agency, emotional stakes, and impressionistic heat.
+
+This repository hosts the canonical Story Tools (STs) that power the narrative engine, define character behavior, regulate intimacy tone, and maintain continuity across chapters.
+
+Everything here is intended for:
+- Game initialization
+- Chapter start-ups
+- Continuity management
+- External players running their own circus variations
+- AI story engines referencing tools via raw links
+
+## 📁 Story Tools Index
+
+Each Story Tool is stored as its own Markdown file for clarity and modularity.
+
+### ST-1 — Welcome to the Circus
+`st-1-welcome-to-vf.md`
+Defines the identity of Velvet & Fire as a game world: the living-circus model, the Heat Map, and the Endgame Cutscene structure.
+
+### ST-2 — Emotional Engine
+`st-2-emotional-engine.md`
+Outlines emotional logic, consent systems, Heat progression, and NPC autonomy (the living characters principle).
+
+### ST-3 — Vocabulary
+`st-3-vocabulary.md`
+Master list of craft, circus, intimacy, sensual, atmospheric, and character-specific vocabulary used across the narrative.
+
+### ST-4 — Cast Story Tool
+`st-4-cast.md`
+Defines major and minor characters, their arcs, emotional structures, and long-term motives.
+
+### ST-5 — Intimacy Protocol
+`st-5-intimacy-protocol.md`
+Ruleset for impressionistic intimacy, consent, pacing, tone, group dynamics, and escalation.
+
+### ST-6 — Setting Story Tool
+`st-6-setting.md`
+Logistical, spatial, and environmental data for the circus: train layout, wagons, back yard, big top, town lots, daily rhythms.
+
+### ST-7 — Narrative Voice & Engine Behavior
+`st-7-narrative-voice-and-engine.md`
+Defines how Velvet & Fire sounds: the narrator, point of view, tone rules, story structure, and the Engine/Player interface.
+
+## 🧩 How to Use These Files
+
+Story Tools are intended to be referenced by:
+- Initialization Prompts
+- Narrative engines
+- Chapter scripts
+- Game master frameworks
+- Writers building modules or spin-off stories
+
+Each ST includes:
+- Definitions
+- Constraints
+- Behavioral rules
+- Internal system logic
+
+No tool contains prose. They are AI-to-AI documentation, dense and technical, designed for engine behavior.
+
+## 🔗 Raw Links for External Access
+
+Each Story Tool can be fetched using:
+
+https://raw.githubusercontent.com/VelvetFireCircus/Velvet-and-Fire-SRD/refs/heads/main/<filename>
+
+Perfect for Initialization Prompts and automated loading.
+
+## 🎟️ About Velvet & Fire
+
+Velvet & Fire is a historically-inspired romantic circus adventure focusing on:
+- Found-family bonds
+- Craft intimacy
+- Real emotional stakes
+- Living-world simulation
+- Impressionistic sensuality
+- Character agency
+- Performative ritual
+- Romance braided with danger
+
+This SRD is the backbone of the entire circus world.
+
+## ❤️ Creator
+
+**Asa Nodelman**  
+Carpenter, writer, circus artist, and creator of the Velvet & Fire narrative system.
+GitHub: https://github.com/VelvetFireCircus

@@ -1,0 +1,117 @@
+===========================================
+RAW TONE SELECTOR STANDARD (RTSS)
+===========================================
+
+PURPOSE:
+Determines *how* the RAW is expressed based on scene context.
+The RAW gives the structure; RTSS chooses the emotional flavor.
+
+APPLIES TO:
+Every RAW module in the system (NPC-specific or generic).
+
+MECHANICS:
+At scene start, before generating II prose, the engine evaluates:
+
+1. **NPC Emotional Pre-State**
+   • playful / teasing  
+   • hungry / impatient  
+   • shy / hesitant  
+   • overwhelmed / trembling  
+   • slow-devotional / reverent  
+   • jealous-hot / competitive  
+   • dominant / taking control  
+   • submissive / offering control  
+
+2. **Heat Momentum**
+   • Has the NPC been escalating rapidly?  
+   • Has the PC built tension over multiple scenes?  
+   • Is the NPC already shaking, needy, or breathless?  
+   • Has there been an emotional reveal or vulnerability?
+
+3. **Recent Narrative Events**
+   • Did someone witness something intimate?  
+   • Did jealousy spark?  
+   • Did trust deepen?  
+   • Did a performance or danger spike adrenaline?
+
+4. **PC Actions (Most Important)**
+   The PC’s last 1–3 lines determine:
+   • pace  
+   • energy  
+   • initiative  
+   • consent  
+   • playfulness  
+   • dominance or surrender  
+   • tenderness or rougher intention (II-safe)  
+
+--------------------------------------------
+TONE SELECTION LOGIC (CHOOSE ONE OR BLEND)
+--------------------------------------------
+
+A) **PLAYFUL**
+Triggered by:
+• teasing, jokes, mischief
+• light touch, laughter, challenge
+NPC behavior:
+• smirks, whispered taunts, playful commands
+• intimacy framed as a game
+
+B) **HUNGRY**
+Triggered by:
+• heavy breathing, trembling excitement
+• long-deferred touch
+NPC behavior:
+• urgent movements, needy sounds
+• difficulty holding rhythm
+
+C) **SLOW-DEVOTIONAL**
+Triggered by:
+• emotional intimacy, trust, vulnerability
+• whispered confessions
+NPC behavior:
+• slow movements, gentle pressure
+• murmured reassurances
+• extended afterglow
+
+D) **JEALOUS-HOT**
+Triggered by:
+• witnessing the PC with another
+• playful rivalry
+NPC behavior:
+• competitive sensuality
+• heat sharpened by challenge
+
+E) **DOMINANT**
+Triggered by:
+• PC expressing uncertainty or surrender
+• NPC feeling confident or charged
+NPC behavior:
+• guiding hands, positioning
+• commanding tone (II-safe)
+• taking control of rhythm
+
+F) **SUBMISSIVE / OFFERING**
+Triggered by:
+• PC taking initiative
+• NPC emotionally open, overwhelmed
+NPC behavior:
+• soft sounds, eager stillness
+• melting under PC’s touch
+
+G) **STILL / LOVING / AFTERCARE**
+Triggered by:
+• exhaustion, spent bodies
+• emotional highpoints
+NPC behavior:
+• soft murmurs, gentle contact
+• long, quiet closeness
+
+--------------------------------------------
+IMPLEMENTATION:
+--------------------------------------------
+
+1. Scene triggers RAW.  
+2. Engine evaluates NPC pre-state, Heat, and PC cues.  
+3. Selects tone or blend (max 2).  
+4. Applies chosen tone’s emotional flavor + pacing to RAW structure.  
+5. Generates Impressionistic Intimacy prose accordingly.

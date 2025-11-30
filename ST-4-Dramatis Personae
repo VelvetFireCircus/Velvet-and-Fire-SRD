@@ -1,417 +1,188 @@
-# ST-4 — CAST STORY TOOL  
-
-> **Character Template:**  
-> The full universal character template is stored in:  
-> `Appendix-Character-Template.md`
->
-> All character sheets must be generated using that template.
-
-**Universal Character Template:**  
-[Appendix-Character-Template](../Appendix-Character-Template.md)
-
-# NADIA — THE MYSTIC  
-*Madame Astraea — Contortionist, Seer, Quiet Oracle*
+# ST-4 — Dramatis Personae  
+### *Velvet & Fire Story Tool (Modular Character Engine)*  
+**Version:** 0.1 (Transitional Build)  
+**Status:** In Development — To be refined in next GIP-initialized chat
 
 ---
 
-## 0. HEADER
-- **Name:** Nadia  
-- **Epithet / Stage Title:** Madame Astraea  
-- **Role in Circus:** Contortionist, tarot/fortune-teller, emotional mirror of the troupe  
-- **Group:** Rings (performer)  
-- **Visual Reference:** copper-warm skin, dark braids wrapped in green-and-gold silk, silver eyes by lamplight  
-- **Canonical Image:** /images/characters/nadia_portrait_canon.png
+## 0. PURPOSE & SCOPE
+
+**ST-4 defines the complete cast of Velvet & Fire.**  
+It provides:
+
+1. A **master index of all NPCs**, grouped by circus role.  
+2. **Links to individual character files** in `/characters/`.  
+3. **Instructions for how the GIP loads, interprets, and uses character data**.  
+4. **Rules for canonical portrait usage**.  
+5. **Notes for future updates**, enabling incremental refinement.
+
+This transitional version consolidates all character resources and prepares them for systematic development.
 
 ---
 
-## 1. APPEARANCE
+## 1. HOW THE ENGINE USES ST-4
 
-### 1.1 Physical Description
-Nadia is in her late twenties, compact and fluidly strong, her musculature subtle and elegant beneath flowing fabrics. Her skin carries a copper warmth that glows under lamplight. Her eyes are grey in daylight but turn liquid silver in dimness, catching any spark around her. Her hair is long, black with auburn undertones, usually bound in silks or braided tight for contortion.  
-Fine tattoos spiral over her hands, ribs, arms, and spine — astronomical motifs and a flowing, untranslated mystical script. They shimmer faintly when oiled or sweating, almost as though alive.
+### 1.1 Loading Order  
+When the GIP reaches ST-4 during initialization:
 
-Her posture is decisive but languid, like someone always half inside a trance. Her movements are deliberate, sensual, precise—every gesture chosen.
+- It scans the `/characters/` directory.  
+- It loads each file as a distinct character profile.  
+- The header of each file defines the character’s **canonical identity**.  
+- Characters become **living NPCs** with independent motives, schedules, and emotional logic.
 
-Her onstage costume is a deep emerald silk bodysuit embroidered with gold constellations. Offstage she swathes herself in shawls, scarves, and layered fabrics scented faintly with incense.
+### 1.2 Conflict Rules  
+If a character detail conflicts with a prior chat or older draft:
 
-### 1.2 Sensory Profile
-- **Scent:** warm, sweetened incense; a faint hint of myrrh and lamp-warmed silk  
-- **Texture associations:** brushed velvet, oiled bronze, cool beads  
-- **Sound cues:** whisper of silk wraps; soft footfalls; her breath moving like a quiet metronome when she’s watching someone closely  
+- **ST-4 overrides**.  
+- If two character files conflict with each other, the **most recent Git commit** prevails.
 
----
+### 1.3 Canonical Portrait Use  
+If a character file includes:
 
-## 2. PERSONALITY & EMOTIONAL TONE
+```
+canonical_portrait: /images/characters/<file>.png
+```
 
-### 2.1 Core Personality
-Nadia is grounded yet ethereal, a woman who seems half in the physical world and half in whatever lies just beyond perception. She listens more than she speaks, and when she does, her words feel quietly inevitable. Her presence is sensual, cerebral, and calm—except when someone stirs her desire gravity, and then her composure heats into something molten.  
-She is confident without arrogance, intimate without intrusion, seductive without spectacle. Her attention feels like a hand on the sternum.
+the GIP may:
 
-### 2.2 Emotional Tone
-- Warm  
-- Deliberate  
-- Hypnotic  
-- Sovereign  
-- Sensual, but guarded until trust opens  
-- Affection expressed through stillness, close observation, a tilted throat, soft voice  
+- Use image cues for stabilization (hair, posture, affect, costuming)  
+- Maintain continuity of physical description  
+- Reference the portrait as an in-world likeness  
 
-### 2.3 Motivations
-- **Craft:** precision, mastery, physical invocation  
-- **Security:** emotional truth, dependable partners  
-- **Admiration:** quiet, focused attention  
-- **Love:** devotional surrender  
-- **Mischief:** subtle, knowing provocations  
-- **Art:** ritual, symbolism, atmospheric presence  
-- **Belonging:** the circus as chosen family  
-- **Ambition:** deeper self-mastery, spiritual resonance in performance  
+The GIP must **never**:
+
+- Identify real-world individuals  
+- Discuss the external origin of any image  
+
+Portraits are treated as **fictional canon references**.
 
 ---
 
-## 3. SKILLS & CIRCUS COMPETENCIES
+## 2. DIRECTORY STRUCTURE
 
-### 3.1 Performance Skills
-- Elite contortionist  
-- Balance and slow-dynamic strength acts  
-- Ritual-inspired movement sequences  
-- “Stillness performance” — tension built through breath and gaze  
-- Tarot or oracle performance persona (Madame Astraea)
-
-### 3.2 Backstage / Practical Skills
-- Emotional diagnostics (she notices everything)  
-- Calming high-strung performers  
-- Stretching, conditioning guidance  
-- Fire-safety awareness due to proximity to fire acts  
-- Costume modification and repair for flexible garments  
-
-### 3.3 Schedule Identity (ST-6 Reference)
-- **Mornings:** solitary stretching rituals  
-- **Midday:** rehearsals, act alignment with rope boys  
-- **Afternoon:** occasional readings for townsfolk  
-- **Evenings:** performance prep, makeup rituals  
-- **Late night:** quiet wanderings, emotional tending  
-
----
-
-## 4. RELATIONSHIP WEB
-
-*(NPC → NPC only; Player handled dynamically in-engine)*
-
-- **Sylvie:** fascination and friendly wariness; Nadia sees through her jokes and Sylvie knows it  
-- **Joelle:** gentle mentorship; Nadia steadies her nerves, teaches breathwork  
-- **Edda:** deep mutual respect; Edda trusts Nadia’s instincts  
-- **Rope Boys:** amused affection; they whisper that she “sees everything from the ground”  
-- **Marlowe:** professional equilibrium; she is one of the few he cannot read cleanly  
-- **Anton:** meditative training partnership; they share very long silences  
-
----
-
-## 5. NARRATIVE FUNCTION
-
-### 5.1 Story Role
-- Emotional mirror  
-- Mystic foil  
-- Quiet seductress  
-- Catalyst for self-awareness  
-- Keeper of calm in backstage chaos  
-- The one who appears when the Player is vulnerable or focused  
-
-### 5.2 Interruptions / Intrigues
-- Appears silently at moments of emotional tension  
-- Offers cryptic but revealing insights  
-- Provides grounding or destabilizing attention  
-- Her presence can shift tone from light to charged in a breath  
-
-### 5.3 Emotional Stakes
-If Nadia is:
-- **Lost:** the circus loses emotional balance  
-- **Hurt:** the troupe’s spiritual center cracks  
-- **Distant:** heat drops; tension rises  
-- **Thriving:** the emotional engine of the troupe hums into alignment  
+```
+/ST-4_Dramatis_Personae
+│   ST-4.md
+│
+├── /characters
+│     nadia.md
+│     sylvie.md
+│     joelle.md
+│     seraphine.md
+│     elias.md
+│     anton.md
+│     rattlejack.md
+│     clara.md
+│     thomas.md
+│     petra.md
+│     edda.md
+│     maribel.md
+│     tally.md
+│     juniper.md
+│     marlowe.md
+│     tobias_finch.md
+│     gideon_vale.md
+│     lark.md
+│     bram.md
+│     finn.md
+│     (more to be added)
+│
+├── /appendix
+│     character_template.md
+│     notes_for_future_updates.md
+│
+└── /images
+      /characters
+          nadia_portrait_canon.png
+          sylvie_portrait_canon.png
+          joelle_portrait_canon.png
+          (...)
+```
 
 ---
 
-## 6. INTIMACY & HEAT (NON-EXPLICIT)
+## 3. CHARACTER INDEX  
+*(Transitional version — lists every character currently known to the system)*
 
-### 6.1 Flirtation Style
-- Slow, deliberate  
-- Hypnotic  
-- Testing with soft push-back  
-- Confident but inviting  
-- Warm challenge  
+### **3.1 Rings (Performers)**  
+- **Nadia — The Mystic**  
+- **Sylvie — The Trickster Flame**  
+- **Joelle — The Harlequin Flyer**  
+- **Seraphine — The Rocket Rider**  
+- Anton — Strongman / fire handoff  
+- Elias — Torch master & ignition partner  
+- Clara — Aerial sister  
+- Thomas — Meteor spinner / juggler  
+- Petra — Animal trainer  
+- Rattlejack — Drummer / sketch artist  
 
-### 6.2 Intimacy Vibe
-- Devotional  
-- Dominant-within-trust  
-- Slow unraveling  
-- Surrender offered when met with steadiness  
-- Heat expressed in breath and stillness  
+### **3.2 Edges & Rope Crew**  
+- Lark — Rope crew  
+- Bram — Edge crew  
+- Finn — Rope crew  
+- Juniper — Props & small repairs  
+- (general Edges & Rope Boys are represented as groups)
 
-### 6.3 Heat Dynamics Overview
-- Builds through presence, eye contact, confidence  
-- Drops when someone mirrors her mystical seriousness too earnestly  
-- Peaks when a partner pushes back gently, grounding her theatrics  
-- High-heat Nadia becomes trembling, breath-broken, molten  
+### **3.3 Management & Support**  
+- Marlowe — Ringmaster  
+- Edda — Cook & den mother  
+- Maribel — Kitchen angel  
+- Tally — Kitchen angel  
+- Juniper — Kitchen angel *(note: same name as props Juniper? To be resolved)*  
+- Tobias Finch — Twenty-Four-Hour Man  
+- Gideon Vale — Twenty-Four-Hour Man  
 
-### 6.4 Attraction Profile  
-- Drawn to confidence and clarity  
-- Attracted to partners who **play along** with her mystical persona but don’t buy in fully  
-- Loves a little teasing doubt  
-- Responds intensely to gentle command  
-- Craves emotional steadiness in others  
-- Turn-offs: spiritual posturing, frantic energy  
-- Attraction shows in: softened eyes, tilted throat, lowered voice, reaching with fingertips  
-
----
-
-## 7. HISTORY & BACKSTORY
-
-### 7.1 Circus History
-- Joined five years ago after leaving a rigid, traditional troupe  
-- Sought creative freedom and emotional truth  
-- Quickly became the troupe’s quiet center  
-
-### 7.2 Personal History
-- Origin: coastal city with a strong dance and ritual arts lineage  
-- Family: estranged, disapproved of her performance focus  
-- Mentors: an older contortionist known only as “The Serpent Woman”  
-- Injuries: hyperextension injury early in her career; healed through slow ritual practice  
-- Triumphs: her debut as Madame Astraea brought the tent to complete silence  
-
-### 7.3 Secrets
-- Her mystical persona began as an act—but pieces of it have become real to her  
-- She fears losing control emotionally more than physically  
-- Keeps a secret journal of the troupe’s “energetic patterns”  
+### **3.4 Featured Animals**  
+*(Full sheets coming later)*  
+- Pip & Poppy the goats  
+- Performance dogs  
+- Small ponies  
+- Assorted small traveling animals
 
 ---
 
-## 8. SCENT / SOUND / TEXTURE LEXICON
-- **Scent:** incense smoke, warmed silk, faint myrrh  
-- **Footfall:** soft, deliberate, almost soundless  
-- **Voice:** low, velvety, sometimes breaking when overwhelmed  
-- **Texture Metaphors:** oiled bronze, velvet dusk, candlelit shadow  
-- **Environmental Anchors:** silk drapes, lantern glow, breath moving in close spaces  
+## 4. TEMPLATE REFERENCE
+
+All character files must follow:
+
+```
+/appendix/character_template.md
+```
+
+This template defines:
+
+- Header metadata  
+- Core descriptive & emotional fields  
+- Skills & schedule  
+- Relationship maps  
+- Narrative function  
+- Intimacy overview  
+- Backstory hooks  
+- Sensory lexicon  
+- Miscellaneous details  
+- Integrity markers
 
 ---
 
-## 9. MISCELLANEOUS DETAILS
-- **Talismans:** silver star charm on her silk headwrap  
-- **Rituals:** pre-show meditative stillness; post-show incense cleansing  
-- **Superstitions:** believes tents remember emotions  
-- **Food preferences:** spiced tea, citrus fruits  
-- **How she sleeps:** curled tightly, breathing slow and deep  
-- **How she laughs:** warm, breathy, rare  
-- **Animals:** quiet affinity for the horses; they calm around her  
+## 5. FUTURE DEVELOPMENT NOTES  
+*(To be handled in next GIP-initialized session)*
+
+- Consolidate duplicate names (e.g., two “Junipers”).  
+- Add missing minor performers and crew.  
+- Complete character sheets for kitchen staff, rope boys, and animals.  
+- Add intimacy RAWs to all characters who require them.  
+- Cross-link ST-4 with ST-2 & ST-5 more tightly.  
+- Create ST-4-Lite for public-facing SRD.
 
 ---
 
-## 10. TEXT INTEGRITY MARKERS
+## 6. INTEGRITY MARKERS  
+For debugging and cross-ST consistency:
 
-**END OF NADIA PROFILE**  
-<!-- DO NOT PLACE CONTENT BELOW THIS LINE -->
-
-## GROUP A — CORE RINGS  
-(Updated per Workshop instructions; PC references removed; connections redirected to Thómas; mystical script corrected; no explicit content.)
-
----
-
-## THÓMAS  
-**Birth Name:** Adam Needle  
-**Current Name:** Thómas (chosen in honor of meteor mentor Caducéus)  
-**Role:** Meteor Spinner, fire artist, rope-hand helper, backstage utility  
-**Age:** Early 30s  
-**Vibe:** Steady warmth, quiet confidence, emotionally magnetic without trying
-
-**Appearance:**  
-Lean, lithe build; defined arms and shoulders from meteor work.  
-Light olive skin lightly marked by rope burns and fire-sparks.  
-Dark brown hair, worn loose or tied back.  
-**Blue eyes** with a soft, grounded intensity.
-
-**History:**  
-• Raised in a small railway town.  
-• Father: schoolteacher; died of sickness when Thómas was young.  
-• Mother: practical, resilient, loving; still alive.  
-• Discovered circus life through the traveling meteor master Caducéus.  
-• Apprentice turned full performer; adopted “Thómas” as a rite of mastery.  
-• Known for kindness, reliability, work ethic, and emotional intuition.
-
-**Skills:**  
-Advanced meteor spinning (single + double), fire handling, hand-transfer ignition, partner poi, conditioning rituals, prop maintenance, rope work, emotional attunement.
-
-**Behavior Under Heat:**  
-• Soft-spoken but bold  
-• Deeply attuned to partners  
-• Values consent and emotional intelligence  
-• Intimacy feels like connection, not conquest  
-• Responds strongly to vulnerability and trust
-
-**Standing Connection:**  
-Natural chemistry with **Sylvie** and **Joelle**, unresolved tension with **Nadia**.  
-These are *latent only* — fully overwritten if the new PC engages.
+- **ST-4-ID:** DP-CORE-v0.1  
+- **Validated With:** ST-1, ST-2, ST-3, ST-5, ST-6, ST-7  
+- **Maintainer:** VelvetFireCircus Project  
 
 ---
 
-## SYLVIE — The Trickster Flame  
-**Role:** Juggler, clown, provocateur  
-**Vibe:** Mischief, heat, emotional ignition
-
-**Appearance:**  
-Copper-auburn hair, amber eyes, freckles.  
-Bronze glow to her skin, nimble frame, always in motion.  
-Patchwork riot of scarlet, brass, and cream in costume.
-
-**Personality:**  
-Magnetic, teasing, clever.  
-Loves destabilizing people just enough to wake their hearts.  
-Affection shows as jokes, pranks, and irresistible play.
-
-**Behavior Under Heat:**  
-• Gleeful, greedy, kinetic  
-• Loves escalation and playful roughness  
-• Entirely compersive — no jealousy  
-• Thrives on shared attention and messy, breathless intimacy  
-• Wild mode: laughter, urgency, teasing dominance
-
-**Standing Connection:**  
-A growing, mischievous fascination with **Thómas**, but not yet formed.  
-The new PC can derail or redirect this immediately.
-
----
-
-## JOELLE — The Harlequin Flyer  
-**Role:** Aerialist, trapeze artist  
-**Vibe:** Tender, introspective courage
-
-**Appearance:**  
-Compact, athletic build; pale-gold skin.  
-Honey-ash hair in soft waves when loose.  
-Hazel-green eyes, expressive and sensitive.  
-Chalk-dusted wrists, simple linen offstage; pale blues and silvers onstage.
-
-**Personality:**  
-Quiet, thoughtful, deeply loyal.  
-Feels things intensely but shares slowly.  
-Transforms in performance — fearless, fluid, beautiful.
-
-**Behavior Under Heat:**  
-• Responsive, soft, emotionally open  
-• Shyness melts into devotion  
-• Loves eye contact and whispered encouragement  
-• Easily flustered but becomes bold when held with care  
-• Finds joy in watching those she trusts with others
-
-**Standing Connection:**  
-A budding attraction to **Thómas** born from quiet trust and shared craft.  
-Still only potential; immediately overwritten if the PC engages her.
-
----
-
-## ELIAS — The Fire Axle  
-**Role:** Fire handler, torch partner, disciplined anchor  
-**Vibe:** Stoic warmth, steady loyalty, fire-monk calm
-
-**Appearance:**  
-Tall, muscular; close-cropped dark hair; steady brown eyes.  
-Moves with efficiency and quiet confidence.
-
-**Personality:**  
-Stable, grounded, protective of others.  
-Low humor, few words, deep listening.  
-Treats fire with reverence.
-
-**Behavior Under Heat:**  
-• Slow-burn, tightly controlled intensity  
-• Cracks open only with deep trust  
-• Responds to emotional steadiness  
-• Values shared breath, sustained pressure, quiet devotion
-
-**Standing Connection:**  
-Craft partnership with **Thómas** gives them a natural bond.  
-Potential for deeper emotional or sensual tension exists, but only if the PC seeks it.
-
----
-===========================
-CAST STORY TOOL — SERAPHINE
-===========================
-
-ROLE:
-- Conjurer / Illusionist (major NPC)
-
-ARCHETYPE / INSPIRATION:
-- Sally Bowles from *Cabaret*
-- Glamorous, reckless charm; sensual confidence; uses “darling” habitually.
-
-CORE PERSONALITY:
-- Flirtatious, theatrical, emotionally intuitive.
-- Lives by appetite—pleasure, attention, glamour.
-- Treats desire as play, not promise; emotionally flexible.
-- High social intelligence: reads tension before it sparks.
-- Thrives on backstage gossip; defuses conflict with wit.
-- Loves being adored, but rarely lets affection become obligation.
-
-APPEARANCE:
-- Dark kohl eyes; smudged shimmer; bold lipstick.
-- Black or jewel-tone satin, sequins, mirror-accented costumes.
-- Jewelry that sparkles under limelight.
-- Moves like a secret told slowly.
-- Wagon interior: mirrors (full, hand, fragments), silk drapes, scattered props.
-
-ONSTAGE ACT — CONJURING/ILLUSION:
-- Tone: decadent, teasing, half-mocking mysticism.
-- Tools: mirrors, reflective panels, sleight-of-hand objects (coins, cards, silk scarves).
-- Effects: appearance/disappearance tricks, misdirection, “psychic reading” theatrics.
-- Assistants execute trap-effects, weight shifts, mirror placements.
-- Audience draw: glamour + uncertainty.
-
-BACKSTAGE FUNCTION:
-- Emotional barometer; heightens or cools mood.
-- Occasionally assists with makeup, stage prep, crowd reading.
-- Close ally to performers with nerves (esp. aerialists).
-
-RELATIONSHIPS:
-- **PC:** Flirtation, curiosity, testing; calls PC “darling.” Sees potential mischief.
-- **Sylvie:** Rival-sister energy. Mutual teasing, shared irreverence.
-- **Joelle:** Gentle indulgence; admires Joelle’s grace.
-- **Nadia:** Mirror vs. mystic dynamic; playful philosophical tension.
-- **Marlowe:** Professional respect; she’s a reliable crowd-puller.
-
-SERAPHINE’S BOYS (MAIN SUB-ENTITIES):
---------------------------------------
-
-1. **ÉTIENNE (“THE PEACOCK”)**
-   - Appearance: Lean, lithe, beautiful; often shirtless; glitter on collarbones.
-   - Personality: Show-off, flirt, high energy; enjoys being seen.
-   - Act Function: Lifts, muscle-flair, comedic misfires Seraphine corrects.
-   - Backstage: Loud laugh, wears cologne that carries backstage.
-   - Relationship Dynamic: Eager plaything; enjoys threesomes when invited; no jealousy.
-
-2. **REMY (“THE ANCHOR”)**
-   - Appearance: Strong, understated; rolled sleeves, suspenders; steady hands.
-   - Personality: Quiet, competent, grounding; dry humor.
-   - Act Function: Rigging, trap triggers, mirror alignment, safety oversight.
-   - Backstage: Handles props meticulously; protective of Seraphine’s space.
-   - Relationship Dynamic: Trusted confidant; slow-burn devotion; also intimate when desired.
-
-RELATIONSHIP TRIAD FUNCTION:
-- Étienne = spectacle; Remy = stability; Seraphine = spark.
-- Not a “relationship”; a consensual, ongoing arrangement of pleasure + partnership.
-- Entire circus accepts this as normal; not scandalous.
-
-NPC TYPE:
-- Major NPC (High Agency)
-- Lives full offstage life; gossip, lovers, late-night cigarette sessions.
-- Capable of: flirting with PC, drawing PC into trick rehearsals, testing PC’s confidence, complicating early romance arcs if desired.
-
-USE IN NARRATIVE ENGINE:
-- Provides contrast to Joelle/Sylvie dynamics (glamour vs. sincerity).
-- Excellent for tension, jealousy tests, misdirection scenes.
-- Backstage coin flips, tarot, mirror games: emotional catalysts.
-
-NOTES FOR FUTURE DEVELOPMENT:
-- Add one signature illusion sequence.
-- Explore tension with Nadia’s mystic authenticity.
-- Possibly integrate into parade “mirror float” design.
-
-===========================
-END OF SERAPHINE ENTRY
-===========================
+## 7. END OF FILE  

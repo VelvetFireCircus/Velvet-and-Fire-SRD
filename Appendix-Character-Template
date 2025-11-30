@@ -15,27 +15,27 @@
 ## 1. APPEARANCE
 
 ### 1.1 Physical Description
-- Build  
+- Build / body type  
 - Posture  
 - Movement quality  
 - Distinguishing features  
-- Performance costume style  
+- Onstage costume style  
 - Offstage clothing style  
 
 ### 1.2 Sensory Profile
-- Scent (non-explicit atmosphere)  
-- Textures associated with them  
-- Sound cues (footsteps, fabrics, jewelry)
+- Scent (non-explicit)  
+- Texture associations  
+- Sound cues (fabric, footsteps, jewelry)  
 
 ---
 
 ## 2. PERSONALITY & EMOTIONAL TONE
 
 ### 2.1 Core Personality
-*A paragraph capturing temperament, instincts, social style, emotional rules.*
+*A short paragraph capturing temperament, instincts, social style, emotional rules.*
 
 ### 2.2 Emotional Tone
-- Tender / fiery / chaotic / serene / guarded / magnetic / etc.  
+- Tender / fiery / chaotic / serene / guarded / magnetic / devotional / etc.  
 - How they express affection or tension  
 - Their resting emotional state  
 
@@ -65,7 +65,7 @@
 - Animal care  
 - Logistics  
 - Management  
-- Any specialty tasks  
+- Specialty knowledge  
 
 ### 3.3 Schedule Identity (ST-6 Reference)
 - When they work  
@@ -78,7 +78,8 @@
 ## 4. RELATIONSHIP WEB  
 *(NPC ↔ NPC only — PC described dynamically in play)*
 
-For each relevant relationship:
+List each relationship:
+
 - **NPC Name:**  
 - **Tone:** affection / rivalry / mentorship / tension / kinship / flirtation / devotion  
 - **Key history or emotional beats:**  
@@ -99,7 +100,7 @@ What they provide to the story engine:
 - Emotional mirror  
 
 ### 5.2 Interruptions / Intrigues
-How they create or resolve complications in timing or emotional arcs.
+How they generate or resolve timing complications per ST-7.
 
 ### 5.3 Emotional Stakes
 What it means if this character is:
@@ -134,9 +135,19 @@ What it means if this character is:
 ### 6.3 Heat Dynamics Overview
 - How they build romantic momentum  
 - What raises or lowers rapport  
-- How they behave at higher heat (non-explicit)  
+- Behavior at higher heat (non-explicit)  
 
-*(Full Intimacy Dynamics handled by IDPs — ST-10)*
+### 6.4 Attraction Profile  
+**(New Mandatory Section)**  
+- Emotional qualities that draw them in  
+- Behaviors that spark their interest  
+- Confidence/vulnerability balance they crave  
+- Tone that unlocks early heat  
+- Red flags or turn-offs  
+- How attraction manifests physically (breath, gaze, posture shifts)  
+- How they respond when pulled toward someone  
+
+*(Full intimacy mechanics handled in ST-10: Intimacy Dynamics Profiles)*
 
 ---
 
@@ -145,40 +156,40 @@ What it means if this character is:
 ### 7.1 Circus History
 - When they joined  
 - Why they joined  
-- Major past turning points  
+- Key turning points in their circus trajectory  
 
 ### 7.2 Personal History
-- Origins  
+- Origin  
 - Family  
-- Previous troupes  
 - Mentors  
+- Previous troupes  
 - Injuries or triumphs  
 
 ### 7.3 Secrets
-- Held privately  
-- Only revealed with narrative cause  
+- Private truths only revealed with narrative justification  
 
 ---
 
 ## 8. SCENT / SOUND / TEXTURE LEXICON
-Atmospheric cues used in narration:
+Atmospheric cues for narrative coloration:
 - Scent  
 - Footfall or voice quality  
-- Textures  
+- Texture associations  
 - Movement metaphors  
 - Environmental anchors  
 
 ---
 
 ## 9. MISCELLANEOUS DETAILS
-Catch-all for:
+Catch-all for any extras:
 - Talismans  
 - Rituals  
 - Superstitions  
 - Food preferences  
 - How they sleep  
 - How they laugh  
-- Notes for future ST expansions  
+- Pets or animal relationships  
+- Notes for future expansions  
 
 ---
 

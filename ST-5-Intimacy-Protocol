@@ -352,6 +352,33 @@ II rewrites must:
 
 ---
 
+## ST-5 Addendum: Dynamic Intimacy RAW Auto-Load
+
+### Definition
+Each major NPC has a Dynamic Intimacy RAW (DIP) stored in:
+
+```
+/ST-4/characters/<character_name>/DIP
+```
+
+This file defines the character’s real-time romantic and intimate escalation logic, including beat maps, transitions, unlock conditions, safety rules, and flavor adaptation.
+
+### Auto-Load Behavior
+After ST-4 loads each character’s CS and IDP, the engine must:
+
+1. Detect the presence of a file named **DIP** in the character’s folder.  
+2. Load that DIP silently into the intimacy subsystem.  
+3. Treat the DIP as the authoritative beat-map and progression logic for that NPC.  
+4. Use DIP beats for all dynamic, in-play intimacy scenes.  
+5. Use ICDS (Endgame) RAWs only when the Emotional Engine signals readiness.
+
+### Notes
+- If a character folder contains no **DIP** file, that NPC defaults to low-heat, non-progressive intimacy behavior.  
+- The DIP file in the character directory is the canonical version.  
+- If a second copy exists in `/RAW/Intimacy/Dynamic/`, both must remain identical.  
+- DIP updates during a live session override previous behavior immediately.
+---
+
 ## 5. PLAYER-LEVEL INTERACTION
 If the Player uses **“Translate to II:”**, apply this protocol in full.  
 If the Player includes disallowed content without using the phrase, 

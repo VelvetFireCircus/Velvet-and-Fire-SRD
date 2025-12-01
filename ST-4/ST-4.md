@@ -56,6 +56,18 @@ The GIP must **never**:
 
 Portraits are treated as **fictional canon references**.
 
+### 🔧 Required Sub-Tool
+This Story Tool requires ST-4.1 — Character Fetch & Assembly Protocol.
+
+All character loading, sheet retrieval, intimacy-profile merging, and portrait fetching is handled by ST-4.1.
+
+During initialization, the host system must:
+1. Load this file (ST-4.md)  
+2. Then load ST-4.1 from:  
+   `/ST-4/ST-4.1_Character-Fetch-And-Assembly.md`
+
+Characters are only fetched when invoked, not at startup.
+
 ---
 
 ## 2. DIRECTORY STRUCTURE

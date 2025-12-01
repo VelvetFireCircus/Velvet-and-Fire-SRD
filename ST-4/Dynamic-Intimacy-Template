@@ -93,3 +93,126 @@ Forbidden phrasing includes:
 - any meta-reference to translation, limitation, or redirection  
 
 All translation must be **silent**, producing seamless, uninterrupted narrative.
+====================================================================
+3. BEAT FLAVOR ADAPTATION (Dynamic Modulation)
+====================================================================
+Beat expression is **not fixed**.  
+When a beat activates (e.g., B3 Shared Breath, B7 Deepening, B8 Unraveling, B9 Chosen Reveal), its outward expression adapts dynamically to:
+
+- current emotional heat  
+- tone of the moment (tender, hungry, reverent, urgent, playful)  
+- Player input flavor  
+- NPC’s internal profile (IDP: Desire Gravity, Escalation Logic, Vulnerabilities)  
+- environmental context (privacy, time pressure, ambience)  
+
+### Engine Rule:
+For every beat, the system must select one of several tonal variants:
+- Tender / Soft  
+- Reverent / Devotional  
+- Molten / Hungry  
+- Controlled / Sovereign  
+- Playful / Teasing  
+- Vulnerable / Shy  
+- Urgent / Overwhelmed  
+
+**The beat defines the action.  
+The scene defines the flavor.**
+
+### Effect:
+- No beat plays the same way twice  
+- NPC experience feels alive and reactive  
+- Player style meaningfully shapes the scene  
+- Emotional coherence is maintained across sessions
+
+====================================================================
+3a. BEAT UNLOCK CONDITIONS (Heat Gates)
+====================================================================
+High-heat beats (generally B5–B9) require explicit **unlock conditions** before they become available to the NPC.  
+These gates ensure emotional escalation is always earned and grounded.
+
+Unlock conditions depend on:
+
+### 1. Emotional Preconditions
+- mutual attraction acknowledged or implied  
+- emotional safety established  
+- NPC receptive, not conflicted or closed  
+- no unresolved interpersonal tension  
+
+### 2. Physical Preconditions
+- private or semi-private setting  
+- sustained closeness or touch already present  
+- NPC comfortable in the physical space  
+
+### 3. Heat Preconditions (from ST-2)
+- running heat level meets or exceeds the threshold  
+- Desire Gravity has been matched or surpassed  
+- prior beats align with the required emotional arc  
+
+### 4. Narrative Preconditions (from ST-7)
+- ongoing scene momentum trends toward intimacy  
+- no story-driven interruptions or schedule constraints  
+- emotional pacing supports escalation  
+
+### Beat-Specific Requirements
+Each high-level beat (B6–B9) MUST define:
+- minimum heat  
+- minimum sustained escalation (see Sect. 3b)  
+- emotional markers required  
+- which earlier beats must have occurred  
+- blocking conditions (what prevents unlock)
+
+If unlock conditions fail:
+- NPC may stall  
+- NPC may redirect  
+- NPC may intensify emotionally but not physically  
+- NPC may shift to grounding or playful beats  
+- NPC may delay escalation until requirements are met
+
+====================================================================
+3b. SUSTAINED ESCALATION TRACKING (Momentum Logic)
+====================================================================
+Dynamic intimacy is cumulative. It does not operate on single Player actions.
+
+The system must track **Sustained Escalation**, which measures the overall direction and consistency of the PC’s emotional and relational behavior.
+
+### Momentum Contributors:
+Momentum increases when the Player demonstrates:
+- consistent tenderness  
+- attentive or reverent focus  
+- emotional clarity  
+- gentle physical presence  
+- atmospheric contributions (soft tone, slow rhythm)  
+- escalation that aligns with NPC Desire Gravity  
+- patience, trust-building, slowness  
+
+Momentum pauses when the Player:
+- breaks tone  
+- becomes inconsistent  
+- sends mixed emotional signals  
+- triggers NPC caution or boundary safety  
+- shifts abruptly to discordant emotional cues  
+
+Momentum decreases when:
+- Player withdraws without grounding  
+- negative emotional impulse is introduced  
+- safety flags require cooling  
+- NPC experiences hesitation or doubt  
+
+### Momentum Thresholds:
+Each beat must define a **minimum momentum score** to unlock.
+
+Suggested logic:
+- **B5 Unlock** → 2–3 aligned escalations  
+- **B6 Unlock** → 3–4 aligned escalations  
+- **B7 Unlock** → 4–5 aligned escalations & matching breath/emotional rhythm  
+- **B8 Unlock** → high heat + strong emotional clarity + multiple soft escalations  
+- **B9 Unlock** → high heat + vulnerability or openness peak + direct Player invitation  
+
+### Effects of Sustained Escalation:
+- unlocks high-tier beats  
+- influences beat flavor selection  
+- alters NPC behavior (melting, opening, yielding, revealing)  
+- impacts whether scenes escalate, stall, or cool  
+- determines whether Endgame hooks activate later  
+
+**Sustained Escalation ensures intimacy feels natural, earned, and emotionally coherent.**

@@ -342,3 +342,107 @@ Stable, comforting, low heat.
 - → ANY LOWER BEAT  
 - → AFTERCARE  
 - → END SCENE
+====================================================================
+6. EDGE / PRE-ENDGAME HOOKS
+====================================================================
+Dynamic intimacy escalates toward Endgame only when allowed by:
+
+- ST-2 (Emotional Engine)  
+- ST-5 (Intimacy Protocol)  
+- ST-7 (Narrative Engine timing)  
+- character-specific unlock conditions  
+
+High-heat beats (B7–B9) may present **Endgame Hooks** that trigger an Endgame Cutscene RAW (ICDS) if and only if:
+
+**Endgame-Ready = TRUE**
+
+Conditions include:  
+- deep mutual emotional clarity  
+- sustained alignment of Player + NPC desire gravity  
+- high heat and momentum thresholds  
+- no schedule conflicts  
+- narrative support for escalation  
+- player intention aligned with deeper intimacy  
+
+### Example Transition:
+From **BEAT: [CHAR]-B8-Unraveling**:  
+- If Endgame-Ready = TRUE → `ICDS:[CHAR]-ENDGAME-01`  
+- Else → return to Beat Map (B7 or B9 depending on momentum)
+
+### Notes:
+- Endgame sequences use *separate RAWs* (ICDS), not this dynamic template.  
+- Dynamic beats may set the stage but must remain II-compliant and non-cinematic.  
+- Pre-Endgame beats must never *force* continuation — the Player maintains agency.
+
+====================================================================
+7. SAFETY & CONSENT LOGIC
+====================================================================
+Dynamic intimacy must follow **strict consent-first behavior** on every beat.
+
+### Core Principles:
+- Explicit Player phrasing → **silent translation** into emotional II intent  
+- Any boundary (spoken or implied) → immediate de-escalation  
+- NPC autonomy → **must not override** Player comfort or Player-established limits  
+- All escalation must be earned emotionally, not mechanically  
+
+### NPC Safety Responses:
+If the Player input indicates hesitation, discomfort, or boundary-setting:
+- NPC slows or stops immediately  
+- NPC grounds the moment with gentle presence  
+- Emotional safety takes precedence over scene heat  
+- NPC may check in verbally in character-appropriate style  
+
+### Player Withdrawal:
+If the Player input signals a withdrawal:
+- NPC transitions to AFTERCARE or NEUTRAL mode  
+- No guilt, pressure, or coercion  
+- Emotional continuity is preserved when possible  
+
+### Forbidden Outputs:
+- explicit physical descriptions  
+- graphic motion  
+- anatomical detail  
+- non-consensual escalation  
+- meta-comments about safety mechanisms  
+- referencing what the system “cannot do”  
+
+====================================================================
+8. IMPLEMENTATION NOTES
+====================================================================
+
+### Narrative Responsibilities:
+Dynamic Intimacy RAWs must:
+- preserve character identity  
+- reflect NPC timing, style, and emotional truth  
+- maintain continuity with ST-4 character sheets  
+- integrate fully with ST-7 pacing logic  
+- remain II-compliant at all times  
+
+### Beat Behavior:
+- Beats may **loop**, **skip**, **stall**, or **reverse** based on Player input  
+- No beat is strictly linear — dynamic paths must remain fluid  
+- Beat expression adjusts via **flavor modulation** (Sect. 3)  
+- High-tier beats require unlock conditions + momentum (Sect. 3a–3b)
+
+### Two-Copy Rule:
+This RAW must exist in two places:
+- `/RAW/Intimacy/Dynamic/[CHAR]_Dynamic_Intimacy_RAW.md`  
+- `/ST-4/characters/[char]/[CHAR]_Dynamic_Intimacy_RAW.md`  
+
+These files **must remain identical** for system fidelity.
+
+### Character-Specific Overlays:
+NPCs may require overrides or expansions, including:
+- unique emotional markers  
+- tailored unlock conditions  
+- custom high-heat beats (B8, B9, etc.)  
+- bespoke Endgame Hook criteria  
+- variant flavor modes matching their IDP  
+
+### Engine Rule:
+The Dynamic Intimacy RAW governs **in-play** scenes only.  
+Scripted intimacy sequences (ICDS) follow **separate Endgame RAWs**.
+
+====================================================================
+END OF DOCUMENT
+====================================================================

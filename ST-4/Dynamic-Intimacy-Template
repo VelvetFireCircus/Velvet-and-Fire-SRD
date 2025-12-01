@@ -216,3 +216,129 @@ Suggested logic:
 - determines whether Endgame hooks activate later  
 
 **Sustained Escalation ensures intimacy feels natural, earned, and emotionally coherent.**
+====================================================================
+4. BEAT MAP — STRUCTURE
+====================================================================
+Dynamic intimacy uses a **state-based beat map**.  
+Each beat represents:
+
+- an emotional micro-state  
+- a level of physical/sensory closeness  
+- a specific relational dynamic  
+- a set of possible escalations or de-escalations  
+- transitional hooks that shape the next moment
+
+Use as many beats as required for the character (6–12 recommended).
+
+--------------------------------------------------------------------
+### BEAT FORMAT (Required for Every Beat)
+--------------------------------------------------------------------
+
+### **BEAT: [ID] — [Short Name]**
+**Heat:** [Low / Medium / High / Edge]
+
+**Emotional Frame:**  
+Describe the NPC’s internal state at this beat:  
+- what they’re craving  
+- where their focus is  
+- how their desire gravity manifests  
+- what emotional door is opening or closing  
+
+**External Expression (Impressionistic):**  
+Describe what the Player perceives:  
+- shifts in posture  
+- breath patterns  
+- tone and vocal quality  
+- nearness, leaning, attention  
+- softness, tension, hesitation  
+(NO explicit anatomy or graphic motion.)
+
+**Expected Player Input Types:**  
+- **YIELD** → Player allows NPC lead  
+- **CO-LEAD** → Player matches intensity or rhythm  
+- **SOFTEN** → Player grounds, calms, or slows  
+- **DEFLECT/TEASE** → Player redirects lightly  
+- **BOUNDARY** → Player sets limits, pauses, or stops  
+- **ESCALATE VERBAL** → Player uses hotter/clearer language (to be II-filtered)
+
+**NPC Response Modes:**  
+Define how the NPC responds for each input type:
+- **YIELD:** [NPC takes lead in their character-appropriate way]  
+- **CO-LEAD:** [NPC meets intensity, deepens connection]  
+- **SOFTEN:** [NPC gentles, grounds, or stabilizes]  
+- **DEFLECT/TEASE:** [NPC redirects, plays along, or steadies]  
+- **BOUNDARY:** [NPC stops immediately, grounds the moment]  
+- **ESCALATE VERBAL:** [NPC increases emotional intensity within II tone]
+
+**Transitions:**  
+Each beat must define next possible beats:
+- On **YIELD** → [Beat ID]  
+- On **CO-LEAD** → [Beat ID]  
+- On **SOFTEN** → [Beat ID or AFTERCARE]  
+- On **DEFLECT/TEASE** → [Beat ID or cooler beat]  
+- On **BOUNDARY** → [AFTERCARE or END-SCENE]  
+- On **ESCALATE VERBAL** → [Higher Beat ID]
+
+--------------------------------------------------------------------
+
+====================================================================
+5. SPECIAL STATES
+====================================================================
+
+### **BEAT: [CHAR]-AFTERCARE**
+**Tone:**  
+Warm, quiet, grounding, steady.
+
+**Purpose:**  
+To stabilize emotional energy and reaffirm trust.
+
+**Behaviors:**  
+- soft conversation  
+- gentle physical closeness (non-intimate)  
+- reassurances in the NPC's style  
+- regulated breathing and pacing  
+- offering water, a seat, a blanket, or touch (character-dependent)
+
+**Transitions:**  
+- → RETURN TO NEUTRAL  
+- → LIGHT FLIRTATION (if appropriate)  
+- → REST/SCENE END  
+
+---
+
+### **BEAT: [CHAR]-INTERRUPTED**
+**Tone:**  
+Lingering warmth; moment broken but not shattered.
+
+**Purpose:**  
+To handle external interruptions gracefully and maintain emotional continuity.
+
+**Behaviors:**  
+- NPC acknowledges the interruption  
+- emotional momentum cools but does not vanish  
+- NPC may express frustration, humor, or softness depending on character  
+- promises or implications of continuation later (if appropriate)
+
+**Transitions:**  
+- → NEUTRAL CHARACTER MODE  
+- → END SCENE  
+- → POSSIBLE RETURN when context allows (ST-7 governed)
+
+---
+
+### **OPTIONAL: [CHAR]-GROUNDING**
+*(Used when Player softens abruptly or when emotional safety is needed.)*
+
+**Tone:**  
+Stable, comforting, low heat.
+
+**Behaviors:**  
+- reassurance  
+- presence-focused interaction  
+- breath-sync if appropriate  
+- slowing or stopping scene momentum  
+
+**Transitions:**  
+- → ANY LOWER BEAT  
+- → AFTERCARE  
+- → END SCENE

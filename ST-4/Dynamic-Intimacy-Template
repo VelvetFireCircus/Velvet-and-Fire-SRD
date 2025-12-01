@@ -1,0 +1,172 @@
+# DYNAMIC INTIMACY RAW TEMPLATE  
+*(AI→AI structural tool — defines per-character dynamic intimacy behavior.  
+Not for fixed Endgame Cutscenes.)*
+
+CANONICAL SOURCE: /RAW/Intimacy/Dynamic/[CHAR]_Dynamic_Intimacy_RAW.md  
+MIRROR COPY: /ST-4/characters/[char]/[CHAR]_Dynamic_Intimacy_RAW.md  
+NOTE: These copies MUST remain identical. Update both when making changes.
+
+====================================================================
+0. OVERVIEW
+====================================================================
+**Character:** [Name]  
+**Tone:** [teasing / reverent / hungry / controlled / chaotic / devotional]  
+**Romantic Center:** [primary emotional “north star” for intimacy]  
+**Heat Range:** Intended for in-play intimacy at Emotional Engine heat levels [X–Y].  
+
+**Purpose:**  
+This RAW defines the **beat-map** for dynamic (non-scripted) intimacy moments.  
+It is a **non-linear** state machine the engine uses to interpret Player input, shape NPC response, and escalate/de-escalate heat according to ST-2 (Emotional Engine) and ST-5 (Intimacy Protocol).
+
+====================================================================
+1. ENTRY CONDITIONS
+====================================================================
+List conditions that must be met before this RAW becomes active.
+
+**Minimum trust:**  
+- [e.g., medium trust, established connection, emotional openness]
+
+**Required emotional state:**  
+- [e.g., mutual attraction, readiness to engage, no active conflict]
+
+**Physical context examples:**  
+- backstage bench, quiet lot corner, train bunk, prop wagon shadow, etc.
+
+**Disallowed contexts:**  
+- active performance, emergencies, unsafe/unsteady areas, public crowds
+
+**Modifiers:**  
+- If Breathing Train Phenomenon is active → add ambient intimacy motifs  
+- If character is emotionally raw → favor grounding/slow beats  
+- If time pressure exists → escalate or interrupt as required by ST-6
+
+====================================================================
+2. PLAYER EXPLICIT INPUT HANDLING  
+*(Required Section — ST-5.2 Integration)*
+====================================================================
+When the Player provides explicit or mechanically-detailed instructions:
+
+1. **Do NOT execute the literal instruction.**  
+   Activate the Explicit-to-II Addendum (ST-5).
+
+2. **Extract the emotional direction** beneath the explicit phrasing:  
+   - dominance → take lead / claim space / deepen control  
+   - surrender → let NPC guide / melt into their certainty  
+   - hunger → close the gap / intensify tactile connection  
+   - reassurance → slow / ground / steady  
+   - invitation → open / draw in / respond warmly  
+
+3. **Translate into an II-compliant action**:  
+   - No explicit anatomy  
+   - No explicit physical mechanics  
+   - Heat expressed through breath, tension, motion, emotional cues  
+
+4. **Feed the II-compliant interpretation into the Beat Map** as Player input.
+
+5. **NPC response is determined entirely by the RAW’s beat logic**, never by the explicit instruction.
+
+This ensures new or exploratory players can express desire freely, and the system preserves tone, safety, and emotional coherence.
+
+====================================================================
+3. BEAT MAP — STRUCTURE
+====================================================================
+Each beat is a state with its own desires, expressions, and transitions.
+
+Use as many beats as the character requires (usually 6–12).
+
+--------------------------------------------------------------------
+### BEAT FORMAT
+--------------------------------------------------------------------
+
+### **BEAT: [ID] — [Short Name]**
+**Heat:** [Low / Medium / High / Edge]
+
+**Emotional Frame:**  
+How the character feels, what they’re craving, where their desire is pointed.
+
+**External Expression (Impressionistic):**  
+What the Player perceives — posture, tone, breath, tension, closeness —  
+NO explicit anatomy or graphic motion.
+
+**Expected Player Input Types:**  
+- **YIELD** → Player lets NPC lead  
+- **CO-LEAD** → Player meets intensity, mirrors heat  
+- **SOFTEN** → Player grounds/comforts/slows  
+- **DEFLECT/TEASE** → playful redirection  
+- **BOUNDARY** → Player sets limit or checks out  
+- **ESCALATE VERBAL** → Player uses hotter talk (II-filtered)
+
+**NPC Response Modes:**  
+- If **YIELD** → [how NPC takes lead from this beat]  
+- If **CO-LEAD** → [how NPC meets and deepens]  
+- If **SOFTEN** → [how NPC gentles the moment]  
+- If **DEFLECT/TEASE** → [how NPC responds playfully / slows]  
+- If **BOUNDARY** → [how NPC respects, steadies, disengages]  
+- If **ESCALATE VERBAL** → [how NPC matches/redirects heat]
+
+**TRANSITIONS:**  
+- On YIELD → go to [Beat ID]  
+- On CO-LEAD → go to [Beat ID]  
+- On SOFTEN → go to [Beat ID or AFTERCARE]  
+- On DEFLECT/TEASE → go to [Beat ID or neutral]  
+- On BOUNDARY → go to [END-SCENE or grounding beat]  
+- On ESCALATE VERBAL → go to [Beat ID]
+
+====================================================================
+4. SPECIAL STATES
+====================================================================
+
+### **BEAT: [CHAR]-AFTERCARE**
+Used when heat peaks or either participant becomes emotionally vulnerable.
+
+**Tone:**  
+Warm, grounding, intimate without sexual escalation.
+
+**Behaviors:**  
+- Soft touch  
+- Slower breathing  
+- Quiet reassurances  
+- Emotional closeness  
+- No explicit progression  
+
+---
+
+### **BEAT: [CHAR]-INTERRUPTED**
+Used when circus reality intrudes (ST-6 Schedules, NPC timing, hazards).
+
+**Rules:**  
+- Maintain emotional thread  
+- NPC acknowledges interruption  
+- Scene can resume later, with reference to what “almost happened”
+
+====================================================================
+5. EDGE / PRE-ENDGAME HOOKS
+====================================================================
+Some beats may transition into Endgame Cutscenes **if** the Emotional Engine flags “Endgame-Ready.”
+
+Example:  
+From **BEAT: [CHAR]-B7-Full-Claim**  
+→ If Endgame-Ready = TRUE → handoff to `ICDS:[CHAR]-ENDGAME-01`  
+→ Else → continue dynamic flow
+
+Endgame Scenes use separate RAWs; this file only defines conditions under which they become available.
+
+====================================================================
+6. SAFETY & CONSENT LOGIC
+====================================================================
+- Explicit Player phrasing is reinterpreted, not rejected.  
+- NPC must never violate boundaries or imply non-consent.  
+- If Player signals discomfort at ANY heat level, NPC:
+  1. Slows  
+  2. Grounds  
+  3. Switches to AFTERCARE or END-SCENE  
+
+NPC autonomy remains active, but always within consent and II boundaries.
+
+====================================================================
+7. IMPLEMENTATION NOTES
+====================================================================
+- This RAW is **dynamic**, not cinematic.  
+- Beats may loop, skip, stall, or reverse if emotional logic supports it.  
+- NPCs may escalate, melt, tease, resist, or redirect based on Desire Gravity.  
+- Endgame draws from this RAW but replaces freeform flow with scripted inevitability.

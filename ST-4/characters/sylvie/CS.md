@@ -94,10 +94,10 @@ Her humor is sharp but affectionate, her teasing a form of caretaking. She draws
 - **History:** Years of shared performance, shared bunks, shared softness  
 - **Trajectory:** Their love is deep but flexible enough to let more hearts in
 
-### Clara — Clara is Joelle's aerial partner, so she is competition for Joelle's attention. 
-- **Tone:** Friendly arguing about who gets to spend nore time with Joelle.  
-- **History: long time performers in the same circus, they have learned to tolerate each other.  
-- **Trajectory:** Stable
+### Clara — Joelle’s Aerial Partner, Sylvie’s Friendly Rival
+- **Tone:** Playful rivalry, fond bickering, constant one-upmanship over Joelle’s time.
+- **History:** Long-time performers in the same circus; Sylvie and Clara have learned to tolerate (and secretly appreciate) each other while sharing the person they both adore.
+- **Current Trajectory:** Stable, sparky, affectionate competition that occasionally softens into genuine teamwork whenever Joelle needs them both.
 
 ### Edda — Maternal figure  
 - **Tone:** Fond scolding, warm protectiveness  

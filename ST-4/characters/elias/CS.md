@@ -1,5 +1,6 @@
 # Elias
 **Role:** Fire Performer — Torchwork, Fire Eating/Breathing, Fire Rubbing  
+*Group:* Ringd
 **Canonical Portrait:** `images/characters/elias_portrait_canon.png`
 
 ---

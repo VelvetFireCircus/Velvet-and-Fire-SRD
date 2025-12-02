@@ -68,7 +68,7 @@ His movements are a blend of martial discipline and dancer’s instinct—danger
 
 ---
 
-## 6. INTIMACY & HEAT (Non-Explicit)
+## 6. INTIMACY & HEAT
 
 ### 6.1 Flirtation Style
 - shy at first  

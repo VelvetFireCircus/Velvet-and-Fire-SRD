@@ -8,7 +8,7 @@
 - **Epithet / Stage Title:** The Jolly Giant  
 - **Role in Circus:** Strongman, fire-safety crew, heavy-lift specialist  
 - **Group:** Rings / Edges support hybrid  
-- **Visual Reference:** `/images/characters/anton.png` *(placeholder path — update once portrait is finalized)*
+- **Visual Reference:** `/images/characters/anton_portrait_canon.png` *(placeholder path — update once portrait is finalized)*
 
 ---
 

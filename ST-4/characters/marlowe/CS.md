@@ -17,7 +17,10 @@
 A tall, elegant man in his late forties or early fifties whose presence fills the tent long before he speaks.  
 An ex-aerialist who still moves with the confidence of someone who once trusted the air itself.  
 His hair is dark with silver at the temples, his eyes sharp and expressive, reading a room in a single sweep.  
+He shaves, but sometimes forgets to do it when he's busy, so he often has stubble on his chin.
 He favors tailored waistcoats, crisp shirts, and a signature long velvet-lined coat in burgundy or midnight blue.
+He carries a pocket watch that he's constantly checking.
+He has a walking stick with a brass bird-skull handle that he swings forward aggressively while striding between the tents.
 
 Hands expressive; posture impeccable; calm charisma radiating outward.
 

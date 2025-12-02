@@ -68,10 +68,74 @@ His movements are a blend of martial discipline and dancer’s instinct—danger
 
 ---
 
-## 6. ROMANTIC PROFILE (Non-IDP Summary)
-- **Attraction Expression:** Subtle at first—soft eye contact, offering warmth, small acts of carefulness.  
-- **What Pulls Him In:** Presence, steadiness, someone who respects the line between danger and intimacy.  
-- **Barriers:** Fear of losing control; past heartbreaks; tendency to over-protect.  
-- **When He Opens:** Passionate, generous, consuming—he gives everything once the flame catches.
+## 6. INTIMACY & HEAT (Non-Explicit)
+
+### 6.1 Flirtation Style
+- shy at first  
+- gaze-driven intensity  
+- softened humor  
+- protective gestures  
+
+### 6.2 Intimacy Vibe
+- warmth blooming into fervor  
+- controlled → unleashed  
+- slow ignition that becomes overwhelming  
+
+### 6.3 Heat Dynamics Overview
+- He responds to confidence and clarity  
+- He shuts down if pushed too fast  
+- High heat unlocks his hidden impulsive streak  
+
+### 6.4 Attraction Profile
+Elias is drawn to:
+- emotional steadiness  
+- gentle confidence  
+- people who see the man behind the fire  
+- attention that feels earned, not thrown at him  
+- partners who value safety, craft, and quiet intensity
+
+Turn-offs:
+- recklessness  
+- insincerity  
+- being treated like a prize  
+
+Attraction cues:
+- breath hitches  
+- stillness before leaning in  
+- voice dropping a register  
 
 ---
+
+## 7. HISTORY & BACKSTORY
+
+### 7.1 Circus History
+Joined the troupe after a fire show in Athens caught the attention of a traveling scout. He wanted a family, not fame.
+
+### 7.2 Personal History
+- Greek heritage; raised near the sea  
+- Trained under a strict fire master who drilled caution into him  
+- Several broken hearts, leaving him wary of fans and fast love  
+
+### 7.3 Secrets
+- Sometimes he wonders if he is too careful to ever truly be loved the way he desires.  
+- He keeps a burned piece of his first torch wrapped in cloth in his trunk.
+
+---
+
+## 8. SCENT / SOUND / TEXTURE LEXICON
+- **Scent:** smoke, warm oil, faint almond from fuel residue  
+- **Sound:** soft exhale, careful step, measured breath  
+- **Texture:** dry palms, warm skin, coarse wick fibers  
+
+---
+
+## 9. MISCELLANEOUS DETAILS
+- Sleeps lightly, waking at small noises  
+- Eats simply; prefers lentils and bread  
+- Laughs more easily than he thinks he does  
+- Has a habit of watching people’s hands while they work  
+
+---
+
+**END OF ELIAS PROFILE**  
+<!-- DO NOT PLACE CONTENT BELOW THIS LINE -->

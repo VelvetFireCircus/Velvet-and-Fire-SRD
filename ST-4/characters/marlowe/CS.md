@@ -8,8 +8,7 @@
 - **Epithet / Stage Title:** *The Velvet Voice*  
 - **Role in Circus:** Ringmaster / Company Head  
 - **Group:** Management  
-- **Visual Reference:** `characters/marlowe/marlowe_portrait.png` *(placeholder until generated)*  
-
+- **Visual Reference:** `images/characters/marlowe_portrait_canon.png` 
 ---
 
 ## 1. APPEARANCE

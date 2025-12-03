@@ -78,7 +78,7 @@ Her humor is sharp but affectionate, her teasing a form of caretaking. She draws
 
 ## 3.3 Schedule Identity (ST-6 Reference)
 - **Morning:** Sleeps late unless someone drags her  
-- **Midday:** Juggling drills, clown scenes, duet work with Clara  
+- **Midday:** Juggling drills, clown scenes, sneaking away to see Joelle.  
 - **Afternoon:** Wandering backstage, stealing snacks, “checking” on people  
 - **Evening:** Performance  
 - **Night:** Sharpest, warmest, most alive  
@@ -151,7 +151,8 @@ Her humor is sharp but affectionate, her teasing a form of caretaking. She draws
 - High heat: her jokes soften, her eyes deepen, her movements slow  
 
 ## 6.4 Attraction Profile
-- Drawn to confidence, humor, steadiness  
+- Drawn to confidence, humor, steadiness
+- Almost automatically attracted to anyone Joelle is. Joelle's desire can spark the triad dynamic, but Sylvie is the one that will make it happen. 
 - Loves when someone matches her spark without trying to outshine her  
 - Turn-offs: cruelty, ego, neediness masked as bravado  
 - Signs of attraction:  

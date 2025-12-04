@@ -22,13 +22,14 @@ This transitional version consolidates all character resources and prepares them
 
 ## 1. HOW THE ENGINE USES ST-4
 
-### 1.1 Loading Order  
+###1.1 Loading Order
 When the GIP reaches ST-4 during initialization:
-
-- It scans the `/characters/` directory.  
-- It loads each file as a distinct character profile.  
-- The header of each file defines the character’s **canonical identity**.  
-- Characters become **living NPCs** with independent motives, schedules, and emotional logic.
+• It scans the /ST-4/characters/ directory for immediate subfolders.
+• It treats each subfolder as a distinct character profile, identified by its folder name (handle).
+• Inside each character folder, it loads CS.md as the primary character sheet.
+• The header of CS.md defines the character’s canonical identity (name, epithet, role, portrait path, template-version, etc.).
+• The presence of DIP, IDP, RAWs/, and other subfiles is registered as available modules but does not require full parsing until requested by ST-2, ST-5, or ST-7.
+• Characters that pass template checks become available to the engine as living NPCs with independent motives, schedules, and emotional logic (per ST-2, ST-6, and ST-7).
 
 ### 1.2 Conflict Rules  
 If a character detail conflicts with a prior chat or older draft:

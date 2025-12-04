@@ -86,6 +86,7 @@ Parsing the DIP, IDP, or RAWs occurs only when those tools explicitly request th
 ============================================================
 
 ST-4.1 returns a normalized Character Object containing:
+```
 {
   handle: "<folder-name>",
   name: "<canonical-name>",
@@ -103,6 +104,8 @@ ST-4.1 returns a normalized Character Object containing:
      missing_fields: [...],
   }
 }
+```
+
 This ensures consistent integration with all other STs.
 
 ============================================================

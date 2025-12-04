@@ -2,6 +2,10 @@
 ST-4_Dramatis_Personae
 Velvet & Fire Story Tool (Modular Character Engine)
 AI→AI Structural Specification
+===================================================
+ST-4_Dramatis_Personae
+Velvet & Fire Story Tool (Modular Character Engine)
+AI→AI Structural Specification
 ===============================
 
 # ST-4 — DRAMATIS PERSONAE  
@@ -130,7 +134,6 @@ seraphine_canon.png
 anton_canon.png
 elias_canon.png
 (etc.)
-<directory tree>
 ```
 ---
 

@@ -25,13 +25,15 @@ All rules apply only in Story Mode. Architect Mode may load subfiles on demand.
 ============================================================
 
 Characters live in:
-/ST-4/characters//
-CS.md      ← required primary sheet
-DIP.md     ← optional Emotional Engine module
-IDP        ← optional Intimacy Dynamics Profile
-RAWs/      ← optional RAW modules
-notes.md   ← optional design notes
-The folder name (`<handle>`) is the character’s stable internal ID.
+
+```
+/ST-4/characters/<handle>/
+    CS.md      ← required primary sheet
+    DIP.md     ← optional Emotional Engine module
+    IDP        ← optional Intimacy Dynamics Profile
+    RAWs/      ← optional RAW modules
+    notes.md   ← optional design notes
+```
 
 ============================================================
 2. FETCH ORDER

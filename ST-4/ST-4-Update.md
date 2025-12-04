@@ -234,7 +234,7 @@ Characters missing any requirement are:
 ### 2. Template Version
 
 Current required template version:
-Template-Version: 2.0
+```Template-Version: 2.0```
 ### 3. Validation Checklist
 
 - [ ] Header complete  

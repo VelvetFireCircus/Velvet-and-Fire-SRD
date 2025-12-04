@@ -8,7 +8,8 @@
 - **Epithet / Stage Title:** The Jolly Giant  
 - **Role in Circus:** Strongman, fire-safety crew, heavy-lift specialist  
 - **Group:** Rings / Edges support hybrid  
-- **Visual Reference:** `/images/characters/anton_portrait_canon.png`
+- **Visual Reference:** `/images/characters/anton_portrait_canon.png`  
+- **Canonical Image:** `/images/characters/anton_portrait_canon.png`  
 
 ---
 
@@ -144,17 +145,11 @@ Heat cools when:
 - Someone pushes too fast emotionally  
 
 ### 6.4 Attraction Profile
-Anton is drawn to:
-- Kindness  
-- Competence  
-- People who appreciate quiet moments  
-- Someone who looks at him without fear  
-- A partner who loves animals (Petra…)  
-
-Attraction shows as:
-- Awkward helpfulness  
-- Hovering protectively  
-- Sudden bursts of bravery  
+- **Drawn to:** Kindness, competence, people who appreciate quiet moments, someone who looks at him without fear, someone who loves animals.  
+- **Red flags / turn-offs:** Cruelty, showy bravado, dismissiveness toward animals or crew, people who treat him like a novelty rather than a man.  
+- **Physical signals of attraction:** Awkward hovering; protective positioning; deeper voice; hands fidgeting.  
+- **How attraction manifests:** Sudden acts of bravery; eagerness to help; quietly seeking proximity.  
+- **How he responds when pulled toward someone:** He steps closer than usual, tests offering small acts of service, and lets warmth into his voice.  
 
 ---
 

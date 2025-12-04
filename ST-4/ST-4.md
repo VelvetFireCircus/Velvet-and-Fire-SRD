@@ -196,5 +196,88 @@ For debugging and cross-ST consistency:
 - **Maintainer:** VelvetFireCircus Project  
 
 ---
+## APPENDIX REFERENCE — CHARACTER TEMPLATE COMPLIANCE (ST-4 Integration)
+
+All Character Sheets under `ST-4/characters/` must conform to the universal Velvet & Fire Character Template located at:
+
+**`/ST-4/Appendix_Character_Template.md`**
+
+This template defines:
+- Required sections (0–10)
+- Required subfields
+- Required formatting
+- Mandatory metadata (header + integrity marker)
+- Structural hooks for ST-2, ST-6, ST-7, and ST-10
+
+### 1. COMPLIANCE REQUIREMENTS
+A Character Sheet is considered **FULL NPC COMPLIANT** only if:
+
+1. All ten major template sections are present.  
+2. All required subfields contain meaningful data (not placeholders).  
+3. The sheet includes the **TEXT INTEGRITY MARKER**:  
+   `<!-- DO NOT PLACE CONTENT BELOW THIS LINE -->`
+4. The header includes a **TEMPLATE VERSION** tag (see below).  
+5. No sections are renamed, reordered, or removed.  
+6. Any additional custom notes appear **above** the integrity marker.
+
+If any requirement is missing, the NPC is classified as:
+
+- **Provisional NPC** — playable but not fully integrated into the narrative engine  
+- **Ambient NPC** — minimal presence; cannot support full emotional or mechanical load  
+
+Only **FULL NPC COMPLIANT** characters gain:
+- full ST-6 scheduling logic  
+- full ST-7 narrative pivot access  
+- emotional gravity mapping in ST-2  
+- eligibility for ST-10 IDP integration  
+- access to advanced intimacy rules  
+
+### 2. TEMPLATE VERSIONING (Mandatory)
+Each Character Sheet must include a header line:
+
+**`Template-Version: X.Y`**
+
+The current template version is:
+
+**Template-Version: 2.0**
+
+This enables:
+- backwards compatibility  
+- tracking of incomplete older profiles  
+- clean audits  
+
+Any CS missing this line is automatically **non-compliant**.
+
+### 3. VALIDATION CHECKLIST (For Engine or Human Review)
+
+A CS passes validation if:
+
+- [ ] Header block is complete  
+- [ ] Template-Version is present and current  
+- [ ] Sections 0–10 exist in order  
+- [ ] All “Attraction Profile” subfields are present  
+- [ ] Relationship Web uses required 4-subfield format  
+- [ ] Narrative Function includes stakes + intrusion logic  
+- [ ] Scent/Sound/Texture Lexicon exists  
+- [ ] Integrity Marker is present  
+- [ ] File contains no content below integrity marker  
+
+### 4. LOCATION OF TEMPLATE
+All writers, tools, and sub-engines must reference:
+
+`/ST-4/Appendix_Character_Template.md`
+
+as the **single source of truth** for character structure.
+
+Any update to the template must increment the **Template-Version** number and notify maintainers.
+
+### 5. NON-COMPLIANT CHARACTERS
+Any character that does not meet the template standard MUST be labeled:
+
+`Status: Provisional`  
+
+until their CS is rebuilt or updated.
+
+---
 
 ## 7. END OF FILE  

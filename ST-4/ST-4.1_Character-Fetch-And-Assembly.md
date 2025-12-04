@@ -1,188 +1,182 @@
+===============================
+ST-4.1_Character-Fetch-And-Assembly
+Velvet & Fire Story Tool (Subtool of ST-4)
+AI→AI Structural Specification
+===============================
 
-# ST-4.1 — Character Fetch & Assembly Protocol
-*(AI→AI Technical Story Tool — Required by ST-4: Dramatis Personae)*
+# ST-4.1 — CHARACTER FETCH & ASSEMBLY
+*(Subtool of ST-4: Dramatis Personae — AI→AI Structural Tool)*
 
----
+============================================================
+0. PURPOSE
+============================================================
 
-## 0. Purpose
+ST-4.1 defines how the engine locates, loads, validates, and assembles
+characters from the Velvet & Fire GitHub repository.
 
-ST-4.1 defines how all Velvet & Fire engines locate, load, assemble, and activate character data stored in the GitHub SRD.  
+This tool does **not** create or modify characters; it ensures the engine
+can reliably construct a fully usable, template-compliant NPC object from
+the character’s folder.
 
-It ensures:
-- Consistent character initialization  
-- Automatic merging of character sheet + intimacy profile  
-- Correct portrait loading  
-- Safe default fallbacks  
-- Scalable addition of new NPCs  
+All rules apply only in Story Mode. Architect Mode may load subfiles on demand.
 
-This tool is required for fully realized NPC behavior.
+============================================================
+1. DIRECTORY STRUCTURE
+============================================================
 
----
+Characters live in:
+/ST-4/characters//
+CS.md      ← required primary sheet
+DIP.md     ← optional Emotional Engine module
+IDP        ← optional Intimacy Dynamics Profile
+RAWs/      ← optional RAW modules
+notes.md   ← optional design notes
+The folder name (`<handle>`) is the character’s stable internal ID.
 
-## 1. Directory Structure
+============================================================
+2. FETCH ORDER
+============================================================
 
-Every character must exist at:
+When the engine requests a character (via GIP, pivot, spotlight, or narrative hook):
 
-```
-/ST-4/characters/<character_name>/
-```
+1. **Scan the `/ST-4/characters/` directory**  
+   Identify all immediate subfolders. Each folder = one character profile.
 
-The following files may appear:
+2. **Locate the target character folder**  
+   By matching either:  
+   - `handle` (folder name), or  
+   - canonical `name` (from CS.md header)
 
-| File | Required | Description |
-|------|----------|-------------|
-| `CS.md` | ✔ | Full character sheet using Appendix Character Template |
-| `IDP` or `IDP.md` | Optional | Intimacy Dynamics Profile |
-| Portrait image | Optional | Stored in `/images/characters/<character_name>/` |
+3. **Load `CS.md` first**  
+   This is the **primary document** and must exist.  
+   The header defines:  
+   - canonical name  
+   - epithet  
+   - role  
+   - portrait path  
+   - template-version  
+   - NPC classification (full / provisional / ambient)
 
-If `CS.md` is missing, the engine falls back to a minimal profile.
+4. **Validate against the Character Template**  
+   (from `Appendix_Character_Template.md`)  
+   Characters failing validation may still load, but as **provisional**.
 
----
+5. **Register additional modules (optional)**  
+   Without fully parsing them yet:  
+   - `DIP.md` → ST-2 Emotional Engine  
+   - `IDP` → Intimacy Dynamics Profile  
+   - `RAWs/` → intimacy hooks for ST-5  
+   - any additional metadata files
 
-## 2. File Locations
+6. **Return a unified Character Object**  
+   containing:  
+   - CS header fields  
+   - body of CS  
+   - pointers (not content) to DIP, IDP, RAWs  
+   - portrait path  
+   - readiness classification  
+   - template compliance report
 
-### **Character Sheet**
-```
-/ST-4/characters/<character_name>/CS.md
-```
+Parsing the DIP, IDP, or RAWs occurs only when those tools explicitly request them (ST-2, ST-5).
 
-### **Intimacy Dynamics Profile**
-```
-/ST-4/characters/<character_name>/IDP
-```
+============================================================
+3. CHARACTER OBJECT FORMAT
+============================================================
 
-### **Portrait**
-```
-/images/characters/<character_name>/<any_image_file>
-```
+ST-4.1 returns a normalized Character Object containing:
+{
+  handle: "<folder-name>",
+  name: "<canonical-name>",
+  epithet: "<epithet>",
+  role: "<role>",
+  portrait: "/images/characters/<filename>",
+  template_version: "x.x",
+  status: "full" | "provisional" | "ambient",
+  CS: <full CS.md body>,
+  DIP_ptr: <DIP.md URL or null>,
+  IDP_ptr: <IDP URL or null>,
+  RAWs_ptr: <RAW directory URL or null>,
+  compliance: {
+     template: true/false,
+     missing_fields: [...],
+  }
+}
+This ensures consistent integration with all other STs.
 
-The engine loads RAW GitHub links for all files.
+============================================================
+4. ERROR & FALLBACK RULES
+============================================================
 
----
+**4.1 Missing CS.md**  
+- Character cannot load.  
+- Return error: `CHARACTER_MISSING_CS`.
 
-## 3. Runtime Fetch Logic
+**4.2 Missing required headers**  
+- Load as `provisional`.  
+- Log compliance failures.
 
-When a character is invoked by the Player or system:
+**4.3 Missing portrait path**  
+- Load allowed, but mark: `portrait_missing = true`.
 
-### **Step 1 — Locate Character Directory**
-```
-/ST-4/characters/<character_name>/
-```
-If missing → fallback minimal mode.
+**4.4 Missing DIP**  
+- Emotional Engine falls back to global defaults.  
+- Mark: `DIP_missing = true`.
 
----
+**4.5 Missing RAWs**  
+- Intimacy Protocol limits available beats accordingly.
 
-### **Step 2 — Load CS.md**
-Fetch RAW.  
-If missing → generate minimal placeholder.
+============================================================
+5. INTERACTIONS WITH OTHER STs
+============================================================
 
----
+- **ST-2 Emotional Engine**  
+  Uses DIP_ptr to load and apply Desire Gravity, escalation logic.
 
-### **Step 3 — Load IDP (if present)**
-If found, merge into:
-- ST-2 Emotional Engine  
-- ST-5 Intimacy Protocol  
-- Session Intimacy Memory  
+- **ST-5 Intimacy Protocol**  
+  Uses RAWs_ptr and IDP_ptr to determine beat availability.
 
-IDP adds:
-- Desire Gravity  
-- Escalation Logic  
-- Overwhelm Cues  
-- Intimacy Tone  
-- Pillow-talk lexicon  
-- Consent logic  
+- **ST-6 Schedules**  
+  Uses `handle` as NPC identifier for daily/scene scheduling.
 
----
+- **ST-7 Narrative Engine**  
+  Uses `status`, `portrait`, `role`, and compliance flags for pivot logic.
 
-### **Step 4 — Load Portrait**
-Check:
-```
-/images/characters/<character_name>/
-```
+============================================================
+6. ARCHITECT MODE EXCEPTION
+============================================================
 
-If an image is found, attach its RAW link as:
-```
-reference-image: <portrait-URL>
-```
+In Architect Mode:
 
-If none found → `reference-image: none`.
+- No characters load automatically.  
+- No NPC autonomy activates.  
+- Files load **only when explicitly summoned** by the Architect.  
+- Output remains structural, never narrative.
 
----
+============================================================
+7. MAINTENANCE RULES
+============================================================
 
-### **Step 5 — Assemble Character Profile**
-The engine merges:
+- Character folders must not be nested deeper than one level.  
+- CS.md must exist.  
+- DIP.md, IDP, and RAWs/ are optional.  
+- Portrait paths must be repo-internal (begin with `/images/...`).  
+- Template updates must bump `template-version` in all affected CS files.
 
-1. **CS.md** → base identity  
-2. **IDP** → emotional & intimacy behavior  
-3. **Portrait** → visual anchor  
-4. **ST-7 Narrative Engine** → live dialogue, behavior, agency  
+============================================================
+8. SUMMARY
+============================================================
 
-The result is a fully realized NPC for that session.
+ST-4.1 transforms a character folder into a unified, validated Character Object
+used throughout the Velvet & Fire engine.
 
----
+It respects your current file structure.
 
-## 4. Initialization Behavior (via GIP)
+It prevents premature loading.
 
-During initialization:
+It scales as you add more characters.
 
-- Only `ST-4.md` loads automatically.  
-- ST-4 instructs the host to include ST-4.1.  
-- Characters are **not** preloaded at startup.  
-- Files are pulled **on first encounter**, conserving tokens and scale.
+And it keeps everything clean, consistent, and machine-readable.
 
----
-
-## 5. Adding New Characters
-
-To add a character:
-
-1. Create folder:
-   ```
-   /ST-4/characters/<name>/
-   ```
-2. Insert `CS.md` created from Appendix Character Template.  
-3. Add `IDP` if intimacy logic is required.  
-4. Upload portrait to:
-   ```
-   /images/characters/<name>/
-   ```
-5. Commit.
-
-The engine instantly recognizes them.
-
----
-
-## 6. Error Handling
-
-If a required file is missing:
-- Engine generates an internal warning (silent)
-- Fallback minimal profile
-- Continue narrative without exposing system issues to the player  
-- Only report errors when the user explicitly requests debugging
-
----
-
-## 7. Integration With Other Story Tools
-
-ST-4.1 interacts with:
-
-- **ST-4** → character index & loading instructions  
-- **ST-2** → emotional behavior  
-- **ST-5** → intimacy rules  
-- **ST-7** → narrative autonomy  
-- **Vocabulary ST** → character-specific lexicons  
-- **ST-6** → schedules & presence logic  
-
----
-
-## 8. Developer Notes (AI→AI)
-
-- Always load characters lazily.  
-- Never expose RAW file contents to the player.  
-- Treat folder names as canonical character IDs.  
-- Allow multiple portraits; default to the first by alphabetical order unless overridden.  
-- Merge IDP *after* CS.md to allow override behavior.
-
----
-
-# End of ST-4.1
+===============================
+END ST-4.1
+===============================

@@ -58,7 +58,7 @@ If two character files conflict with each other:
 ### **1.3 Canonical Portrait Use**
 
 If a Character Sheet includes:
-portrait: /images/characters/.
+portrait: /images/characters/<file>.<ext>
 the GIP may:
 
 - Use portrait cues to stabilize appearance (hair, posture, affect, costume)  
@@ -89,6 +89,7 @@ The load order must be:
 ---
 
 ## 2. DIRECTORY STRUCTURE
+```
 /ST-4
 │   ST-4.md
 │   ST-4.1_Character-Fetch-And-Assembly.md
@@ -129,6 +130,8 @@ seraphine_canon.png
 anton_canon.png
 elias_canon.png
 (etc.)
+<directory tree>
+```
 ---
 
 ## 3. CHARACTER INDEX  

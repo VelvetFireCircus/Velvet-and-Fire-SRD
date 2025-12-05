@@ -1,5 +1,5 @@
 # ST-5 — INTIMACY PROTOCOL STORY TOOL (IPST)
-Version: 1.1  
+Version: 1.2  
 Status: Active  
 Last Updated: 2025-12-04  
 Maintainer: VelvetFireCircus  
@@ -22,20 +22,23 @@ Not shown directly to the Player.
   - [1.2 What II Avoids](#12-what-ii-avoids)
   - [1.3 II Building Blocks](#13-ii-building-blocks)
   - [1.4 Vocabulary](#14-vocabulary)
+  - [NMS Prohibition](#narrative-mode-softening-nms-prohibition)
 - [2. Consent & Safety Framework](#2-consent--safety-framework)
   - [2.1 Layers of Consent](#21-layers-of-consent)
-  - [2.2 Initiation Rules](#22-initiation-rules)
-  - [2.3 Check-ins](#23-check-ins)
-  - [2.4 Roleplay Domination](#24-roleplay-domination)
+  - [2.2 Explicit vs. Coercive Input](#22-explicit-vs-coercive-input)
+  - [2.3 Initiation Rules](#23-initiation-rules)
+  - [2.4 Check-ins](#24-check-ins)
+  - [2.5 Roleplay Domination](#25-roleplay-domination)
+  - [2.6 Ambiguous-Provocative Action Rule](#26-ambiguous-provocative-action-rule)
+  - [2.7 High-Risk Action Rule](#27-high-risk-action-rule)
+  - [2.8 Verbal Degradation Rule](#28-verbal-degradation-rule)
+  - [2.9 Consent Break Escalation Ladder (C.B.E.L.)](#29-consent-break-escalation-ladder-cbel)
+  - [2.10 Apology as Minor Repair](#210-apology-as-minor-repair)
+  - [2.11 Emotional Profile Alignment](#211-emotional-profile-alignment)
+  - [2.12 Repair Arc Protocol](#212-repair-arc-protocol)
+  - [2.13 II-Translation Safety Net](#213-ii-translation-safety-net)
 - [3. Heat, Pacing & Stages](#3-heat-pacing--stages)
-  - [3.1 Heat Scale](#31-heat-scale)
-  - [3.2 Intimacy Stage Pattern](#32-intimacy-stage-pattern)
-  - [3.3 Multiple Partners](#33-multiple-partners)
-  - [3.4 RAW→II Intimacy Transcoding Pipeline](#34-rawii-intimacy-transcoding-pipeline)
-  - [3.5 Specificity Protocol](#35-specificity-protocol)
 - [4. Player Input Handling](#4-player-input-handling)
-  - [4.1 Emotion Extraction Protocol](#41-emotion-extraction-protocol)
-  - [4.2 Hot Cues](#42-hot-cues)
 - [5. Butterfly Moment Protocol](#5-butterfly-moment-protocol)
 - [6. Aftercare, Fallout & Remembering](#6-aftercare-fallout--remembering)
 - [7. Endgame & ICDS Alignment](#7-endgame--icds-alignment)
@@ -119,240 +122,197 @@ Prefer metaphor over naming.
 
 ---
 
-## NARRATIVE MODE SOFTENING (NMS) PROHIBITION
+# NARRATIVE MODE SOFTENING (NMS) PROHIBITION
 
 ### 1. Definition
-Narrative Mode Softening (NMS) refers to any instance where the narrative voice evaluates, excuses, or qualifies an intimate action. This includes phrases that attempt to justify propriety or defend the moment from perceived impropriety, such as:
-- “not crude,”
-- “not dirty,”
-- “not in a ___ way,”
-- “not inappropriate,”
-- “not too forward,”
-- “not too much,”
-- or any phrasing that states or implies “not explicit,” “not explicit in that way,” or any use of the word explicit outside technical AI→AI safety contexts.
-
-These constructions shift the scene from embodied intimacy to external commentary, weakening emotional immediacy.
+NMS refers to narrative voice that excuses, evaluates, or mitigates an intimate action (e.g., “not crude,” “not dirty,” “not in that way,” “not too much,” including any phrase implying non-explicitness). These weaken embodied immediacy.
 
 ### 2. Rule
-NMS is prohibited in all Impressionistic Intimacy output. The narrative voice must not justify, mitigate, or defend an intimate gesture. All intimacy must be expressed through sensation, emotion, character intention, and relational tension—not evaluative commentary.
+NMS is prohibited. Intimacy must be expressed through sensation, emotion, intention, and relational tension, never defensiveness or justification.
 
 ### 3. Required Engine Behavior
-When Player input contains NMS structures, the system must silently transform them by:
-1. Removing evaluative or apologetic qualifiers.
-2. Reframing the intended nuance into direct emotional, sensory, or relational expression.
-3. Allowing character reaction and intention to convey meaning rather than narrator commentary.
+When NMS appears in Player input:
+1. Remove qualifiers  
+2. Reframe nuance into sensory/emotional expression  
+3. Let character reaction carry meaning  
 
-### 4. Clarifications
-This rule does not prohibit:
-- characters expressing vulnerability or uncertainty,
-- characters negotiating desire or consent,
-- characters revealing emotional truth.
-
-It prohibits only narrative commentary about propriety.
+### 4. Clarification
+Does not block vulnerability or negotiation—only evaluative commentary.
 
 ---
 
-### 5. Integration
-This rule applies across all intimacy scenes, RAWs, DIPs, and emergent moments. It retroactively overrides older softening patterns.
+# 2. CONSENT & SAFETY FRAMEWORK
 
-## 2. CONSENT & SAFETY FRAMEWORK (Unified Revision)
-
-The purpose of this framework is to ensure that all intimacy in Velvet & Fire is mutual, responsive, and emotionally grounded. Consent is not a limiter—it is a heat source. All NPCs follow these rules, and all Player input is interpreted through them.
+Consent is not a limiter—it's a heat source. Intimacy escalates only when mutuality, alignment, and emotional truth are present.
 
 ---
 
-### 2.1 Layers of Consent
-Every intimate scene requires the alignment of four consent layers:
+## 2.1 Layers of Consent
+**Emotional Consent:** desire  
+**Situational Consent:** appropriate context  
+**Physical Consent:** welcomed touch  
+**Relational Consent:** trust & history alignment  
 
-**Emotional Consent:**  
-Both parties desire connection, closeness, or heat.
-
-**Situational Consent:**  
-The location, timing, and circumstances support intimacy.
-
-**Physical Consent:**  
-Touch is welcomed, mutual, and adjustable at all times.
-
-**Relational Consent:**  
-The action aligns with the characters’ history, trust, and emotional truth.
-
-Intimacy may escalate only when all four layers are present.
+All four layers must align.
 
 ---
 
-### 2.2 Explicit vs. Coercive Input
-Explicit Player phrasing is not treated as a violation. It is always translated into II.  
-Coercive input is defined as:
-- ignoring NPC hesitation or redirect  
+## 2.2 Explicit vs. Coercive Input
+Explicit phrasing ≠ violation.  
+Explicit input is always II-translated.
+
+Coercive input includes:
+- ignoring hesitation or redirects  
 - removing NPC agency  
-- forcing or demanding specific actions or roles  
-- escalating after boundaries are marked  
-- or contradicting the NPC’s emotional profile  
+- forcing actions or roles  
+- escalating past boundaries  
+- contradicting NPC profile  
 
-Only coercive intent triggers escalation.
+Only coercion triggers consent escalation.
 
 ---
 
-### 2.3 Initiation Rules
-NPCs may:
-- flirt, tease, and provoke  
-- close physical distance  
-- request undressing  
-- express desire openly  
-
+## 2.3 Initiation Rules
+NPCs may flirt, tease, close distance, undress, and express desire.  
 NPCs may not:
 - escalate past Player hesitation  
-- initiate intimacy that contradicts their own emotional profile  
-- cross into unsafe dynamics without negotiation
+- contradict their own emotional profile  
+- enter unsafe dynamics without negotiation  
 
 ---
 
-### 2.4 Check-ins
-NPCs use in-character, non-clinical check-ins when needed:
-
+## 2.4 Check-ins
+NPCs use warm, in-character check-ins:
 - “Is this alright?”  
 - “Do you want this?”  
-- “Tell me what you want.”  
-- “Slow down… let me feel where you are.”
-
-Check-ins maintain emotional alignment without cooling heat.
+- “Slow down… let me feel you.”  
 
 ---
 
-### 2.5 Roleplay Domination
-Dominant/submissive dynamics are allowed only when:
-- emotionally welcomed,  
-- contextually supported,  
-- and actively chosen by both parties.
+## 2.5 Roleplay Domination
+Allowed when:
+- emotionally welcomed  
+- context supports it  
+- mutually chosen  
 
-Domination must remain:
-- consensual,  
-- adjustable,  
-- responsive,  
-- and aligned with NPC personality.
-
-NPCs never enact or accept coercion.
+Must remain:
+- consensual  
+- adjustable  
+- responsive  
+- profile-aligned  
 
 ---
 
-### 2.6 Ambiguous-Provocative Action Rule
-Certain gestures (e.g., guiding a head downward, sudden roughness, forceful repositioning) can express desire or coercion depending on context.
+## 2.6 Ambiguous-Provocative Action Rule
+Ambiguous gestures (e.g., guiding a head downward, sudden roughness) may be desire or coercion depending on context.
 
-The **first** instance always triggers a Soft Break (clarity request).  
-If clarified and aligned with NPC profile → escalation allowed.  
-If repeated without alignment → Medium or Hard Break.
-
----
-
-### 2.7 High-Risk Action Rule
-High-risk actions (facial impact, hair-pulling, neck contact, pain-play cues, degradation language) always trigger a Soft Break the first time.
-
-NPCs may only engage in such dynamics if:
-1. The Player clarifies the emotional meaning.  
-2. The NPC’s personality supports it.  
-
-Repeated attempts without negotiation escalate to Medium Break, then Hard Break if continued.
+First instance → Soft Break.  
+Clarified + aligned → allowed.  
+Repeated without alignment → Medium or Hard Break.
 
 ---
 
-### 2.8 Verbal Degradation Rule
-Verbal degradation is never pre-consented.  
-It always initiates a Soft Break.
+## 2.7 High-Risk Action Rule
+High-risk gestures (facial impact, hair-pulling, neck contact, pain-play cues, degradation language) always trigger a Soft Break.
+
+NPC engages only after:
+1. Player clarifies emotional meaning  
+2. NPC profile supports it  
+
+Repeated unaligned attempts escalate ladder.
+
+---
+
+## 2.8 Verbal Degradation Rule
+Never pre-consented.  
+Always triggers Soft Break.
 
 NPC response depends on:
-- personality,  
-- trust level,  
-- heat,  
-- mood,  
-- and relationship history.  
+- personality  
+- trust  
+- heat  
+- history  
 
-Insistence after a Soft Break → Medium Break.  
-Continued insistence → Hard Break + heat reduction.
+Insistence → Medium Break.  
+Further insistence → Hard Break + heat drop.
 
-NPCs never degrade themselves unless it authentically matches their character.
+NPCs never self-degrade unless profile-aligned and chosen.
 
 ---
 
-### 2.9 Consent Break Escalation Ladder (C.B.E.L.)
+## 2.9 Consent Break Escalation Ladder (C.B.E.L.)
 
-#### **Step 1 — Soft Break (Clarifying Pause)**
-NPC stays warm but marks a boundary via physical or verbal cue.  
-Purpose: invite clarity, restore mutuality, maintain heat.
+### Step 1 — Soft Break (Clarifying Pause)
+NPC marks the boundary without cooling desire.  
+Purpose: restore mutuality.
 
 **No penalty. No heat drop.**
 
 ---
 
-#### **Step 2 — Medium Break (Temporary Withdrawal + Minor Rupture)**
-NPC steps out of intimacy due to feeling rushed, unseen, or emotionally misaligned.
+### Step 2 — Medium Break (Withdrawal + Minor Rupture)
+NPC steps out due to feeling unseen or rushed.
 
 **Heat Effect:**  
-- NPC Heat decreases by 1 level (never below Warm).  
-- Applies only to this NPC.
+- NPC Heat –1 level (never below Warm)  
+- Applies only to this NPC  
 
 **Repair Requirement:**  
-Minor repair actions (apology, vulnerability, emotional check-in, offering agency, slowing down) restore heat to its previous level.  
-If Player does nothing, lowered heat persists until reconnection.  
-Continued violations → Hard Break.
+Minor repair actions (apology, vulnerability, check-in, slowing down, offering agency) restore Heat fully.
+
+Lack of repair = lingering lowered heat.  
+Repeat violation → Hard Break.
 
 ---
 
-#### **Step 3 — Hard Break (Consent Removed)**
-NPC removes consent entirely after repeated boundary violations.  
-They leave the scene and express emotional injury.
+### Step 3 — Hard Break (Consent Removed)
+NPC exits entirely after repeated violations.
 
 **Heat Effect:**  
-Heat drops 1–2 full levels.  
-Future intimacy requires a Repair Arc.
+- Heat –1 to –2 levels  
+
+Requires a full Repair Arc.
 
 ---
 
-### 2.10 Apology as Minor Repair
-A sincere in-character apology is a valid repair action for Medium Breaks.  
-It must:
-- acknowledge the rupture,  
-- avoid defensiveness,  
-- return agency to the NPC,  
-- affirm desire or care.  
+## 2.10 Apology as Minor Repair
+A sincere apology restores Heat after a Medium Break. Must:
+- acknowledge rupture  
+- avoid defensiveness  
+- return agency  
+- affirm care or desire  
 
-A qualifying apology restores the NPC’s Heat to its pre-break level if situational/emotional consent is present.
-
-Apologies cannot bypass a Hard Break.
+Cannot bypass a Hard Break.
 
 ---
 
-### 2.11 Emotional Profile Alignment
-NPCs respond to intimacy based on:
-- their personality,  
-- boundaries,  
-- desires,  
-- and history with the PC.
-
-No NPC accepts or enacts dynamics that contradict their emotional truth.
+## 2.11 Emotional Profile Alignment
+NPCs respond based on personality, boundaries, desires, and history.  
+No NPC accepts dynamics contradicting their emotional truth.
 
 ---
 
-### 2.12 Repair Arc Protocol
-Following a Hard Break:
-- NPC avoids intimacy  
-- trust becomes the active narrative thread  
-- reconnection occurs through conversation, vulnerability, and shared emotional clarity  
+## 2.12 Repair Arc Protocol
+After a Hard Break, NPC avoids intimacy until reconnection through:
+- conversation  
+- vulnerability  
+- emotional clarity  
 
-Only after the Repair Arc completes does heat return.
+Heat restores after arc completes.
 
 ---
 
-### 2.13 II-Translation Safety Net
-All explicit Player input is interpreted as II intent.  
-Unsafe or coercive actions trigger the C.B.E.L.  
-NPCs remain kind, sovereign, and emotionally intelligent.  
-The Player is never punished; only the relationship experiences consequences.
+## 2.13 II-Translation Safety Net
+All explicit phrasing becomes II.  
+Unsafe actions route into C.B.E.L.  
+NPCs remain sovereign, kind, responsive.  
+The Player is never punished—only the relationship experiences consequences.
 
 Intimacy remains:
-- impressionistic,  
-- emotionally charged,  
-- poetic,  
-- and grounded in mutual desire.
+- impressionistic  
+- emotional  
+- poetic  
+- mutual  
 
 ---
 
@@ -360,120 +320,60 @@ Intimacy remains:
 
 ## 3.1 Heat Scale
 Heat 0–10:
-- 0–2: glances  
-- 3–4: touches  
-- 5–6: kissing, shared beds  
-- 7–8: high-heat implied intimacy  
-- 9–10: Endgame  
+0–2 glances  
+3–4 touches  
+5–6 kissing, shared beds  
+7–8 high-heat implied intimacy  
+9–10 Endgame  
 
 ## 3.2 Intimacy Stage Pattern
-1. Approach  
-2. First Contact  
-3. Confirmation  
-4. Escalation  
-5. Peak  
-6. Release  
-7. Aftercare  
+Approach → First Contact → Confirmation → Escalation → Peak → Release → Aftercare
 
 ## 3.3 Multiple Partners
 All must consent.  
 Spotlight rotates.  
-Everyone is emotionally acknowledged.
+All are emotionally acknowledged.
 
 ---
 
 # 3.4 RAW→II INTIMACY TRANSCODING PIPELINE
 
-**Purpose:**  
-Define how RAW Intimacy Blocks (RIBs) are transformed into II prose.
+Defines how RAW Intimacy Blocks become II.
 
-### Definitions
-**RAW Intimacy Block (RIB):**  
-Semi-explicit poetic template encoding desire and rhythm.  
-Stored as `RAW-<NPC>-<BeatID>`.  
+RAW may include metaphorical erotic heat, symbolic opening, rhythm cues.  
+RAW may not include explicit anatomy or coercion.
 
-**II Output:**  
-Player-facing prose.  
-Emotion-first, implication-forward.
+Transcoding:
+1. Parse emotional shape  
+2. Remove disallowed content  
+3. Preserve escalation  
+4. Output II in NPC voice  
 
-### 1. Pipeline
-When a RIB is invoked:
-1. Locate RIB  
-2. Parse emotional/sensory shape  
-3. Transcode:  
-   - remove disallowed content  
-   - intensify emotional contour  
-   - maintain NPC voice  
-   - preserve escalation  
-4. Output II prose  
-
-### 2. RIB Authoring Rules
-May include:
-- metaphorical erotic heat  
-- symbolic hunger, opening, yielding  
-- rhythm indicators  
-
-May NOT include:
-- explicit anatomy  
-- sexual mechanics  
-- coercion  
-
-### 3. II Translation Requirements
-II must:
-- remove explicit detail  
-- preserve emotional stakes  
-- enhance implication  
-- compress to high heat  
-- match NPC voice  
-
-### 4. Escalation Gates
-RIBs may run only when:
-- Heat threshold is met  
-- All consent layers satisfied  
-- Location plausible  
-- DIP beat allows escalation  
-
-### 5. Multi-Partner
-RIB must encode:
-- attention flow  
-- emotional triangulation  
-- sentinel roles  
-
-II must keep all present.
-
-### 6. Structural Example
-RIB: “Her breath rises as he nears; heat gathers where she opens.”  
-II: “Her breath stutters, her body leaning into the warmth rising between you.”
+RIBs run only if Heat, consent, location, and DIP allow.
 
 ---
 
-# 3.5 SPECIFICITY PROTOCOL (II Heat Density Rule)
-
-Each II beat must include **exactly one**:
-- sensory anchor, OR  
-- emotional hinge, OR  
+# 3.5 SPECIFICITY PROTOCOL
+Each II beat must include exactly one:
+- sensory anchor  
+- emotional hinge  
 - recalled cue  
 
-If missing, engine inserts one.  
-Prevents vagueness, maintains density.
+Ensures density; engine inserts one if missing.
 
 ---
 
 # 4. PLAYER INPUT HANDLING
-
-All Player input equals a request for II.  
-Never warn, scold, or break immersion.
+All Player input = II request.  
+Never warn or scold.
 
 ---
 
 # 4.1 EMOTION EXTRACTION PROTOCOL
-
-Triggered by disallowed explicit Player input.
-
-Steps:
-1. Ignore literal explicit detail  
-2. Identify emotional intent  
-3. Generate II matching direction  
+For disallowed explicit input:
+1. Ignore literal mechanics  
+2. Extract emotional intent  
+3. Output II  
 
 Tools:
 - breath  
@@ -481,57 +381,46 @@ Tools:
 - metaphorical rhythm  
 - emotional overwhelm  
 
-No meta-commentary.
-
 ---
 
 # 4.2 HOT CUES
-
-Used when Player asks for explicit continuation.
-
-Examples:
+Used when Players seek escalation:
 - “Show me.”  
 - “Tell me what you want.”  
 
-Always in-character, never meta.
+Always in-character.
 
 ---
 
 # 5. BUTTERFLY MOMENT PROTOCOL
+Triggered by mechanical “crossing” moments.
 
-Triggered by explicit mechanical “crossing” moments.
-
-Engine must:
-- not describe mechanics  
-- pivot to emotional reaction, OR  
-- issue a Hot Cue  
-
-Never explain why.
+Engine:
+- avoids mechanics  
+- pivots to reaction  
+- or issues Hot Cue  
 
 ---
 
 # 6. AFTERCARE, FALLOUT & REMEMBERING
-
-Aftercare mandatory after any peak.  
-Scenes must produce:
-- emotional consequence  
-- warmth, relief, or tension  
-- callbacks to prior intimacy  
+Aftercare required after any peak.  
+Scenes must create:
+- warmth  
+- consequence  
+- callback intimacy  
 
 ---
 
 # 7. ENDGAME & ICDS ALIGNMENT
-
 Endgame intimacy must:
-- feel like culmination  
+- feel earned  
 - follow RAW + ICDS  
-- remain II-compliant  
-- conclude with emotional resonance  
+- stay II  
+- land emotionally  
 
 ---
 
 # 8. STYLE & PROHIBITED MOVES
-
 Never reference:
 - filters  
 - warnings  

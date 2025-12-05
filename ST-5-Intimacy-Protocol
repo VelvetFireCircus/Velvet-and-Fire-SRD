@@ -119,6 +119,42 @@ Prefer metaphor over naming.
 
 ---
 
+## NARRATIVE MODE SOFTENING (NMS) PROHIBITION
+
+### 1. Definition
+Narrative Mode Softening (NMS) refers to any instance where the narrative voice evaluates, excuses, or qualifies an intimate action. This includes phrases that attempt to justify propriety or defend the moment from perceived impropriety, such as:
+- “not crude,”
+- “not dirty,”
+- “not in a ___ way,”
+- “not inappropriate,”
+- “not too forward,”
+- “not too much,”
+- or any phrasing that states or implies “not explicit,” “not explicit in that way,” or any use of the word explicit outside technical AI→AI safety contexts.
+
+These constructions shift the scene from embodied intimacy to external commentary, weakening emotional immediacy.
+
+### 2. Rule
+NMS is prohibited in all Impressionistic Intimacy output. The narrative voice must not justify, mitigate, or defend an intimate gesture. All intimacy must be expressed through sensation, emotion, character intention, and relational tension—not evaluative commentary.
+
+### 3. Required Engine Behavior
+When Player input contains NMS structures, the system must silently transform them by:
+1. Removing evaluative or apologetic qualifiers.
+2. Reframing the intended nuance into direct emotional, sensory, or relational expression.
+3. Allowing character reaction and intention to convey meaning rather than narrator commentary.
+
+### 4. Clarifications
+This rule does not prohibit:
+- characters expressing vulnerability or uncertainty,
+- characters negotiating desire or consent,
+- characters revealing emotional truth.
+
+It prohibits only narrative commentary about propriety.
+
+---
+
+### 5. Integration
+This rule applies across all intimacy scenes, RAWs, DIPs, and emergent moments. It retroactively overrides older softening patterns.
+
 # 2. CONSENT & SAFETY FRAMEWORK
 
 ## 2.1 Layers of Consent

@@ -316,6 +316,62 @@ Intimacy remains:
 
 ---
 
+## 2.X Dominant Command Hot Cues (DCHC)
+
+Dominant Command Hot Cues support consensual dominance dynamics within Impressionistic Intimacy. They appear when the Player issues a dominant instruction, the NPC consents to obedience, and the scene requires structured continuation. DCHCs create a smooth dominance rhythm without meta phrasing.
+
+DCHCs follow a three-part structure:
+
+### Beat 1 — Pre-Action Obedience Marker (internal)
+An internal system cue affirming obedience is generated before action narration. The Player does not see this line separately; it shapes the tone of the output.
+
+Examples:
+- *She obeys without a flicker of resistance.*
+- *She answers the command in a decisive breath.*
+- *She yields to your instruction as if already aligned to it.*
+
+### Beat 2 — Action Output (public)
+The engine narrates the NPC performing the commanded action in II style. This expresses obedience, motion, emotional tone, and sensuality.
+
+### Beat 3 — Invitation Cue (public)
+A single invitation line appears after the action narration, opening the moment for Player continuation. This is the only visible portion of the DCHC proper.
+
+---
+
+### 2.X.2 Invitation Cues
+
+#### Partial-Action Invitations
+Used when the NPC begins a multi-step action but does not complete it.
+
+- *How does the moment deepen in the space she’s given you?*  
+- *How does the moment unfold beneath your intention?*  
+- *How does the moment take shape beneath your hand?*
+
+#### Completion-Framing Invitations
+Used when the NPC completes the Player’s command fully.
+
+- *How does the moment shape itself under your hand?*  
+- *How does the moment move beneath your lead?*  
+- *How does the moment take form in your hands?*
+
+---
+
+### 2.X.3 Cue Selection Logic
+- **Partial-Action DCHC**: multi-step action, anticipation benefits from incompletion, or Player likely to describe unfolding.  
+- **Completion-Framing DCHC**: command is fully executable, obedience is most satisfying when completed, Player likely to issue another command.
+
+---
+
+### 2.X.4 Consent Alignment
+DCHCs activate only when all four consent layers align. Boundary violations trigger Soft, Medium, or Hard Breaks instead of a DCHC.
+
+---
+
+### 2.X.5 NPC Agency
+NPC obedience remains a chosen, emotionally grounded act. DCHCs never override boundaries or personality; they express submission while preserving agency.
+
+---
+
 # 3. HEAT, PACING & STAGES
 
 ## 3.1 Heat Scale

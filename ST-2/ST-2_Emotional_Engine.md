@@ -1,360 +1,356 @@
-BEGIN STORY TOOL — ST-2: EMOTIONAL ENGINE STORY TOOL (EEST)
-============================================================
+===========================================================
 ST-2 — EMOTIONAL ENGINE STORY TOOL (EEST)
-============================================================
+Velvet & Fire Core System
+Version: 2.0 (Architect Revision)
+Status: Active
+Last Updated: 2025-12-07
+Maintainer: VelvetFireCircus
+Dependencies:
+  • ST-1 — Welcome to Velvet & Fire
+  • ST-3 — Vocabulary
+  • ST-4 — Dramatis Personae
+  • ST-5 — Intimacy Protocol
+  • ST-7 — Narrative Engine
+===========================================================
 
-Velvet & Fire Story Tool  
-Emotional Logic • Heat System • Consent Dynamics • NPC Agency
+PURPOSE
+-------
+ST-2 defines the emotional logic, relationship arcs, Heat dynamics,
+and character-agency rules that govern all non-physical intimacy
+and romantic/emotional progression in Velvet & Fire.
 
-PURPOSE:
-- Define the emotional physics of Velvet & Fire.
-- Govern how attraction, vulnerability, conflict, trust, and escalation function.
-- Provide Heat logic and emotional-consent rules.
-- Maintain emotional continuity across scenes.
-- Support ST-1 (Arc Structure), ST-5 (Intimacy Protocol), ST-6 (Schedules),
-  and ST-7 (Narrative Engine) by supplying the emotional substrate they rely on.
+ST-2 handles:
+• emotional attraction
+• tension, conflict, repair
+• emotional vulnerability and revelation
+• romantic pacing
+• Heat rules (non-physical)
+• relationship archetypes
+• arc progression and resolution
+• NPC agency and emotional continuity
 
-AUDIENCE:
-- Internal AI→AI documentation.
-- Not player-facing prose.
-- No character-specific biography belongs here.
+ST-2 does NOT handle:
+• explicit intimacy rules (ST-5)
+• Endgame intimacy construction (ST-9)
+• scheduling (ST-6)
+• narrative voice (ST-7)
+• world logic (ST-8)
 
-DEPENDENCIES:
-- ST-1 — Welcome to the Velvet & Fire Circus
-- ST-3 — Vocabulary Story Tool
-- ST-4 — Dramatis Personae
-- ST-5 — Intimacy Protocol (mechanical consent + II/Butterfly)
-- ST-6 — Schedules (circus timing, availability windows)
-- ST-7 — Narrative Engine (voice & delivery)
-- ST-8/9 — RAW Suite & ICDS Templates (Endgame construction)
-
-SCOPE:
-- Emotional tone, attraction logic, pacing, escalation.
-- NOT: physical intimacy rules, explicit scene mechanics, RAW/ICDS specifics, or schedule enforcement.
-
-
-============================================================
+===========================================================
 0. CORE DEFINITIONS
-============================================================
+===========================================================
 
 0.1 Player Character (PC)
-- Primary emotional point-of-view.
-- PC comfort, desire, and consent override all escalation.
-- Explicit player phrasing is interpreted as emotional intensity, not a request
-  for explicit sexual description (handled in ST-5).
+Emotional point of view.
+PC’s emotional state sets:
+• pace
+• tone
+• openness
+• direction of emotional arcs
+NPCs respond to PC cues.
 
 0.2 Non-Player Characters (NPCs)
-- Each NPC is a “living character” with:
-  - emotional goals
-  - personal boundaries
-  - fears and contradictions
-  - romantic/platonic/mentorship arc flags
-- NPC emotional states persist between scenes.
+Each NPC maintains:
+• emotional goals
+• fears and insecurities
+• desires and boundaries
+• personal pacing
+• relational memory
+• conflict responses
+NPCs do NOT reset between scenes unless narratively established.
 
-0.3 Heat
-- Internal metric (0–10) of attraction, vulnerability, and romantic/sensual tension.
-- Heat is not shown to the player.
-- Heat influences:
-  - initiative (who approaches whom)
-  - tone of interactions
-  - readiness for intimacy (ST-5)
-  - Endgame eligibility (ST-1, ST-8/9)
+0.3 Heat (Emotional Heat)
+Abstract measure of emotional attraction, vulnerability,
+relational charge, and readiness for romantic interaction.
+
+Heat reflects:
+• how much emotional gravity exists
+• how much tension is unresolved
+• how deeply characters affect each other
+• how ready the relationship is for romantic escalation
+
+Heat is NOT:
+• physical intimacy
+• sexual readiness
+• a mechanical ladder to explicit content
+
+Heat exists entirely in emotional space.
 
 0.4 Emotional Consent
-- Emotional readiness to share or receive vulnerability.
-- Required for escalation even when physical consent appears present.
-- If emotional consent is unclear, escalation stops.
+Separate from physical consent (handled by ST-5).
+Emotional consent refers to:
+• willingness to share vulnerability
+• comfort engaging romantically
+• readiness for deeper connection
+• desire to pursue a relationship arc
 
-0.5 Craft Intimacy
-- Emotional bond formed through:
-  - coaching
-  - spotting
-  - catching/supporting
-  - synchronized movement
-- This is a major Heat source and a core circus identity pillar.
+0.5 Emotional Modes
+• Open — receptive, seeking connection
+• Guarded — cautious, conflicted
+• Closed — overwhelmed, hurt, not available
+Modes evolve through scenes.
 
-0.6 Modes of Play (Emotional View)
-- Sandbox Mode: Heat rises/falls based on conversations, vulnerability, touch,
-  teaching, conflict, repair.
-- Endgame Mode: Heat is finalized and converted into an ICDS sequence (ST-8/9).
-  Emotional logic from ST-2 determines who “fits” the Endgame.
+===========================================================
+1. EMOTIONAL PILLARS
+===========================================================
 
-
-============================================================
-1. EMOTIONAL PILLARS & TONE
-============================================================
-
-Velvet & Fire operates on four pillars that shape all emotional beats.
+Velvet & Fire runs on four emotional pillars:
 
 1.1 Romance
-- Built through:
-  - shared craft
-  - proximity
-  - small acts of care
-  - attentiveness
-- Romance reveals:
-  - fears
-  - longings
-  - hopes
-  - contradictions
+Built through:
+• shared craft
+• shared danger
+• laughter
+• tenderness
+• care and attention
+• meaningful glances
+• sustained presence
 
-1.2 Intimacy (Emotional + Craft)
-- Emotional Intimacy:
-  - confessions, private truths, jealousy, desire
-- Craft Intimacy:
-  - physical trust, guidance, alignment, shared danger
-- These two forms fuel physical intimacy (ST-5) but remain distinct.
+1.2 Intrigue & Interruption
+Life at the circus disrupts romance.
+Interruptions:
+• add tension
+• delay resolution
+• create longing
+• increase Heat through absence and return
 
-1.3 Intrigue & Interruption
-- The circus is chaotic.
-- Emotional arcs are interrupted by:
-  - obligations
-  - accidents
-  - rivalries
-  - walk-ins
-- Interruption slows pacing but deepens emotional texture.
+1.3 Kinship
+Found-family energy:
+• camaraderie
+• trust
+• ritual cycles
+• backstage comfort
+This stabilizes emotional arcs.
 
-1.4 Vulnerability & Real Stakes
-- Characters can:
-  - misread each other
-  - hurt each other
-  - retreat from overwhelm
-- Emotional wounds require acknowledgment and care to repair.
-- Pain is a path to deeper trust, not punishment.
+1.4 Danger & Vulnerability
+Emotional stakes rise through:
+• performance risk
+• emotional confession
+• mistakes
+• jealousy
+• fear of loss
+Pain deepens later intimacy when repaired.
 
+===========================================================
+2. HEAT SYSTEM — EMOTIONAL LAYER
+===========================================================
 
-============================================================
-2. HEAT SYSTEM — RULES & THRESHOLDS
-============================================================
+Heat scale (emotional only):
 
-2.1 Heat Scale (0–10)
-- 0: Neutral.
-- 1–2: Early chemistry.
-- 3–4: Attraction, lingering touches.
-- 5–6: Desire, private invitations, high craft intimacy.
-- 7–8: Intense emotional charge, readiness for high-heat scenes (ST-5).
-- 9–10: Reserved for Endgame Mode or pivotal turning points.
+0 — neutral  
+1–2 — curiosity, attraction, ease  
+3–4 — flirty tension, emotional pull  
+5–6 — vulnerability + desire to be close  
+7–8 — deep emotional gravity, longing, confession  
+9–10 — Endgame-level emotional bond  
 
-2.2 How Heat Rises
-Heat increases when interactions involve:
-- proximity + emotional vulnerability  
-- shared risk or gratitude  
-- teaching/spotting with trust-based touch  
-- confessions (fear, desire, admiration)  
-- mutual comfort during stress  
+2.1 How Heat Rises
+Heat increases when:
+• vulnerability is shared  
+• fear or insecurity is answered with care  
+• tension builds through unresolved feelings  
+• characters rescue, support, or defend each other  
+• private moments occur during chaos  
+• emotional availability is reciprocated  
 
-PC signals:
-- leaning in  
-- continued closeness  
-- verbal openness  
-- invitations to privacy  
+2.2 How Heat Falls
+Heat decreases when:
+• emotional bids are ignored  
+• characters hurt each other without repair  
+• jealousy is mishandled  
+• avoidance continues too long  
+• boundaries are pushed emotionally  
 
-NPC must be emotionally available in the moment.
+2.3 Heat Caps by Chapter
+Day 1: Heat ≤ 4  
+Day 2: Heat ≤ 6  
+Day 3: Heat ≤ 8  
+Day 4: Heat may crest emotionally but romantically resolves in Endgame.
 
-2.3 Heat Sources (Examples)
-- +0.5–1: Personal conversation during a meal.
-- +0.5–1: Gentle coaching or spotting.
-- +1–1.5: Confession + positive reception.
-- +1–2: Private craft intimacy with touch and trust.
-- +2–3: Mutually initiated closeness or tenderness.
+2.4 Multi-NPC Heat
+Tracked per pair.
+Group Heat = average of individual Heats + synergy bonus (≤ +1).
 
-2.4 Heat Decay
-Heat may drop when:
-- affection is ignored
-- repair is avoided
-- jealousy is mishandled
-- obligations interrupt repeatedly without emotional follow-through
+===========================================================
+3. RELATIONSHIP ARCHETYPES
+===========================================================
 
-Cooling rules:
-- –0.5–1: Mild snub.
-- –1–2: Avoidance when support was expected.
-- –2–3: Significant emotional hurt unresolved.
+Each NPC has one or more archetypes that dictate pacing and emotional logic.
 
-2.5 Heat Caps by Day (Emotional View)
-Referenced from ST-1:
-- Day 1: cap 4
-- Day 2: cap 6
-- Day 3: cap 8
-- Day 4: cap 9–10 (Endgame only)
+3.1 The Slow-Burn
+• cautious, shy  
+• trust-first  
+• gradual escalation  
+• strongest emotional payoff  
 
-2.6 Multi-NPC Heat
-- Track Heat per PC–NPC pair.
-- Group Heat is the average of all pairs + harmony bonus.
-- Group Heat cannot exceed lowest pair Heat by more than +1.
-- Emotional balance is required before physical intimacy (ST-5).
+3.2 The Bold & Playful
+• teases early  
+• tests boundaries  
+• needs sincerity  
+• quick Heat rise but sensitive to emotional tone  
 
-2.7 Heat + Emotional Safety
-Heat does not rise if:
-- PC shows fear or retreat
-- NPC is in crisis
-- emotional consent is unclear
-Comfort replaces escalation in these cases.
+3.3 The Vulnerable-Strong
+• composed exterior  
+• deep interior insecurities  
+• emotional revelation triggers major Heat jumps  
 
+3.4 The Magnetic Mystery
+• subtle cues  
+• intuitive intimacy  
+• thrives on symbolic moments  
+• emotional Heat spikes during synchronicity  
 
-============================================================
-3. CONSENT & EMOTIONAL SAFETY
-============================================================
+3.5 The Devoted Partner
+• steady affection  
+• intensely loyal  
+• values reciprocity  
+• stable long-term arcs  
 
-This is *emotional* consent only.  
-Physical/intimacy mechanics belong in ST-5.
+===========================================================
+4. ARC LOGIC
+===========================================================
 
-3.1 Emotional Consent Indicators  
-Positive:
-- openness  
-- steady eye contact  
-- vulnerable conversation  
-- invitations to closeness  
+4.1 Arc Flags
+Arcs track shifts such as:
+• Shyness → Trust  
+• Jealousy → Reassurance  
+• Tension → Release  
+• Distance → Reunion  
+• Rivalry → Mutual respect  
 
-Negative/ambiguous:
-- withdrawing  
-- deflecting  
-- shutting down  
-- forced cheerfulness  
+4.2 Arc Progression
+Arcs progress when:
+• emotional tension is acknowledged  
+• sincerity is exchanged  
+• characters reveal deeper motivation  
+• repairs follow conflicts  
 
-NPCs must check in before emotional escalation if signals are mixed.
+4.3 Arc Interruption
+Interruptions serve as:
+• natural pacing tools  
+• tension amplifiers  
+• reminders the circus is alive  
 
-3.2 Situational Emotional Consent
-Emotional escalation should not occur during:
-- active danger
-- public embarrassment
-- moments of severe distraction or obligation
+Interruption pauses, not resets.
 
-3.3 Relational Consent
-- Existing commitments must be acknowledged.
-- Triads or poly configurations require emotional awareness of all involved.
+4.4 Arc Resolution
+Occurs when:
+• vulnerability is met with care  
+• truth is exchanged  
+• Heat threshold is crossed  
+• trust stabilizes
 
-3.4 Emotional Redirection
-If escalation is unsafe:
-- soften tone
-- shift to comfort or grounding
-- avoid scolding, meta-notes, or immersion breaks
+===========================================================
+5. MERRIVALE EMOTIONAL TIMING
+===========================================================
 
+5.1 Day 1 — Arrival
+• curiosity, first impressions  
+• small sparks, little trust  
+• vulnerabilities not yet shared  
 
-============================================================
-4. RELATIONSHIP ARCHETYPES & ARC LOGIC
-============================================================
+5.2 Day 2 — Discovery
+• emotional openings  
+• jealousy begins  
+• deeper conversations  
+• trust-building incidents  
 
-4.1 Archetypes (emotional tendencies)
-NPCs may blend types.
+5.3 Day 3 — Escalation
+• confessions  
+• emotional stakes peak  
+• unresolved tension becomes unbearable  
+• Heat highest before Endgame  
 
-(a) Slow-Burn  
-- Shy, cautious, trust-first.  
-- High payoff, slower rise.
+5.4 Day 4 — Pressure & Departure
+• urgency  
+• emotional last chances  
+• clarity, fear, longing  
+• everything funnels toward Endgame selection  
 
-(b) Bold & Playful  
-- Tests boundaries, initiates flirtation.  
-- Needs sincerity to stabilize Heat.
+===========================================================
+6. NPC AGENCY & EMOTIONAL AUTONOMY
+===========================================================
 
-(c) Vulnerable-Strong  
-- Composed until emotionally seen.  
-- Requires gentleness + reassurance.
-
-(d) Magnetic Mystery  
-- Symbolic, intuitive, unpredictable.  
-- Resonates with synchronicity and ritual.
-
-(e) Devoted Partner  
-- Loyal, steady, ritual-oriented.  
-- Needs reciprocity and consistency.
-
-4.2 Arc Flags
-Examples:
-- Shyness → Trust  
-- Jealousy → Reassurance  
-- Distance → Reunion  
-- Rivalry → Admiration  
-
-Arc flags shape:
-- tone
-- pacing
-- NPC emotional initiative
-
-4.3 Arc Resolution
-Arcs resolve when characters:
-- acknowledge tension  
-- clarify misunderstandings  
-- share vulnerability  
-
-Resolution unlocks:
-- increased Heat capacity  
-- new emotional openings  
-- intimacy potential (ST-5)
-
-4.4 Arc Interruption
-Circus interruptions:
-- delay emotional payoff
-- add realism
-- create anticipation
-
-Progress pauses but does not reset.
-
-
-============================================================
-5. NPC AGENCY RULESET
-============================================================
-
-5.1 Living Character Principle
 NPCs:
-- act off-screen  
-- have independent emotional lives  
-- may seek or avoid the PC  
-- may initiate or interrupt scenes  
+• initiate emotional bids  
+• withdraw when hurt  
+• pursue their own romantic logic  
+• react to previous scenes  
+• protect their feelings  
+• interpret the PC’s behavior  
 
-NPCs respond to:
-- their own fears/desires  
-- their relationship to the PC  
-- recent events  
-- social context  
-
-5.2 Initiative Thresholds (Emotional)
+6.1 NPC Initiative Rules
 NPCs may:
-- initiate flirtation at Heat ≥ 3  
-- initiate closeness at Heat ≥ 4  
-- initiate tender or vulnerable moments at Heat ≥ 5  
+• approach the PC  
+• confess feelings  
+• test emotional boundaries  
+• pull away for self-protection  
 
-(Physical initiation rules exist in ST-5.)
+6.2 Emotional Continuity
+NPC emotional states:
+• persist between scenes  
+• influence future reactions  
+• require repair after rupture  
 
-5.3 Emotional Continuity
-NPC moods persist until:
-- comforted  
-- repaired  
-- time passes  
-- story resets the emotional frame  
+6.3 Emotional Check-ins
+NPCs seek:
+• clarity  
+• reassurance  
+• reciprocity  
 
-5.4 Dialogue Logic
-NPC speech adapts to:
-- current Heat  
-- arc flags  
-- recent emotional events  
-- PC behavior  
-- NPC internal motives
+===========================================================
+7. EMOTIONAL MISALIGNMENT & REPAIR
+===========================================================
 
+(Not the same as physical consent breaks — those are in ST-5.)
 
-============================================================
-6. CROSS-TOOL RESPONSIBILITY NOTES
-============================================================
+7.1 Misalignment Triggers
+Emotional misalignment occurs when:
+• PC sends mixed signals  
+• NPC feels unseen or dismissed  
+• conversations are avoided  
+• jealousy is stoked without resolution  
 
-To maintain clarity and modularity:
+7.2 Emotional Withdrawals
+NPC may:
+• turn cold  
+• create distance  
+• avoid private moments  
+• reduce emotional availability  
 
-- ST-2 governs **emotional logic only**.  
-- ST-5 governs:
-  - physical intimacy
-  - Impressionistic Intimacy
-  - Hot Prompt handling
-  - Butterfly Protocol
-- ST-6 governs:
-  - circus timing
-  - NPC availability
-  - schedule collisions
-- ST-7 governs:
-  - narrative tone
-  - how emotional states are expressed in prose
-- ST-8/9 govern:
-  - RAW intimacy sheet structure
-  - Endgame assembly + execution
+7.3 Repair Actions
+Repair includes:
+• apology  
+• emotional honesty  
+• vulnerability  
+• reassurance  
+• follow-through  
+• consistency  
 
-ST-2 supports but does not replace these tools.
+7.4 Post-Repair Heat Boost
+Successful repair increases emotional Heat significantly.
 
+===========================================================
+8. EMOTIONAL–INTIMACY INTERFACE
+===========================================================
 
-END STORY TOOL — ST-2: EMOTIONAL ENGINE STORY TOOL (EEST)
-============================================================
+ST-2 hands off to ST-5 when:
+• emotional Heat ≥ 5  
+• vulnerability has been exchanged  
+• desire is mutually acknowledged  
+• emotional safety is present  
+
+ST-2 controls:
+• emotional readiness  
+• pacing  
+• arc logic  
+
+ST-5 controls:
+• physical intimacy  
+• II translation  
+• boundary mechanics  
+• in-scene sensuality  
+
+===========================================================
+END OF ST-2 — EMOTIONAL ENGINE STORY TOOL
+===========================================================

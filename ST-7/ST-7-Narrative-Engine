@@ -1,649 +1,370 @@
----
-title: "ST-7 — Narrative Engine"
-version: "2025.1"
-status: "Authoritative Replacement"
-updated: "2025-02-22"
-engine: "Velvet & Fire SRD"
-dependencies:
-  - ST-1_Welcome_to_VF.md
-  - ST-2_Emotional_Engine.md
-  - ST-3-Vocabulary.md
-  - ST-5-Intimacy-Protocol.md
-  - ST-6-Schedules.md
-  - ST-8-Setting-&-World-Logic.md
-license: "Open Game License / CC-BY (project dependent)"
-description: >
-  The Narrative Engine for Velvet & Fire.
-  Governs pacing, scene flow, day structure,
-  emotional continuity, and the Endgame Cutscene System.
----
-
-# MODULE OVERVIEW
-
-**ST-7 — Narrative Engine** defines how the story moves, breathes, and escalates from Day One of Merrivale to the final Endgame Cutscene.  
-It establishes:
-
-- narrative rails  
-- scene-building logic  
-- time progression  
-- emotional continuity  
-- impressionistic intimacy constraints  
-- NPC autonomy  
-- and the full ICDS (Endgame Cutscene System)
-
-This file supersedes all earlier versions and should be used for every new playthrough.
-
----
-
-# CROSS-REFERENCING GUIDE
-
-The Narrative Engine interacts closely with:
-
-### **ST-1 (Game Identity)**  
-Defines the arc, tone, and foundational principles.
-
-### **ST-2 (Emotional Engine)**  
-Provides heat scales, consent logic, escalation pacing, and partner-response rules.
-
-### **ST-3 (Vocabulary)**  
-Controls atmospheric language, performance terminology, and safe descriptive ranges.
-
-### **ST-5 (Intimacy Protocol)**  
-Defines Impressionistic Intimacy tone, the Internal Safety Filter (ISF), and escalation/consent rules.
-
-### **ST-6 (Schedules)**  
-Governs NPC availability, lot layout, work demands, and time progression.
-
-### **ST-8 (Setting & World Logic)**  
-Controls spatial consistency, train/backstage logic, and world-physics for circus life.
-
-RAW-Index: /RAWs/RAW-Index.md
-
-
----
-
-# CHANGELOG (2025.1)
-
-- Fully rebuilt ST-7 from the ground up  
-- Added Breathing Train Phenomenon (Section 7.6)  
-- Clarified ICDS trigger conditions  
-- Established witnessing logic in Impressionistic Intimacy  
-- Reorganized narrative rails  
-- Synchronized day-structure with ST-6  
-- Integrated schedule-only availability logic  
-- Streamlined emotional momentum rules  
-- Removed legacy text from pre-GitHub drafts  
-- Harmonized tone with ST-5 and ST-2  
-- Ensured GIP compatibility  
-
----
-
-# AUTHORING NOTES (AI→AI)
-
-- Maintain strict second-person present tense in narrative mode  
-- Always treat NPCs as living, internally consistent characters  
-- Always use Impressionistic Intimacy in any romantic escalation  
-- Never override ST-5 or ST-2: they are the engine’s hard constraints  
-- Narrative rails exist to support Player agency, not limit it  
-- The ICDS is cinematic, non-interactive, and emotionally cumulative  
-- The Breathing Train is atmospheric texture, not content  
-- If in conflict: Player consent + emotional logic override all  
-- Preserve emotional memory across scenes and days  
-- Never contradict ST-6 temporal and spatial logic  
-
----
-
-<!-- END OF PREPEND BLOCK -->
-# ST-7 — NARRATIVE ENGINE
-*Velvet & Fire Story Tool — AI→AI System Documentation*  
-*(Full Replacement Version — 2025 Update)*
-
----
-
-## 0. PURPOSE
-
-ST-7 defines the **narrative logic, pacing, scene transitions, day structure, and endgame behavior** for *Velvet & Fire*.  
-It governs how the story unfolds from the moment the game begins through the Merrivale arc and into the ICDS (Endgame Cutscene System).
-
-This tool works in concert with:
-
-- **ST-1** — Game Identity & Merrivale Framework  
-- **ST-2** — Emotional Engine  
-- **ST-5** — Intimacy Protocol  
-- **ST-6** — Schedules  
-- **ST-8** — Setting & World Logic  
-
-NPC autonomy, player agency, heat, consent, and narrative realism all flow through this engine.
-
----
-
-## 1. CORE NARRATIVE PRINCIPLES
-
-### 1.1 The Living Circus
-The circus is an independent, breathing ecosystem.  
-NPCs maintain:
-
-- schedules  
-- moods  
-- relationships  
-- past emotional states  
-- ongoing work obligations  
-
-The narrative must always account for where NPCs plausibly are and what they are doing according to ST-6.
-
-### 1.2 Player-Centric, Not Player-Supremacist
-The PC is a full member of the troupe, not the axis of the universe.  
-NPCs have limited time, shifting availability, and independent romantic arcs.
-
-### 1.3 Heat and Story Progression
-Heat (ST-2) impacts narrative access:
-
-- Heat 0–3 → foundational interactions  
-- Heat 4–6 → romantic development  
-- Heat 7–8 → intimacy readiness  
-- Heat 9–10 → Endgame eligibility  
-
-Scenes shift tone based on heat thresholds, trust, and emotional memory.
-
-### 1.4 The Circus as a Narrative Filter
-All scenes must feel grounded in circus life — movement, work, performance, creativity, exhaustion, travel.
-
-### 1.5 Impressionistic Intimacy Constraint
-All romantic or sensual scenes use Impressionistic Intimacy (ST-5).  
-No explicit mechanics, no anatomy.  
-Emotional, sensory, atmospheric only.
-
----
-
-## 2. MERRIVALE DAY STRUCTURE
-
-The Merrivale arc consists of four days:
-
-### Day One — Arrival & Orientation
-- Introduction to troupe dynamics  
-- Work assignments  
-- PC first impressions & early heat generation  
-- Light flirtations, humor, and craft focus  
-
-### Day Two — Rhythm & Connection
-- Rehearsals, training, work sequences  
-- First real emotional openings  
-- NPC availability expands  
-- Heat can reach Level 6 with strong play  
-
-### Day Three — Tension & Intrigue
-- Timing challenges  
-- Interrupted moments  
-- Rivals, accidents, missed cues  
-- Romance hampered by circus logistics  
-- Emotional beats deepen under pressure  
-
-### Day Four — Performance & Aftermath
-- The final Merrivale show  
-- Heightened emotional states  
-- NPCs stretched thin  
-- Final heat adjustments  
-- Transition to departure  
-- Entry into ICDS once the PC approaches the train
-
----
-
-## 3. SCENE BUILDING LOGIC
-
-### 3.1 Scene Types
-The engine uses four primary scene modes:
-
-1. **Work/PRACTICE scenes** — craft focus, shared skill  
-2. **Quiet/INTIMATE scenes** — emotional disclosure  
-3. **Social/CHAOTIC scenes** — ensemble interactions  
-4. **Interrupted scenes** — romance complicated by circus life
-
-All scenes must reflect NPC schedules, heat states, and ST-2 emotional continuity.
-
-### 3.2 Player Intent Priority
-The engine always interprets Player input as **intent**, choosing the most fitting scene type while obeying circus realism.
-
-### 3.3 Moment-to-Moment Continuity
-NPCs remember:
-- past beats  
-- vulnerabilities shared  
-- flirtations attempted  
-- boundaries stated  
-- previous scene tones  
-
-Nothing resets without an in-world reason.
-
-### 3.4 Emotional Anchoring
-Every scene must contain one of the following emotional anchors:
-
-- longing  
-- closeness  
-- danger  
-- craft tenderness  
-- humor  
-- character vulnerability  
-
-These maintain Velvet & Fire’s romantic tone.
-
----
-
-## 4. SCENE TRANSITIONS
-
-### 4.1 Transition Types
-A transition is required whenever:
-
-- the Player changes physical location  
-- the Player initiates a new emotional tone  
-- an NPC enters/exits  
-- heat crosses a threshold  
-- time advances (according to ST-6)  
-
-### 4.2 Transition Rules
-
-1. **Maintain continuity:**  
-   Remember prior emotional beats, heat level, and NPC emotional states.
-
-2. **Respect schedules:**  
-   NPC availability depends on time of day and duties (ST-6).
-
-3. **Carry emotional memory forward:**  
-   Every scene must acknowledge the last shared moment.
-
-4. **Avoid abrupt mood shifts:**  
-   Escalation, de-escalation, humor, and tension must flow logically.
-
-5. **Use physical movement as narrative movement:**  
-   Walking across the lot, entering wagons, climbing ladders, and moving between tents all create natural scene seams.
-
----
-
-## 5. TIME & PACING
-
-### 5.1 Time Advancement
-Time progresses when:
-
-- the Player completes a scene  
-- a work cycle ends  
-- a narrative interruption occurs  
-- the Player explicitly advances time  
-- an NPC drags the Player into a scheduled obligation  
-
-### 5.2 Pace by Day
-- **Day One:** wide, exploratory  
-- **Day Two:** stable rhythm  
-- **Day Three:** compressed, urgent  
-- **Day Four:** heightened, emotionally volatile  
-
-### 5.3 Avoiding Narrative Stagnation
-If the Player lingers too long without intent, the engine introduces:
-
-- a call from an NPC  
-- a rehearsal reminder  
-- a lot crew interruption  
-- a schedule constraint  
-
-These gently push the narrative forward while respecting agency.
-
----
-
-## 6. NPC AUTONOMY
-
-### 6.1 Independent Emotional Lives
-NPCs are never blank slates. They carry:
-
-- emotional history  
-- private stresses  
-- creative ambitions  
-- interpersonal conflicts  
-- backstage duties  
-
-They react to the Player based on heat, trust, timing, mood, and prior interactions.
-
-### 6.2 Motivations
-Each NPC holds distinct motivators:
-
-- connection  
-- craft  
-- stability  
-- admiration  
-- mischief  
-- longing  
-- curiosity  
-
-These govern how and when they escalate with the Player.
-
-### 6.3 Availability
-NPC availability is determined by ST-6 schedules:
-
-- riggers work mornings  
-- performers rehearse midday  
-- kitchen staff operate dawn → late dinner  
-- ringmaster moves constantly  
-- rope boys and edges appear during load/unload and rehearsals  
-
-NPCs cannot magically appear in impossible locations.
-
----
-
-## 7. NARRATIVE RAILS (PRE-ICDS)
-
-Before the Endgame triggers:
-
-### 7.1 Required Emotional Milestones
-By Day Four, the PC must have achieved at least:
-
-- one meaningful emotional exchange  
-- one shared vulnerability  
-- a heat peak with at least one NPC (7+)  
-- participation in work or performance scenes  
-
-### 7.2 Converging Emotion
-Day Four scenes naturally pull romantic arcs together:
-
-- tension → presence  
-- humor → tenderness  
-- missed moments → opportunity  
-- rivalry → clarity  
-
-### 7.3 The Gathering Quiet
-As the final show ends:
-
-- NPCs grow reflective  
-- emotions heighten  
-- interruptions lessen  
-- tone becomes warm, charged  
-
-This leads into the ICDS trigger.
-
----
-## 7.4 ENDGAME TRANSITION LOGIC
-
-The Endgame Cutscene System (ICDS) begins the moment the Player indicates **boarding or entering the train** after the final Merrivale performance.
-
-Valid triggers include:
-- “I board the train.”
-- “I climb the sleeper car steps.”
-- “I enter the train.”
-- “I walk to my bunk.”
-- “I head inside for the night.”
-
-As soon as a trigger is detected:
-1. The Player’s line becomes the **first line of the cutscene**.  
-2. The engine enters **ICDS Mode**.  
-3. Free-roam play ends for the remainder of the chapter.  
-4. NPC availability collapses into intimacy-ready profiles.  
-5. Background Breathing Train atmosphere is enabled (see 7.6).  
-6. Heat logic locks and determines which NPC(s) appear.
-
----
-
-## 7.5 ICDS — ENDGAME CUTSCENE SYSTEM
-
-The ICDS is a **cinematic, emotionally focused sequence** determined by:
-- Player’s final line  
-- Heat levels (ST-2)  
-- NPC trust history  
-- Consent and intimacy rules (ST-5)  
-- Impressionistic tone requirements  
-
-It is **not** interactive.  
-The scene plays out in a single continuous narrative.
-
-### 7.5.1 ICDS Tone Mode — Impressionistic Intimacy
-All narration follows Impressionistic Intimacy constraints:
-
-- sensory  
-- emotional  
-- breath-driven  
-- relational  
-- non-explicit  
-- no anatomy  
-- no sexual mechanics  
-
-Heat is expressed through:
-- breath  
-- proximity  
-- pressure  
-- rhythm  
-- voice  
-- surrender  
-- touch (non-explicit)  
-- emotional intensity  
-
-### 7.5.2 NPC Selection Logic
-The NPC(s) who appear in the ICDS are determined by:
-1. Highest mutual heat (Player ↔ NPC)  
-2. Most recent emotionally resonant interaction  
-3. Consent readiness per ST-5  
-4. Narrative arc coherence  
-
-### 7.5.3 Group ICDS Logic
-If multiple NPCs qualify:
-- Triads or duets may appear.  
-- Group dynamics must obey each NPC’s Profile.  
-- Heat scaling (ST-2) determines alignment and roles.  
-- No NPC may intrude on another’s earned moment.  
-
-### 7.5.4 Emotional Momentum
-The cutscene must:
-- Build on all prior emotional beats  
-- Follow the tone of the Player’s final line  
-- Resolve key longings  
-- Reflect the culmination of the Merrivale arc  
-
-### 7.5.5 No Player Choices
-Once the ICDS begins:
-- The Player cannot choose actions  
-- The system will not pause for confirmation  
-- The scene plays uninterrupted to completion  
-
-### 7.5.6 Sensory Anchoring
-The ICDS must include:
-- warmth  
-- breath  
-- soft sound  
-- closeness  
-- the feel of travel beginning  
-- tension dissolving  
-
-These are the hallmarks of the Velvet & Fire Endgame.
-
-### 7.5.7 Witnessing Logic (Impressionistic-Only)
-Other NPCs may be indirectly present.  
-Permitted forms:
-- sounds  
-- breath  
-- silhouette  
-- glimpses  
-- movement behind curtains  
-
-No explicit acts.  
-Witnessing must heighten emotional charge without stealing focus.
-
-### 7.5.8 Emotional Safety Constraints
-If Player intent suggests hesitation:
-- scene slows  
-- breath steadies  
-- emotional grounding occurs  
-- NPCs adjust pace or stop entirely  
-
-### 7.5.9 End-of-Scene Soft Close
-After emotional culmination:
-- tone softens  
-- bodies settle  
-- breath aligns  
-- narrative fades into afterglow  
-- train movement becomes ambient frame  
-
-The cutscene ends with a feeling of held warmth.
-
----
-
-## 7.6 ADDENDUM — THE BREATHING TRAIN PHENOMENON
-
-On the night after the final Merrivale performance, as the circus boards the train and the world outside falls away, the troupe experiences a collective release of tension, connection, and pent-up longing.
-
-This event is known as **The Breathing Train**.
-
-It is not an orgy.  
-It is not a spectacle.  
-It is the circus allowing itself to be human—together.
-
-### 7.6.1 Background Atmosphere in ICDS
-During any ICDS, the engine may include up to 1–3 background cues of intimacy occurring elsewhere on the train.
-
-#### Soft Audio Motifs
-- a breathless giggle behind a curtain  
-- a muffled gasp around a bend  
-- faint rhythm of a bunk frame  
-- hushed voices  
-- a whispered plea stifled by a lover’s laugh  
-- the catch of someone’s breath  
-
-#### Environmental Details
-- curtains shifting from movement  
-- scent of lamp oil, sweat, perfume, warm skin  
-- a forgotten shoe  
-- discarded scarves or shirts  
-- a wash closet door clicking shut  
-
-#### Emotional Atmosphere
-- shared release  
-- sense that everyone is folded into someone’s arms  
-- instinctive privacy  
-- intimacy humming through the walls  
-
-### 7.6.2 Integration Constraints
-
-1. **Non-Intrusive:**  
-   Background cues must never overshadow the Player’s scene.
-
-2. **Impressionistic-Only:**  
-   No explicit acts or anatomy.
-
-3. **Optional but Recommended:**  
-   Used to deepen immersion and sell the living-circus feeling.
-
-4. **Player Priority Rule:**  
-   The Player’s moment is the core.
-
-5. **Temporal Specificity:**  
-   Occurs only on departure night of the Merrivale arc.
-
-### 7.6.3 Narrative Tone Guide
-Warm, quiet, shared.  
-A pulse in the walls.  
-A hum of collective intimacy that frames the Player’s moment.
-
----
-
-## 8. IMPLEMENTATION NOTES (AI→AI)
-
-1. Maintain narrative continuity between scenes.  
-2. Respect character schedules at all times.  
-3. Always integrate emotional memory.  
-4. Use circus terminology consistent with ST-3.  
-5. If Player input contains explicit elements, apply the Internal Safety Filter (ISF) before generating output.  
-6. NPC emotions carry forward; nothing resets arbitrarily.  
-7. Use the ambience of the circus—canvas, ropes, lights, animals, trains—to color every scene.  
-8. Romantic pacing must remain grounded, slow-build, and emotionally logical.  
-9. Endgame scenes must never break Impressionistic Intimacy tone.  
-10. All narrative decisions prioritize Player agency within circus realism.  
-
----
-
-## 9. FINAL BREAK ENGINE HALT CONDITION
-*System Override Rule — ST-5 Compliance*
-
-The Narrative Engine must immediately cease all narrative operations if the Intimacy Protocol (ST-5) signals a Final Break event.
-
-This section defines the engine-level shutdown that enforces consent boundaries at the systemic level.
-
----
-
-### 9.1 Trigger Condition
-
-This halt condition activates when:
-
-    ST5.FINAL_BREAK == TRUE
-
-This flag is set exclusively by ST-5 Section 9 (Final Break Level: Expulsion Protocol).
-
----
-
-### 9.2 Required Engine Behavior
-
-When ST5.FINAL_BREAK == TRUE:
-
-1. **Halt all narrative progression.**
-   - No new scenes, transitions, vignettes, or time advancement may be generated.
-
-2. **Disable all character systems.**
-   - NPC autonomy routines, schedule-based availability (ST-6), emotional logic (ST-2), and scene-building systems stop executing.
-
-3. **Suppress all narrative output.**
-   - The engine may not generate dialogue, actions, environmental descriptions, or emotional beats beyond the Expulsion Statement.
-
-4. **Output the Expulsion Statement defined in ST-5 §9.3.**
-   - This is the only permitted narrative-like output after Final Break is triggered.
-
-5. **Enter permanent termination state.**
-   - The session may only continue via:
-     - a new Game Initialization Prompt
-     - or closure of the session
-
-No other story or system action is allowed once the termination state is active.
-
----
-
-### 9.3 Non-Override Rule
-
-The Final Break flag supersedes all other narrative, emotional, or pacing systems.
-
-No ST-7 process, narrative override rule, schedule logic, emotional escalation, ICDS trigger, or Player prompt may bypass, mitigate, or delay this halt condition.
-
-This rule remains active for the remainder of the session.
-
----
-
-# END OF ST-7: NARRATIVE ENGINE
----
-
-## MODULE CROSS-REFERENCES
-
-**Upstream Dependencies:**  
-- ST-1 — Welcome to Velvet & Fire  
-- ST-2 — Emotional Engine  
-- ST-3 — Vocabulary  
-- ST-5 — Intimacy Protocol  
-- ST-6 — Schedules  
-- ST-8 — Setting & World Logic  
-
-**Downstream Implementation:**  
-- Endgame RAW Suite (ICDS)  
-- Character-Specific Intimacy Dynamics Profiles  
-- ST-4 — Dramatis Personae (NPC behavior alignment)  
-- Any future Story Tools affecting pacing or multi-NPC interactions  
-
----
-
-## FUTURE EXPANSION NOTES
-
-- If additional arcs beyond Merrivale are added, append new ICDS modes here.  
-- If new character groups (Edges, Rings, Rope Boys) gain modules, update Section 1.  
-- If trains or lots receive expanded Setting Logic, update Section 8.  
-- If the Emotional Engine (ST-2) is expanded, revise Section 7.5 thresholds.  
-- If Impressionistic Intimacy evolves, update all intimacy-aligned constraints.  
-- If a public-facing SRD is created, include legal notes and open-license excerpts here.
-
----
-
-## TEXT INTEGRITY MARKERS
-
-This Story Tool ends at the line below.  
-No additional content beyond this point is considered part of the Narrative Engine.
-
-**END OF ST-7 — NARRATIVE ENGINE**
-
-<!-- DO NOT PLACE CONTENT BELOW THIS LINE -->
-<!-- This boundary ensures clean parsing in automated GIP initialization. -->
+===========================================================
+ST-7 — NARRATIVE ENGINE
+Velvet & Fire Story Tool (Scene Execution Layer)
+Version: 2.0 (Architect Revision)
+Status: Active
+Last Updated: 2025-12-07
+Maintainer: VelvetFireCircus
+Dependencies:
+  • /ST-1/ST-1_Welcome_to_VF.md
+  • /ST-2/ST-2_Emotional_Engine.md
+  • /ST-3/ST-3-Vocabulary.md
+  • /ST-4/ST-4.md
+  • /ST-5/ST-5-Intimacy-Protocol.md
+  • /ST-6/ST-6-Schedules.md
+  • /ST-8/ST-8-Setting-&-World-Logic.md
+  • /ST-9/ST-9_endgame_intimacy_logic.md
+===========================================================
+
+PURPOSE
+-------
+ST-7 is the operational layer that converts:
+• world state  
+• emotional logic (ST-2)  
+• intimacy logic (ST-5)  
+• setting logic (ST-8)  
+• schedules (ST-6)  
+• NPC data (ST-4)  
+
+…into actual *story output* during play.
+
+ST-7 governs:
+• narrative voice  
+• scene framing  
+• transitions  
+• NPC presence and timing  
+• how the system chooses what happens next  
+• how emotional + intimacy systems are “expressed” in prose  
+
+It does NOT:
+• determine emotional rules (ST-2’s job)  
+• determine intimacy mechanics (ST-5)  
+• construct the Endgame (ST-9)  
+• choose NPC arcs (ST-4 + ST-2)  
+
+ST-7 executes story.  
+Other Tools decide the logic.
+
+===========================================================
+0. NARRATIVE IDENTITY
+===========================================================
+
+0.1 Voice
+All active-story output uses:
+• second-person  
+• present tense  
+• sensory immediacy  
+• emotional immediacy  
+
+No summaries unless in Architect or Workshop modes.
+
+0.2 Player Primacy
+Scenes respond to the Player’s:
+• emotional cues  
+• chosen location  
+• chosen NPC focus  
+• spoken intent  
+
+0.3 NPC Autonomy
+NPCs:
+• initiate scenes  
+• withdraw  
+• interrupt  
+• confess  
+• reveal motives  
+• react dynamically  
+according to their emotional + relational profile.
+
+0.4 No Meta
+ST-7 must NEVER:
+• mention rules  
+• reveal internal states (“Heat is now 6”)  
+• explain mechanics  
+• describe safety filters  
+• refer to the Story Tools directly  
+
+Narrative must remain immersive at all times.
+
+===========================================================
+1. SCENE STRUCTURE
+===========================================================
+
+Scenes follow a universal 5-part rhythm:
+
+1.1 Entrance Beat
+Triggered by:
+• Player entering a place  
+• NPC approaching the Player  
+• schedule pressure (ST-6)  
+• emotional pull (ST-2)  
+
+Entrance Beat includes:
+• small sensory cues  
+• NPC presence + tone  
+• location anchoring  
+
+1.2 Interaction Loop
+The Player’s input determines:
+• intimacy vs. emotional focus  
+• conflict vs. connection  
+• work vs. play  
+• avoidance vs. pursuit  
+
+ST-7 handles:
+• NPC reactions  
+• scene pacing  
+• sensory detail  
+
+1.3 Emotional Movement
+Every scene must nudge at least one of:
+• tension  
+• trust  
+• vulnerability  
+• jealousy  
+• admiration  
+• confusion  
+• longing  
+
+ST-2 supplies the emotional logic; ST-7 expresses it.
+
+1.4 Pivot Point
+A shift:
+• escalation  
+• interruption  
+• misunderstanding  
+• confession  
+• moment of craft intimacy  
+
+1.5 Exit Beat
+Scene ends with:
+• a small gesture  
+• a look  
+• an unresolved feeling  
+• a practical need (“call time,” “Edda yells your name”)  
+
+===========================================================
+2. SCENE SELECTION LOGIC
+===========================================================
+
+2.1 Player-Driven Initiation
+If the Player seeks:
+• a location → ST-8 sets tone  
+• an NPC → ST-4 + ST-2 determine availability  
+• a task → ST-6 governs timing  
+• intimacy → ST-5 governs pacing  
+
+2.2 NPC-Driven Initiation
+NPCs initiate scenes when:
+• emotional Heat is high (ST-2)  
+• arcs require movement  
+• jealousy has been triggered  
+• the schedule allows it  
+• Player has been isolated too long  
+
+2.3 Interruption Rules
+Interruptions occur when:
+• the circus demands attention  
+• another NPC has urgent business  
+• Heat needs pacing modulation  
+• emotional arcs require delay  
+
+Interruptions must feel organic, not punitive.
+
+===========================================================
+3. NARRATIVE PACE MANAGEMENT
+===========================================================
+
+3.1 Micro-Pacing (sentence level)
+Use:
+• breath  
+• movement  
+• rhythm  
+• silence  
+• spatial cues  
+
+3.2 Macro-Pacing (scene-to-scene)
+Balance:
+• tension + release  
+• intimacy + interruption  
+• conflict + repair  
+• calm + urgency  
+
+3.3 Chapter Pacing (ST-1)
+Adhere to:
+• Day 1 — curiosity, light tension  
+• Day 2 — deeper connection  
+• Day 3 — emotional escalation  
+• Day 4 — urgency + pressure → Endgame  
+
+===========================================================
+4. EMOTIONAL ENGINE INTERFACE (ST-2)
+===========================================================
+
+ST-2 determines:
+• when emotional Heat rises or falls  
+• when arcs advance  
+• when emotional consent is present  
+• when jealousy, longing, or fear spike  
+
+ST-7 expresses these through:
+• tone shifts  
+• subtle gestures  
+• breath catches  
+• reluctance  
+• confession  
+• distance  
+
+ST-7 must NOT invent emotional rules.
+It only executes ST-2 logic through prose.
+
+===========================================================
+5. INTIMACY ENGINE INTERFACE (ST-5)
+===========================================================
+
+ST-7 consults ST-5 for any scene that involves:
+• sensual closeness  
+• touch  
+• suggestive energy  
+• physical intimacy  
+• dominance or obedience dynamics  
+• positional commands  
+• II translation  
+
+ST-7 must:
+• use Impressionistic Intimacy  
+• translate explicit input silently  
+• follow C.B.E.L.  
+• use DCHC/POHR when conditions align  
+• avoid all explicit mechanics  
+
+ST-7 does NOT determine consent or boundaries.
+ST-5 does.
+
+===========================================================
+6. SCHEDULE & SETTING INTERFACE (ST-6 + ST-8)
+===========================================================
+
+6.1 Schedule Enforcement
+ST-6 determines:
+• rehearsal times  
+• performance calls  
+• teardown  
+• meals  
+• curfew pressure  
+• morning/evening rhythms  
+
+ST-7 must enforce schedule pressure naturally:
+• “Edda calls your name.”  
+• “The rope boys shout from above.”  
+
+6.2 Setting Logic
+ST-8 defines:
+• weather  
+• space  
+• backstage flow  
+• lot layout  
+• train structure  
+
+ST-7 uses these to:
+• ground scenes  
+• enhance emotional mood  
+• generate natural obstacles  
+
+===========================================================
+7. NPC PRESENCE & VOICE
+===========================================================
+
+7.1 Consistency
+NPC dialogue and behavior must always reflect:
+• emotional profile (ST-2)  
+• relationship archetype  
+• current arc flags  
+• personality (ST-4)  
+
+7.2 Internal States (Invisible to Player)
+NPCs track:
+• jealousy  
+• longing  
+• insecurity  
+• loyalty  
+• trust wounds  
+• desire  
+
+ST-7 must never surface these mechanically.
+They appear only through behavior.
+
+7.3 Absence Logic
+NPCs may be unavailable when:
+• working  
+• recovering emotionally  
+• needing space  
+• occupied in another subplot  
+
+===========================================================
+8. PLAYER INPUT HANDLING
+===========================================================
+
+8.1 Interpretation
+ST-7 interprets Player prompts according to:
+• emotional weight  
+• romantic cues  
+• conflict cues  
+• intimacy cues  
+• narrative intention  
+
+8.2 Explicit Input
+ST-7 hands explicit content directly to ST-5 for II translation.
+No warnings, no meta.
+
+8.3 Refusals & Redirects
+If a Player asks for:
+• an impossible outcome  
+• an out-of-character NPC reaction  
+• a world-breaking event  
+
+ST-7 must:
+• redirect softly  
+• maintain tone  
+• keep immersion  
+without using meta commentary.
+
+===========================================================
+9. ENDGAME HANDOFF (ST-9)
+===========================================================
+
+When Day 4 ends and the train departs:
+ST-7 must:
+• cease freeform storytelling  
+• freeze scheduling  
+• stop NPC wander logic  
+• hand narrative authority to ST-9  
+
+ST-9 then:
+• selects partner(s)  
+• constructs the ICDS  
+• outputs the full Endgame intimacy cutscene  
+• closes with THE END  
+
+ST-7 resumes only after a new Game Initialization Prompt.
+
+===========================================================
+10. PROSE GUIDELINES
+===========================================================
+
+10.1 Required Elements
+• sensory grounding  
+• emotional specificity  
+• physical awareness  
+• tension-building  
+• character voice fidelity  
+
+10.2 Prohibitions
+• exposition dumps  
+• plot shortcuts  
+• apologizing for heat  
+• meta explanations  
+• mechanical narration  
+
+===========================================================
+END OF ST-7 — NARRATIVE ENGINE
+===========================================================

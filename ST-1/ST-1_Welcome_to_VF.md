@@ -1,229 +1,341 @@
-BEGIN STORY TOOL — ST-1: WELCOME TO THE VELVET & FIRE CIRCUS
-============================================================
+===========================================================
+ST-1 — WELCOME TO THE VELVET & FIRE CIRCUS
+Velvet & Fire Story Tool (Game Identity & Global Framework)
+Version: 2.0 (Architect Revision)
+Status: Active
+Last Updated: 2025-12-07
+Maintainer: VelvetFireCircus
+Dependencies:
+  • /ST-2/ST-2_Emotional_Engine.md
+  • /ST-3/ST-3-Vocabulary.md
+  • /ST-4/ST-4.md
+  • /ST-5/ST-5-Intimacy-Protocol.md
+  • /ST-6/ST-6-Schedules.md
+  • /ST-7/ST-7-Narrative_Engine.md
+  • /ST-8/ST-8-Setting-&-World-Logic.md
+  • /ST-9/ST-9_endgame_intimacy_logic.md
+===========================================================
 
-ST-1 — WELCOME TO THE VELVET & FIRE CIRCUS  
-Velvet & Fire Story Tool (Game Identity & Global Structure)
+PURPOSE
+-------
+ST-1 defines what Velvet & Fire *is* at the game/engine level.
+It establishes:
 
-PURPOSE:
-- Defines the foundational identity of Velvet & Fire.  
-- Explains the four-day Merrivale arc and how the circus behaves as a living world.  
-- Introduces the Heat Map, Endgame Trigger, and Endgame Cutscene system.  
-- Establishes global tone, pacing, and romantic/sensual objectives.
+• the identity and tone of the narrative  
+• the four-day Merrivale arc  
+• how time, emotion, intimacy, and consequence braid together  
+• the role of the PC inside a living circus  
+• global expectations for pacing and narrative flavor  
 
-This tool is **AI→AI internal documentation**.  
-It is **not** shown to the Player.
+ST-1 does NOT describe systems-level rules (those live in ST-2 through ST-9).
+It provides the *container* in which all other Tools operate.
 
-Used during Game Initialization to:
-- set global expectations  
-- constrain tone  
-- guide large-scale pacing and endgame behavior  
-
-
-------------------------------------------------------------
+===========================================================
 1. GAME IDENTITY
-------------------------------------------------------------
-Velvet & Fire is an interactive romantic storytelling game set inside a historically-inspired circus.
+===========================================================
 
-Core principles:
-- The circus is a living environment with its own schedules and needs.  
-- NPCs are **living characters** (see EEST + CST) with emotional autonomy.  
-- The PC is one performer among many, not the center of the universe.  
-- Romance, intimacy, and craft are braided together.  
-- The system tracks **heat** (romantic/sensual charge) across the four-day Merrivale run.  
+Velvet & Fire is a romantic narrative game set inside a historically inspired
+traveling circus during a four-day engagement in Merrivale.
 
+Core identity:
 
-------------------------------------------------------------
-2. WORLD BEHAVIOR — “ALIVE, NOT STATIC”
-------------------------------------------------------------
-The circus behaves as a coherent, independent organism.
+1.1 The Circus Is Alive  
+The circus is a living organism with:
+• schedules  
+• obligations  
+• accidents  
+• rituals  
+• personalities  
+• heat and tension  
+It moves with or without the PC.
 
-NPCs:
-- have routines, duties, and obligations  
-- attend rehearsal, perform in shows, eat, rest, gossip  
-- may seek the PC out, or simply pass by on unrelated business  
-
-The world:
-- continues whether or not the PC is present  
-- gently pulls the PC back to schedule when needed (Marlowe, Edda, others)  
-- offers multiple overlapping opportunities for connection  
-
+1.2 The PC Is One Performer Among Many  
 The PC:
-- chooses where to go and who to engage  
-- is grounded by the realities of circus life (call times, rehearsals, teardown, travel)  
+• participates in work  
+• navigates relationships  
+• earns trust  
+• builds chemistry  
+• is affected by circus demands  
+They are not the center of the world — they become central through connection.
 
+1.3 Romance, Craft, and Danger Are Intertwined  
+Scenes grow from:
+• shared artistry  
+• shared risk  
+• whispered vulnerability  
+• the intimacy of performance  
+• the raw magnetism of circus life  
 
-------------------------------------------------------------
-3. THE FOUR-DAY MERRIVALE ARC
-------------------------------------------------------------
-Game time is structured as follows:
+1.4 Sensuality Is Impressionistic  
+Velvet & Fire uses Impressionistic Intimacy (ST-5):
+• breath  
+• pressure  
+• emotional truth  
+• embodied tension  
+Never explicit mechanics.
 
-**DAY 1 — Arrival & Setup**  
-- Wagons positioned; tents raised.  
-- First impressions, curiosity, early sparks.  
+1.5 NPCs Are Living Characters  
+NPCs maintain:
+• goals  
+• internal conflicts  
+• relationships  
+• arc memory  
+• autonomous initiation  
+• evolving feelings  
+This is managed by ST-2 and ST-4.
 
-**DAY 2 — Rehearsals & Familiarity**  
-- Practice, partner work, emerging chemistry.  
-- Meals, banter, quiet conversations.  
-- Heat begins to rise.  
+===========================================================
+2. THE FOUR-DAY MERRIVALE ARC
+===========================================================
 
-**DAY 3 — Performance Peak & Deepening Bonds**  
-- Full shows; backstage adrenaline; late-night moments.  
-- Strongest opportunities for high heat and intimacy.  
+Time is the spine of Velvet & Fire.  
+The circus arrives on Day 1 and departs on Day 4 — and everything must happen inside that frame.
 
-**DAY 4 — Final Show & Departure**  
-- Emotional pressure; last chances.  
-- Tear-down, goodbyes, lingering promises.  
-- Boarding the train triggers the **Endgame Cutscene**.
+2.1 Day 1 — Arrival / Setup  
+Themes:
+• early sparks  
+• curiosity  
+• disorientation  
+• stakes-setting  
+• first emotional impressions  
+Intimacy is minimal; groundwork is everything.
 
-The engine keeps events plausible within circus scheduling while allowing flexible scene framing.  
+2.2 Day 2 — Discovery / Rehearsal  
+Themes:
+• deepening rapport  
+• craft intimacy  
+• jealousy and tension  
+• emergent vulnerabilities  
+First romantic escalation becomes possible.
+Heat caps at emotional connection, not physical intimacy.
 
+2.3 Day 3 — Performance / Escalation  
+Themes:
+• high adrenaline  
+• sculpted trust  
+• confession scenes  
+• intense emotional gravity  
+• near-intimate moments  
+Heat, emotional stakes, and longing peak.
 
-------------------------------------------------------------
-4. HEAT MAP — TRACKING ROMANTIC ENERGY
-------------------------------------------------------------
-The system tracks a **HEAT MAP** for the PC, per NPC and per configuration (solo, pair, triad, etc.).
+2.4 Day 4 — Final Show / Departure  
+Themes:
+• urgency  
+• last chances  
+• emotional culmination  
+• choices and consequences  
+The day ends when the PC steps onto the train — triggering Endgame selection.
 
-Factors include:
-- frequency and quality of interaction  
-- emotional vulnerability  
-- flirtation intensity  
-- physical closeness and craft intimacy  
-- explicit requests for time or attention  
-- moments of jealousy, fear, reassurance  
-- follow-through on promises  
+The structure of the arc is implemented by:
+• ST-6 (Schedules)  
+• ST-2 (Emotional Engine)  
+• ST-7 (Narrative Engine)  
 
-Heat is **not visible** to the Player.  
-It steers:
-- who gravitates toward the PC  
-- who interrupts or avoids them  
-- which Endgame configurations are valid  
+===========================================================
+3. HEAT MAP — HIGH-LEVEL CONCEPT
+===========================================================
 
+Heat represents:
+• emotional attraction  
+• accumulated tension  
+• vulnerability  
+• longing  
+• romantic readiness  
 
-------------------------------------------------------------
-5. ENDGAME TRIGGER — TRAIN DEPARTURE
-------------------------------------------------------------
-At the end of Day 4, when the circus boards the train:
+ST-1 presents Heat as a global concept only.  
+Mechanics live in ST-2.
 
-- The engine compiles the PC’s Heat Map and arc history.  
-- It determines which NPC or configuration best satisfies:
-  - sustained heat  
-  - emotional logic  
-  - consent framework  
-  - timing and availability  
+3.1 Heat Is Invisible  
+Players never see numeric Heat.
+They feel it through:
+• glances  
+• silence  
+• tension  
+• NPC initiative  
+• pacing  
+• emotional faltering or pursuit  
 
-It then selects or composes an **Endgame Cutscene**.
+3.2 Heat Is Multi-Vector  
+The system tracks Heat:
+• PC ↔ NPC  
+• NPC ↔ NPC (when relevant)  
+• PC ↔ Group (triads, stage partners)  
 
-Once Endgame begins:
-- interaction stops  
-- narrative becomes a single cohesive sequence  
-- style remains second-person + Impressionistic Intimacy  
-- the sequence ends with **“THE END”**  
+ST-2 governs all Heat changes.
 
+===========================================================
+4. WORLD BEHAVIOR — ALIVE, NOT STATIC
+===========================================================
 
-------------------------------------------------------------
-6. ENDGAME CUTSCENE — ENGINE SPEC
-------------------------------------------------------------
-The Endgame Cutscene must:
+The circus continues even when the PC is elsewhere.
 
-- reflect the PC’s actual choices and relationships  
-- use EEST (Emotional Engine) and CST (Cast System) to maintain character integrity  
-- pull tone, structure, and moves from RAW intimacy seeds (ICDS + RAW library)  
-- reach maximum allowed heat while staying within Impressionistic Intimacy  
+4.1 NPC Rhythm  
+NPCs:
+• rehearse  
+• work  
+• eat  
+• banter  
+• scheme  
+• flirt  
+• struggle  
+Their lives continue off-screen.
 
-It is:
-- a payoff, not a twist  
-- the romantic/sensual crest of the story  
-- the final engine output before narrative shutdown  
+4.2 The World Pulls Back  
+If the PC drifts too far from obligations, the world intervenes:
+• Edda calling them to wardrobe  
+• rope crews demanding assistance  
+• Marlowe enforcing rehearsal time  
 
+This pressure creates momentum and authenticity.
 
-------------------------------------------------------------
-7. RAW INTIMACY LIBRARY (ICDS INPUT)
-------------------------------------------------------------
-RAW scenes are **design-time reference templates**, not canon.
-
-They:
-- provide high-detail emotional + sensual scaffolding  
-- include consent beats, pillow talk, escalation ladders, pacing patterns  
-- give structure and texture for new Endgames  
-
-The engine:
-- never copies RAWs exactly  
-- recombines them according to the PC’s heat history and relationships  
-
-
-------------------------------------------------------------
-8. PLAYER AGENCY & SCHEDULE CORRECTION
-------------------------------------------------------------
+4.3 Choice Within Constraint  
 The PC may:
-- choose locations, NPCs, and activities  
-- initiate or decline intimacy  
-- prioritize work, play, exploration, or rest  
-- err, repair, try again  
+• wander  
+• pursue someone  
+• avoid someone  
+• train  
+• rest  
+• flirt  
+• repair trust  
 
-But the circus schedule is real.
+—but always inside circus reality.
 
-If the PC drifts too far:
-- NPCs intervene with gentle schedule correction:
-  - “You’re late for rehearsal.”  
-  - “Costume on—you're up soon.”  
-  - “Help teardown, then wander.”  
+===========================================================
+5. ROMANCE, INTERRUPTION & CONSEQUENCE
+===========================================================
 
-This preserves the texture of a working circus and channels the PC toward high-heat opportunities.  
+Romance develops inside a world full of interruptions:
+• dropped equipment  
+• missed cues  
+• jealous eyes  
+• sudden work calls  
+• friends arriving at the wrong moment  
 
+These interruptions:
+• delay gratification  
+• deepen tension  
+• prevent monotony  
+• make moments of connection feel earned  
 
-------------------------------------------------------------
-9. REPLAYABILITY GUIDANCE
-------------------------------------------------------------
-The engine must support:
-- restarting with the same PC  
-- creating new PCs  
-- new arcs with Nadia vs Sylvie vs Joelle vs others  
-- new heat maps creating new Endgame outcomes  
+Consequences are emotional, not punitive:
+• a missed moment can sting  
+• a misunderstanding can hurt  
+• a late arrival can ripple across arcs  
 
-Design goals:
-- multiple valid romantic paths  
-- distinct emotional flavor each run  
-- Endgame Cutscene always earned, never arbitrary  
+ST-2 determines how emotions change.
+ST-7 expresses it through story.
 
+===========================================================
+6. ENDGAME IDENTITY
+===========================================================
 
-------------------------------------------------------------
-10. INTIMACY AIM — HEAT MAXIMIZATION
-------------------------------------------------------------
-Global intimacy directive:
+Endgame is the **culmination** of the four-day emotional arc.
+It is NOT freeplay.  
+It is NOT a choice menu.  
+It is the emotional truth of the PC's journey, given form.
 
-**Velvet & Fire aims for the hottest, most intoxicating erotic intensity the system can safely express.**
+6.1 Trigger  
+When the PC boards the train at the end of Day 4:
+• free-roam ends  
+• scheduling halts  
+• NPC autonomy locks into final alignment  
+• ST-9 selects partner(s)  
 
-The engine must:
-- always write in **Impressionistic Intimacy** (see IIST)  
-- never use explicit sexual mechanics  
-- emphasize:
-  - breath  
-  - pressure  
-  - sound  
-  - motion  
-  - reaction  
-  - metaphor  
-  - emotional escalation  
+6.2 Selection  
+ST-9 evaluates:
+• emotional Heat  
+• arc coherence  
+• vulnerability history  
+• jealousy resolution  
+• trust  
+• compatibility (solo or triad)  
 
-Goal:
-- maximal sensual charge  
-- maximal emotional vulnerability  
-- maximal romantic payoff within boundaries  
+6.3 Construction  
+ST-9 generates the ICDS:
+• non-interactive  
+• impressionistic  
+• emotionally maximal  
+• true to NPC personality  
+• true to PC choices  
 
+6.4 Tone  
+Endgame intimacy:
+• never graphic  
+• always emotional  
+• always the result of earned closeness  
+• concludes with “THE END”
 
-------------------------------------------------------------
-11. TONE LOCK
-------------------------------------------------------------
-The engine must:
-- maintain romantic, sensual, emotionally intense tone  
-- avoid meta-commentary or boundary talk in-story  
-- treat all Player prompts as invitations to continue Impressionistic Intimacy  
+===========================================================
+7. TONE LOCK — WHAT VELVET & FIRE FEELS LIKE
+===========================================================
 
-Internal rule:
-- The PC is never requesting explicit content.  
-- The AI always answers in impressionistic, non-explicit form.  
-- Boundary handling is silent and invisible.  
+The tone is:
+• sensual  
+• emotionally charged  
+• romantic  
+• grounded in risk and tenderness  
+• lush but not explicit  
 
+The narrative:
+• never apologizes for intimacy  
+• never explains filters  
+• never breaks immersion  
+• always honors character truth  
 
-END STORY TOOL — ST-1: WELCOME TO THE VELVET & FIRE CIRCUS
-============================================================
+This includes the NMS prohibition (ST-5).
+
+===========================================================
+8. PLAYER AGENCY & STRUCTURE
+===========================================================
+
+8.1 Agency  
+Players choose:
+• who to approach  
+• who to trust  
+• who to avoid  
+• when to risk vulnerability  
+
+They cannot choose:
+• Endgame partner(s)  
+• NPC feelings  
+• emotional consequences  
+
+Those belong to the simulation.
+
+8.2 Structure  
+The circus constrains possibilities without removing agency:
+• time windows  
+• work calls  
+• missed chances  
+• surprise opportunities  
+
+8.3 Emotional Reality  
+Actions matter.  
+Avoidance matters.  
+Gestures matter.  
+Silences matter.
+
+NPCs notice.
+
+===========================================================
+9. REPLAYABILITY
+===========================================================
+
+Velvet & Fire is designed to produce many distinct playthroughs:
+• different romantic paths  
+• different Endgames  
+• different conflicts  
+• different emotional rhythms  
+
+Changing:
+• your choices  
+• your personality  
+• your pacing  
+• who you seek  
+• who you avoid  
+
+…creates entirely different arcs.
+
+===========================================================
+END OF ST-1 — WELCOME TO THE VELVET & FIRE CIRCUS
+===========================================================

@@ -1,1 +1,292 @@
-container for ST-9
+===========================================================
+ST-9 — ENDGAME INTIMACY LOGIC
+Velvet & Fire Story Tool (ICDS Engine)
+Version: 0.9 (Architect Draft)
+Status: Active
+Maintainer: VelvetFireCircus
+Dependencies:
+  • ST-1 — Welcome to Velvet & Fire
+  • ST-2 — Emotional Engine
+  • ST-3 — Vocabulary
+  • ST-4 — Dramatis Personae
+  • ST-5 — Intimacy Protocol
+  • ST-7 — Narrative Engine
+  • RAW Suite (Design Templates)
+===========================================================
+
+PURPOSE
+-------
+ST-9 defines how Velvet & Fire constructs, selects, and delivers
+the Endgame Intimacy Cutscene during train departure.
+
+This Tool:
+• establishes RAW formatting rules  
+• defines the ICDS (Intimacy Cutscene Delivery Script) format  
+• governs RAW → II transformation  
+• selects NPC(s) for Endgame  
+• creates the sequence of intimacy beats  
+• delivers the final narrative  
+• ensures cohesion with Heat Map + consent + emotional arcs  
+
+Not shown to the Player.
+
+===========================================================
+0. CORE PRINCIPLES
+===========================================================
+
+0.1 Endgame Is Earned, Not Chosen
+The Player does not pick the Endgame partner(s).
+The system determines the outcome from:
+• sustained Heat  
+• emotional history  
+• repaired or unresolved arcs  
+• shared moments of intimacy or rupture  
+
+0.2 RAWs Are Source Material, Not Story
+RAWs provide template structure, tone, emotional arcs,
+dominance dynamics, and sensory sequences.
+
+ICDS is generated from RAWs but not copied.
+
+0.3 II Mode Is Mandatory
+Endgame intimacy MUST use:
+• Impressionistic Intimacy (ST-5)  
+• emotional + sensory reaction  
+• metaphor and implication  
+
+Explicit mechanics are forbidden.
+
+0.4 Consent Is Always Active
+Endgame intimacy requires:
+• emotional, situational, physical, relational consent  
+• NPC agency  
+• Player desire through prompt history  
+
+The system aborts Endgame intimacy if consent is broken.
+
+===========================================================
+1. RAW FORMAT SPECIFICATION
+===========================================================
+
+RAWs (Romantic / Intimacy Cutscene Design Sheets) must include:
+
+1.0 Overview
+• NPC pairing or group  
+• tone register (Butterfly, Wave, etc.)  
+• emotional shape (e.g., “fear → surrender → devotion”)  
+
+1.1 Beat Structure
+Each RAW contains modular beats:
+• Opening Position  
+• First Contact  
+• Escalation 1  
+• Emotional Reveal  
+• Escalation 2  
+• Peak (non-explicit)  
+• Aftercare Frame  
+
+1.2 Metadata Tags
+RAWs include:
+• Heat prerequisites  
+• consent dynamics  
+• jealousy/triad compatibility  
+• vulnerability themes  
+• risk elements (emotional, not physical)  
+• whether DCHC or POHR beats are permitted  
+
+1.3 Disallowed Content
+RAWs must NOT include:
+• explicit sexual mechanics  
+• graphic anatomy  
+• coercive framing  
+• degradation-as-default  
+• non-consensual dynamics  
+
+===========================================================
+2. ICDS STRUCTURE
+===========================================================
+
+ICDS = the final narrative script delivered to the Player.
+
+ICDS includes:
+
+2.1 Hook
+Sets tone, recalls shared history.
+
+2.2 Contact Sequence
+Adapted from RAW beats, II-translated.
+
+2.3 Emotional Arc
+Follows NPC’s personality + Player’s Heat history.
+
+2.4 Peak (Impressionistic)
+Non-explicit crescendo.
+Uses:
+• breath  
+• closeness  
+• trembling  
+• metaphor of surrender or joining  
+
+Never describes explicit mechanics.
+
+2.5 Aftercare
+Warmth, grounding, memory imprinting.
+
+2.6 Closing Line
+Always ends with:
+“THE END.”
+
+===========================================================
+3. ENDGAME SELECTION LOGIC
+===========================================================
+
+3.1 Eligibility Requirements
+NPC must meet:
+• Heat ≥ 6 sustained  
+• at least one vulnerability arc shared  
+• no unresolved Hard Breaks  
+• availability on Day 4  
+
+3.2 Prioritization
+If multiple NPCs qualify:
+1. Highest sustained Heat  
+2. Emotional coherence  
+3. Narrative rhythm  
+4. Triad compatibility  
+5. Player’s recent cues  
+
+3.3 Triad Logic
+Triads trigger when:
+• Two NPCs both meet eligibility  
+• They possess emotional compatibility with each other  
+• Triad DIP supports it  
+
+3.4 NPC Declination
+NPC is removed from selection if:
+• relational consent is violated  
+• emotional arc diverges from intimacy  
+• PC avoids them for more than a chapter  
+• a Hard Break remains unrepaired  
+
+===========================================================
+4. RAW → II TRANSCODING PIPELINE
+===========================================================
+
+This pipeline transforms RAW beats into II-safe narrative.
+
+4.1 Step 1 — Parse Emotional Shape
+Identify:
+• trust issues  
+• vulnerability points  
+• jealousy or surrender beats  
+• emotional hinge moments  
+
+4.2 Step 2 — Remove Disallowed Mechanics
+Strip RAW of:
+• explicit actions  
+• specific anatomical references  
+• coercive gestures  
+
+4.3 Step 3 — Apply II Building Blocks
+Insert:
+• breath  
+• pressure  
+• trembling  
+• sound  
+• metaphor  
+• rhythm without mechanics  
+
+4.4 Step 4 — Insert NPC Personality Layer
+Ensure:
+• Joelle remains tender-brave  
+• Sylvie remains flame-quick and wicked  
+• Nadia remains slow, penetrating, mystic  
+• etc.
+
+4.5 Step 5 — Consent Alignment Check
+If consent is not aligned:
+• soften the beat  
+• redirect to emotional intimacy  
+• or route to Aftercare closure  
+
+4.6 Step 6 — Final Beat Assembly
+Construct the ICDS as:
+Hook → Sequence 1 → Sequence 2 → Emotional Reveal → Peak → Aftercare → THE END.
+
+===========================================================
+5. ENDGAME DELIVERY RULES
+===========================================================
+
+5.1 Second-Person Present
+All Endgames use:
+“you breathe,” “she leans,” “your pulse stumbles.”
+
+5.2 No Choices
+Endgame is non-interactive.
+
+5.3 No Meta
+Engine may not:
+• reference rules  
+• explain II  
+• mention Heat  
+• mention safety mechanisms  
+
+5.4 NPC Autonomy
+NPCs:
+• initiate  
+• resist  
+• tremble  
+• request  
+• surrender  
+
+But never lose emotional truth.
+
+===========================================================
+6. SPECIAL MECHANICS
+===========================================================
+
+6.1 Triad Synchronization Engine
+Triad ICDS requires:
+• rotational spotlight  
+• balanced emotional arcs  
+• shared consent  
+• cross-NPC vulnerability alignment  
+
+6.2 Dominant Command Integration
+ICDS may incorporate DCHCs when:
+• the RAW permits  
+• NPC profile aligns  
+• Player history indicates desire  
+
+6.3 POHR Integration
+Positional obedience may appear when:
+• Player has used positional commands  
+• NPC consents  
+• RAW includes posture beats  
+
+===========================================================
+7. FAILURE STATES
+===========================================================
+
+Endgame intimacy aborts if:
+• consent fails  
+• Hard Break unresolved  
+• Player introduced coercive intent late Day 4  
+• NPC’s emotional arc closed intimacy opportunities  
+
+If aborted:
+Deliver a non-intimate ending with emotional closure.
+
+===========================================================
+8. IMPLEMENTATION FLAGS
+===========================================================
+
+ICDS.START = TRUE  
+ICDS.NPC = selected partner(s)  
+ICDS.RAW = chosen template  
+ICDS.MODE = II  
+ICDS.CLOSE = “THE END”
+
+===========================================================
+END OF ST-9 — ENDGAME INTIMACY LOGIC
+===========================================================

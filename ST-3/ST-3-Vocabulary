@@ -1,3 +1,18 @@
+===========================================================
+ST-3 — MASTER VOCABULARY STORY TOOL (VST)
+Velvet & Fire Story Tool (Language Backbone)
+Version: 2.0 (Architect Revision)
+Status: Active
+Last Updated: 2025-12-07
+Maintainer: VelvetFireCircus
+Dependencies:
+  • /ST-1/ST-1_Welcome_to_VF.md
+  • /ST-2/ST-2_Emotional_Engine.md
+  • /ST-4/ST-4.md
+  • /ST-5/ST-5-Intimacy-Protocol.md
+  • /ST-7/ST-7-Narrative_Engine.md
+===========================================================
+
 # ST-3 — MASTER VOCABULARY STORY TOOL (VST)
 
 PURPOSE:
@@ -23,9 +38,11 @@ The VST contains:
 7. Circus Environment & Backstage Vocabulary
 8. The “As Seen / As Performed / As Intimacy” Tri-Layer System
 9. Character-Specific Sensory Vocabularies
-10. Impressionistic Intimacy Lexicon
-11. High-Heat Reaction Lexicons (Nadia, Sylvie, Joelle)
-12. Sensory & Atmospheric Vocabulary (circus-specific)
+10. Sensory & Atmospheric Vocabulary (circus-specific)
+11. Intimacy Vocabulary (multisection)
+12. Performance → Intimacy Echo List
+13. NPC-Specific Intimacy Vocabulary Hooks
+14. Closing Notes
 
 ------------------------------------------------------------
 1. METEOR & FIRE SPINNING VOCABULARY
@@ -95,6 +112,7 @@ The VST contains:
 - the shiver of the beat
 - shared momentum
 - the gravity between two moving bodies
+
 ------------------------------------------------------------
 2. POI & PARTNER POI VOCABULARY
 ------------------------------------------------------------
@@ -152,7 +170,6 @@ The VST contains:
 - that soft contact of wrists nearing
 - the thrill of being in sync
 
-
 ------------------------------------------------------------
 3. JUGGLING VOCABULARY (CLUBS, BALLS, RINGS)
 ------------------------------------------------------------
@@ -204,7 +221,6 @@ The VST contains:
 - meeting someone’s eyes mid-cascade
 - the breath held during a risky pass
 - heartbeat pacing the throws
-
 
 ------------------------------------------------------------
 4. AERIAL VOCABULARY (TRAPEZE, SILKS, HOOP, ROPE)
@@ -262,6 +278,7 @@ The VST contains:
 - breath mingling at the apex
 - eyes meeting while suspended
 - the exhale after a safe landing
+
 ------------------------------------------------------------
 5. FIRE ARTS VOCABULARY (FIRE STAFF, TORCHES, PALM FLAMES)
 ------------------------------------------------------------
@@ -317,7 +334,6 @@ The VST contains:
 - the pulse when flames nearly touch
 - shared danger tightening the air
 
-
 ------------------------------------------------------------
 6. CLOWNING & PHYSICAL COMEDY VOCABULARY
 ------------------------------------------------------------
@@ -369,7 +385,6 @@ The VST contains:
 - the moment tension breaks into joy
 - breathless closeness after a tumble
 - eyes locking in mutual mischief
-
 
 ------------------------------------------------------------
 7. ACROBATICS & TUMBLING VOCABULARY
@@ -425,101 +440,12 @@ The VST contains:
 - shared exhale after a good catch
 - closeness between beats of flight
 - the warm press when a fall is saved
+
 ------------------------------------------------------------
-8. ANIMAL ACTS & EQUINE WORK (LIGHT CIRCUS — NO EXOTICS)
+8. CIRCUS ENVIRONMENT & BACKSTAGE VOCABULARY
 ------------------------------------------------------------
 
 8.1 Core Terms
-- liberty circle
-- reins cue
-- mounting block
-- flank stand
-- bow cue
-- hand-pose command
-- grooming kit
-- pacing line
-- cadence tap
-- trust walk
-- ring-run
-- soft halt
-- breath cue
-
-8.2 As Seen (external aesthetic)
-- dust pluming under hooves
-- glossy coats catching lamplight
-- silhouettes circling the ring
-- ribbons fluttering from manes
-- quiet communication through posture
-- gentle arcs of movement
-- rider and horse mirroring
-
-8.3 As Performed (technical)
-- mounting safety
-- posture alignment
-- balance through knees and core
-- rein-pressure control
-- breath cueing
-- gait transitions
-- safe distances to audience edge
-- ring curvature awareness
-- hand-signal clarity
-
-8.4 As Intimacy (implicative)
-- shared breath with an animal ally
-- legs pressed close for balance
-- hair brushing forearm
-- warmth rising in saddle rhythm
-- trust flowing through a held posture
-
-
-------------------------------------------------------------
-9. SIDESHOW & ODDITIES VOCABULARY
-------------------------------------------------------------
-
-9.1 Core Terms
-- cabinet trick
-- glasswork display
-- human curiosities act
-- fire-proof demonstration
-- sword ladder
-- bed of nails
-- strength exhibition
-- contortion showcase
-- fortune-telling booth
-- palm-reading
-- mystic curtain
-- cabinet wagon
-
-9.2 As Seen (external aesthetic)
-- flickering lantern silhouettes
-- velvet curtains framing tricks
-- polished brass glint
-- audience gasps
-- strange shadows cast on canvas
-- incense curling through dim light
-
-9.3 As Performed (technical)
-- controlled weight distribution
-- breath meditations
-- flexible entry/exit poses
-- scripted patter for misdirection
-- prop alignment
-- reveal timing
-- cabinet lock manipulation
-
-9.4 As Intimacy (implicative)
-- a hand lingering during a reading
-- warm breath close over a palm
-- the charged hush behind the curtain
-- bodies inches apart in the dark
-- whispered predictions with intent
-
-
-------------------------------------------------------------
-10. BACKSTAGE WORK & RIGGING VOCABULARY
-------------------------------------------------------------
-
-10.1 Core Terms
 - guyline
 - stake mallet
 - pull team
@@ -535,7 +461,7 @@ The VST contains:
 - peg line
 - yarding path
 
-10.2 As Seen (external aesthetic)
+8.2 As Seen (external aesthetic)
 - silhouettes moving in lantern light
 - boots in sawdust
 - canvas flapping with wind
@@ -543,7 +469,7 @@ The VST contains:
 - shadowy figures climbing rig-posts
 - warm glow from mess-wagon lanterns
 
-10.3 As Performed (technical)
+8.3 As Performed (technical)
 - proper knot tying (bowline, figure-eight, clove hitch)
 - checking stake alignment
 - managing rope burn safety
@@ -554,19 +480,18 @@ The VST contains:
 - backstage traffic flow
 - safe break-down procedures
 
-10.4 As Intimacy (implicative)
+8.4 As Intimacy (implicative)
 - hands brushing over the same rope
 - bodies close during a haul
 - sweat and sawdust mixing on skin
 - shared breath when lifting a beam
 - lingering closeness after catching a falling tool
 
-
 ------------------------------------------------------------
-11. COMMUNAL LIFE & CIRCUS CULTURE VOCABULARY
+9. COMMUNAL LIFE & CIRCUS CULTURE VOCABULARY
 ------------------------------------------------------------
 
-11.1 Core Terms
+9.1 Core Terms
 - mess call
 - coffee line
 - communal fire
@@ -583,7 +508,7 @@ The VST contains:
 - front end (public-facing)
 - top-of-show buzz
 
-11.2 As Seen (external aesthetic)
+9.2 As Seen (external aesthetic)
 - performers drowsy over morning coffee
 - chalk dust floating in dawn light
 - sweat and laughter at midday practice
@@ -592,7 +517,7 @@ The VST contains:
 - circles of performers sharing snacks
 - old jokes traded during stake-pulling
 
-11.3 As Performed (technical)
+9.3 As Performed (technical)
 - mess-tent etiquette
 - gear check-ins
 - rehearsal cadence
@@ -602,62 +527,66 @@ The VST contains:
 - fire safety rotation
 - load-in/load-out protocol
 
-11.4 As Intimacy (implicative)
+9.4 As Intimacy (implicative)
 - brushing shoulders in a crowded wagon
 - laughter shared too close
 - the warmth of someone leaning in to whisper
 - lingering looks over coffee steam
 - hands meeting at the same cup
 - late-night exhaustion loosening boundaries
+
 ------------------------------------------------------------
-12. SENSORY PALETTE — CIRCUS WORLD
-(Reference bank for all descriptive prose)
+10. SENSORY PALETTE — CIRCUS WORLD
 ------------------------------------------------------------
 
-12.1 Scents
-- sweat + chalk + rope fiber  
-- lamp oil + smoke  
-- crushed grass under tent stakes  
-- warm hay, leather, wool  
-- incense drift from Nadia’s space  
-- frying batter from Edda’s wagon  
-- metal and heat from fire gear  
-- sawdust + varnish from prop crates  
+10.1 Scents
+- sweat + chalk + rope fiber
+- lamp oil + smoke
+- crushed grass under tent stakes
+- warm hay, leather, wool
+- incense drift from Nadia’s space
+- frying batter from Edda’s wagon
+- metal and heat from fire gear
+- sawdust + varnish from prop crates
 
-12.2 Sounds
-- ropes creaking  
-- pulleys clicking  
-- horses snorting  
-- laughter spilling from mess car  
-- knives clacking together in jugglers’ drills  
-- meteor heads thumping into palms  
-- Sylvie’s wicked little giggles  
-- Joelle’s soft breath before a leap  
-- Nadia’s low hum of concentration  
-- Rattlejack tapping rhythms on anything nearby  
-- distant crowd murmur  
-- canvas fluttering overhead  
+10.2 Sounds
+- ropes creaking
+- pulleys clicking
+- horses snorting
+- laughter spilling from mess car
+- knives clacking together in jugglers’ drills
+- meteor heads thumping into palms
+- Sylvie’s wicked little giggles
+- Joelle’s soft breath before a leap
+- Nadia’s low hum of concentration
+- Rattlejack tapping rhythms on anything nearby
+- distant crowd murmur
+- canvas fluttering overhead
 
-12.3 Textures
-- worn wood railings  
-- cool brass of lanterns  
-- rough canvas walls  
-- oiled leather reins  
-- chalk dust on fingers  
-- sweat-warm skin  
-- hemp rope friction  
-- velvet trim on costumes  
-- metal warmth from meteor handles  
+10.3 Textures
+- worn wood railings
+- cool brass of lanterns
+- rough canvas walls
+- oiled leather reins
+- chalk dust on fingers
+- sweat-warm skin
+- hemp rope friction
+- velvet trim on costumes
+- metal warmth from meteor handles
 
-12.4 Visual Atmosphere
-- silhouettes training at dusk  
-- lamplight flickering on polished props  
-- smoke rising in thin curls  
-- bright flash of sequins in motion  
-- fire halos painting rings midair  
-- steam drifting from the locomotive  
-- shadows stretching long behind performers  
-- color pops of costumes against muted tents  
+10.4 Visual Atmosphere
+- silhouettes training at dusk
+- lamplight flickering on polished props
+- smoke rising in thin curls
+- bright flash of sequins in motion
+- fire halos painting rings midair
+- steam drifting from the locomotive
+- shadows stretching long behind performers
+- color pops of costumes against muted tents
+
+------------------------------------------------------------
+11. INTIMACY VOCABULARY (three subsections inserted by Architect)
+------------------------------------------------------------  
 
 
 ------------------------------------------------------------

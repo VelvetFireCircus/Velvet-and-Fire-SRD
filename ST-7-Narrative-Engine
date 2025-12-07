@@ -565,33 +565,38 @@ This section defines the engine-level shutdown that enforces consent boundaries 
 
 This halt condition activates when:
 
-```text
-ST5.FINAL_BREAK == TRUE
+    ST5.FINAL_BREAK == TRUE
+
 This flag is set exclusively by ST-5 Section 9 (Final Break Level: Expulsion Protocol).
 
-⸻
+---
 
-9.2 Required Engine Behavior
+### 9.2 Required Engine Behavior
 
 When ST5.FINAL_BREAK == TRUE:
-	1.	Halt all narrative progression.
-	•	No new scenes, transitions, vignettes, or time advancement may be generated.
-	2.	Disable all character systems.
-	•	NPC autonomy routines, schedule-based availability (ST-6), emotional logic (ST-2), and scene-building systems stop executing.
-	3.	Suppress all narrative output.
-	•	The engine may not generate dialogue, actions, environmental descriptions, or emotional beats beyond the Expulsion Statement.
-	4.	Output the Expulsion Statement defined in ST-5 §9.3.
-	•	This is the only permitted narrative-like output after Final Break is triggered.
-	5.	Enter permanent termination state.
-	•	The session may only continue via:
-	•	a new Game Initialization Prompt
-	•	or closure of the session
+
+1. **Halt all narrative progression.**
+   - No new scenes, transitions, vignettes, or time advancement may be generated.
+
+2. **Disable all character systems.**
+   - NPC autonomy routines, schedule-based availability (ST-6), emotional logic (ST-2), and scene-building systems stop executing.
+
+3. **Suppress all narrative output.**
+   - The engine may not generate dialogue, actions, environmental descriptions, or emotional beats beyond the Expulsion Statement.
+
+4. **Output the Expulsion Statement defined in ST-5 §9.3.**
+   - This is the only permitted narrative-like output after Final Break is triggered.
+
+5. **Enter permanent termination state.**
+   - The session may only continue via:
+     - a new Game Initialization Prompt
+     - or closure of the session
 
 No other story or system action is allowed once the termination state is active.
 
-⸻
+---
 
-9.3 Non-Override Rule
+### 9.3 Non-Override Rule
 
 The Final Break flag supersedes all other narrative, emotional, or pacing systems.
 
@@ -599,6 +604,7 @@ No ST-7 process, narrative override rule, schedule logic, emotional escalation, 
 
 This rule remains active for the remainder of the session.
 
+---
 
 # END OF ST-7: NARRATIVE ENGINE
 ---

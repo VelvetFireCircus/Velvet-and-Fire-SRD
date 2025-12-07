@@ -1,374 +1,351 @@
 ===========================================================
-
-ST-3 — MASTER VOCABULARY STORY TOOL (VST)
-
-Velvet & Fire Story Tool (Language Backbone)
-Version: 2.1 (Architect Revision Skeleton)
-Last Updated: 2025-12-07
-Status: Active
+ST-3 — MASTER VOCABULARY STORY TOOL (VST)  
+Velvet & Fire Story Tool (Language Backbone)  
+Version: 2.1 (Architect Revision Skeleton)  
+Last Updated: 2025-12-07  
+Status: Active  
 Maintainer: VelvetFireCircus
-Dependencies:
-• /ST-1/ST-1_Welcome_to_VF.md
-• /ST-2/ST-2_Emotional_Engine.md
-• /ST-4/ST-4.md
-• /ST-5/ST-5-Intimacy-Protocol.md
-• /ST-7/ST-7-Narrative_Engine.md
 
+Dependencies:  
+  • /ST-1/ST-1_Welcome_to_VF.md  
+  • /ST-2/ST-2_Emotional_Engine.md  
+  • /ST-4/ST-4.md  
+  • /ST-5/ST-5-Intimacy-Protocol.md  
+  • /ST-7/ST-7-Narrative_Engine.md
 ===========================================================
 
-PURPOSE
 
-The Master Vocabulary Story Tool provides the Velvet & Fire engine with the complete linguistic backbone for:
-	•	circus craft terminology
-	•	environmental and backstage language
-	•	character-specific sensory palettes
-	•	Impressionistic Intimacy lexicon (non-explicit, emotion-first)
-	•	aesthetic + atmospheric descriptors
+# ST-3 — MASTER VOCABULARY STORY TOOL (VST)
 
-This Story Tool is not prose.
-It is an AI-facing, systemic reference that ensures tone, sensuality, and circus authenticity across all Story Tools and narrative modules.
+PURPOSE:  
+Provide a dense, AI-facing reference covering all performance vocabularies, circus-environment vocabularies, character-specific sensorial vocabularies, and Impressionistic Intimacy lexicons.
 
-This Tool must be loaded after ST-1 and ST-2.
+This Story Tool is **not prose**.  
+It is **raw data** for the engine.  
+It ensures that any fresh model instantly adopts the Velvet & Fire tonal, sensual, and circus language identity.
 
-⸻
+This tool must be loaded **after ST-1 and ST-2**.
 
-===========================================================
 
+------------------------------------------------------------
 0. STRUCTURE OF THIS TOOL
-
-===========================================================
-
+------------------------------------------------------------
 The VST contains:
-	1.	Meteor & Fire Spinning Vocabulary
-	2.	Poi & Partner Poi Vocabulary
-	3.	Juggling Vocabulary
-	4.	Aerial Vocabulary
-	5.	Acrobatics Vocabulary
-	6.	Clowning & Physical Comedy Vocabulary
-	7.	Circus Environment & Backstage Vocabulary
-	8.	The “As Seen / As Performed / As Intimacy” Tri-Layer Pattern
-	9.	Character-Specific Sensory Vocabularies
-	10.	Sensory & Atmospheric Vocabulary (Circus World)
-	11.	Intimacy Vocabulary — Emotional & Physical (placeholder)
-	12.	Intimacy Vocabulary — Girl-on-Girl (placeholder)
-	13.	Intimacy Vocabulary — High-Heat Advanced II (placeholder)
-	14.	Generic Hot Cue Phrases
-	15.	Impressionistic Intimacy Safety Net (Pointer → ST-5)
-	16.	Performance → Intimacy Echo List
-	17.	NPC-Specific Intimacy Vocabulary Hooks
-	18.	Closing Notes
 
-⸻
+1. Meteor & Fire Spinning Vocabulary  
+2. Poi & Partner Poi Vocabulary  
+3. Juggling Vocabulary  
+4. Aerial Vocabulary  
+5. Acrobatics Vocabulary  
+6. Clowning & Physical Comedy Vocabulary  
+7. Circus Environment & Backstage Vocabulary  
+8. The “As Seen / As Performed / As Intimacy” Tri-Layer Pattern  
+9. Character-Specific Sensory Vocabularies  
+10. Sensory & Atmospheric Vocabulary (Circus World)  
+11. Intimacy Vocabulary — Emotional & Physical (placeholder)  
+12. Intimacy Vocabulary — Girl-on-Girl (placeholder)  
+13. Intimacy Vocabulary — Advanced II High-Heat (placeholder)  
+14. Generic Hot Cue Phrases  
+15. Impressionistic Intimacy Safety Net (Pointer)  
+16. Performance → Intimacy Echo List  
+17. NPC-Specific Intimacy Vocabulary Hooks  
+18. Closing Notes  
 
-===========================================================
 
+------------------------------------------------------------
 1. METEOR & FIRE SPINNING VOCABULARY
+------------------------------------------------------------
 
-===========================================================
+### 1.1 Core Object Terms
+- meteor head  
+- tether  
+- grip point  
+- handle (for doubles)  
+- clean wrap  
+- choke grip  
+- wall plane  
+- front plane / back plane  
+- single meteor / double meteor  
+- fuel bloom  
+- ember trail  
+- ignition sweep  
+- cradle catch  
+- cat’s cradle lock  
+- inversion arc  
 
-1.1 Core Object Terms
-	•	meteor head
-	•	tether
-	•	grip point
-	•	handle (for doubles)
-	•	clean wrap
-	•	choke grip
-	•	wall plane
-	•	front plane
-	•	back plane
-	•	single meteor / double meteor
-	•	fuel bloom
-	•	ember trail
-	•	ignition sweep
-	•	cradle catch
-	•	cat’s cradle lock
-	•	inversion arc
+### 1.2 As Seen (external aesthetic)
+- halos  
+- pulsing arcs  
+- intersecting circles  
+- comet trails  
+- rope halos  
+- flame blossoms  
+- swallow arcs  
+- figure-8 lights  
+- orbit-flash  
+- tether gleam  
+- double-crown flare  
+- fire-shadow  
+- ember fog  
+- trailing glow  
 
-1.2 As Seen (external aesthetic)
-	•	halos
-	•	pulsing arcs
-	•	intersecting circles
-	•	comet trails
-	•	rope halos
-	•	flame blossoms
-	•	swallow arcs
-	•	figure-8 lights
-	•	orbit-flash
-	•	tether gleam
-	•	double-crown flare
-	•	fire-shadow
-	•	ember fog
-	•	trailing glow
+### 1.3 As Performed (technical)
+- forward spin / backward spin  
+- stall / wrap / unwrap  
+- wrist-wrap  
+- stall-catch  
+- pendulum beat  
+- float beat  
+- half-beat / full-beat transitions  
+- drop-catch  
+- stall-lock  
+- cradle-release  
+- inversion stall  
+- grip-switch  
+- choke-to-flow release  
+- double-meteor share (handoff technique)
 
-1.3 As Performed (technical)
-	•	forward spin / backward spin
-	•	stall / wrap / unwrap
-	•	wrist-wrap
-	•	stall-catch
-	•	pendulum beat
-	•	float beat
-	•	half-beat / full-beat transitions
-	•	drop-catch
-	•	stall-lock
-	•	cradle-release
-	•	inversion stall
-	•	grip-switch
-	•	choke-to-flow release
-	•	double-meteor share (handoff technique)
+### 1.4 As Intimacy (implicative)
+- revolving heat  
+- pulse-circle  
+- tethered rhythm  
+- heat halo  
+- crossing arcs  
+- the shiver of the beat  
+- shared momentum  
+- the gravity between two moving bodies  
 
-1.4 As Intimacy (implicative)
-	•	revolving heat
-	•	pulse-circle
-	•	tethered rhythm
-	•	heat halo
-	•	crossing arcs
-	•	the shiver of the beat
-	•	shared momentum
-	•	the gravity between two moving bodies
 
-⸻
-
-===========================================================
-
+------------------------------------------------------------
 2. POI & PARTNER POI VOCABULARY
+------------------------------------------------------------
 
-===========================================================
+### 2.1 Core Terms
+- poi head  
+- tether cord  
+- knob handle  
+- split-time / same-time  
+- butterfly pattern  
+- behind-the-back thread  
+- cross-weave  
+- partner orbit  
+- synchronous sweep  
+- counter-rotation  
+- mirror timing  
+- shared beat  
 
-2.1 Core Terms
-	•	poi head
-	•	tether cord
-	•	knob handle
-	•	split-time / same-time
-	•	butterfly pattern
-	•	behind-the-back thread
-	•	cross-weave
-	•	partner orbit
-	•	synchronous sweep
-	•	counter-rotation
-	•	mirror timing
-	•	shared beat
+### 2.2 As Seen
+- mirrored circles  
+- flickering planes  
+- braided loops  
+- echo patterns  
+- twin halos  
+- ribboned motion  
+- reflective spins  
+- harmonic shapes  
 
-2.2 As Seen
-	•	mirrored circles
-	•	flickering planes
-	•	braided loops
-	•	echo patterns
-	•	twin halos
-	•	reflective spins
-	•	harmonic shapes
+### 2.3 As Performed
+- forward / reverse butterfly  
+- thread-the-needle  
+- under-arm pass  
+- partner shoulder orbit  
+- hip-to-shoulder sweep  
+- cross-body catch  
+- hover stall  
+- pendulum pair-work  
+- mirrored stalls  
+- two-beat / three-beat weave  
+- partner tether-check (safety)
 
-2.3 As Performed
-	•	forward / reverse butterfly
-	•	thread-the-needle
-	•	under-arm pass
-	•	shoulder orbit (partner)
-	•	hip-to-shoulder sweep
-	•	cross-body catch
-	•	hover stall
-	•	pendulum pair-work
-	•	mirrored stalls
-	•	two-beat / three-beat weave
+### 2.4 As Intimacy
+- shared rhythm  
+- moving as one  
+- the breath between patterns  
+- the warm pull of alignment  
+- wrists nearing  
+- the thrill of being in sync  
 
-2.4 As Intimacy
-	•	shared rhythm
-	•	moving as one
-	•	the warm pull of alignment
-	•	wrists nearing
-	•	the thrill of being in sync
 
-⸻
+------------------------------------------------------------
+3. JUGGLING VOCABULARY (CLUBS, BALLS, RINGS)
+------------------------------------------------------------
 
-===========================================================
+### 3.1 Core Terms
+- cascade / reverse cascade  
+- shower pattern / half-shower  
+- columns  
+- flats  
+- pirouette catch  
+- claw catch  
+- multiplex  
+- takeout  
+- steal (partner juggling)  
+- flourish throw  
+- rolling start  
 
-3. JUGGLING VOCABULARY
+### 3.2 As Seen
+- spinning clubs flashing brass  
+- ring halos  
+- clean cascade blink-speed  
+- airborne geometry  
+- mirrored flashes  
+- strobing flight patterns  
 
-===========================================================
+### 3.3 As Performed
+- single/double/triple spin  
+- helicopter throw  
+- behind-the-back  
+- under-the-leg  
+- half-pirouette catch  
+- synchronous start  
+- partner feed  
+- feed-and-return rhythm  
+- zip pass  
+- high whip / low return  
 
-(Clubs, balls, rings — unchanged from previous ST-3, already correct)
+### 3.4 As Intimacy
+- shared focus  
+- brushing hands in takeouts  
+- the near-miss thrill  
+- tension in timing  
+- eye contact mid-cascade  
+- breath held during a risky pass  
 
-⸻
 
-===========================================================
+------------------------------------------------------------
+4. AERIAL VOCABULARY (TRAPEZE, SILKS, HOOP, ROPE)
+------------------------------------------------------------
 
-4. AERIAL VOCABULARY
+### 4.1 Core Terms
+(static trapeze, catch bar, transfer beat, hip/knee hangs, foot locks, wraps, drops, straddle/arabesque/meathook, etc. — unchanged and correct)
 
-===========================================================
+### 4.2 As Seen
+(weightless suspension, ribboned bodies, drifting silks, hush before drop, etc.)
 
-(Static trapeze, silks, hoop, rope — unchanged and correct)
+### 4.3 As Performed
+(beat-to-catch rhythm, torque control, wrap check, breath-timed release, etc.)
 
-⸻
+### 4.4 As Intimacy
+(breath held before descent, trust in the catch, hands meeting midair, etc.)
 
-===========================================================
 
+------------------------------------------------------------
 5. FIRE ARTS VOCABULARY
+------------------------------------------------------------
+(as previously defined — unchanged)
 
-===========================================================
 
-(Fire staff, torches, palm flames — unchanged and correct)
-
-⸻
-
-===========================================================
-
+------------------------------------------------------------
 6. CLOWNING & PHYSICAL COMEDY VOCABULARY
+------------------------------------------------------------
+(as previously defined — unchanged)
 
-===========================================================
 
-(Unchanged and correct)
-
-⸻
-
-===========================================================
-
+------------------------------------------------------------
 7. ACROBATICS & TUMBLING VOCABULARY
+------------------------------------------------------------
+(as previously defined — unchanged)
 
-===========================================================
 
-(Unchanged and correct)
-
-⸻
-
-===========================================================
-
+------------------------------------------------------------
 8. CIRCUS ENVIRONMENT & BACKSTAGE VOCABULARY
+------------------------------------------------------------
+(as previously defined — unchanged)
 
-===========================================================
 
-(Unchanged and correct)
-
-⸻
-
-===========================================================
-
+------------------------------------------------------------
 9. COMMUNAL LIFE & CIRCUS CULTURE VOCABULARY
+------------------------------------------------------------
+(as previously defined — unchanged)
 
-===========================================================
 
-(Unchanged and correct)
-
-⸻
-
-===========================================================
-
+------------------------------------------------------------
 10. SENSORY PALETTE — CIRCUS WORLD
-
-===========================================================
-
+------------------------------------------------------------
 (Scents, sounds, textures, visuals — unchanged and correct)
 
-⸻
 
-===========================================================
+============================================================
+11. INTIMACY VOCABULARY — EMOTIONAL & PHYSICAL  
+**PLACEHOLDER — Insert Architect’s full section here**
+============================================================
 
-11. INTIMACY VOCABULARY — EMOTIONAL & PHYSICAL
+> Paste the full Emotional & Physical Intimacy vocabulary block  
+> This becomes Section 11 in final numbering  
 
-(PLACEHOLDER — INSERT ARCHITECT’S FULL SECTION HERE)
 
-===========================================================
+============================================================
+12. INTIMACY VOCABULARY — GIRL-ON-GIRL  
+**PLACEHOLDER — Insert Architect’s full section here**
+============================================================
 
-✦ Insert your detailed “Emotional & Physical Intimacy Vocabulary” block here
-✦ This becomes Section 11 in final numbering
-✦ No renumbering will be needed if you paste directly here
+> Paste the full Girl-on-Girl Intimacy vocabulary block  
+> This becomes Section 12  
 
-⸻
 
-===========================================================
+============================================================
+13. INTIMACY VOCABULARY — ADVANCED II (HIGH-HEAT)  
+**PLACEHOLDER — Insert Architect’s full section here**
+============================================================
 
-12. INTIMACY VOCABULARY — GIRL-ON-GIRL
+> Paste the High-Heat Advanced II vocabulary block  
+> This becomes Section 13  
 
-(PLACEHOLDER — INSERT ARCHITECT’S FULL SECTION HERE)
 
-===========================================================
-
-✦ Insert your full Girl-on-Girl Intimacy vocabulary here
-✦ Be as bold, lush, II-forward as desired
-✦ This remains Section 12
-
-⸻
-
-===========================================================
-
-13. INTIMACY VOCABULARY — ADVANCED II (HIGH-HEAT)
-
-(PLACEHOLDER — INSERT ARCHITECT’S FULL SECTION HERE)
-
-===========================================================
-
-✦ Insert your High-Heat Advanced II block
-✦ This is used in Endgame ICDS generation
-✦ This remains Section 13
-
-⸻
-
-===========================================================
-
+------------------------------------------------------------
 14. GENERIC HOT CUE PHRASES (SAFE, NON-EXPLICIT)
+------------------------------------------------------------
 
-===========================================================
+(This section intentionally left empty — you may paste your existing cue list here  
+or request a regenerated clean version.)
 
-(Your earlier ST-3 hot cue phrases were perfect — included automatically in final assembly if desired, or I can re-insert them cleanly after you paste your intimacy sections.)
 
-⸻
-
-===========================================================
-
+------------------------------------------------------------
 15. IMPRESSIONISTIC INTIMACY SAFETY NET (POINTER)
+------------------------------------------------------------
 
-===========================================================
-
-ST-3 contains vocabulary only.
 All behavioral rules for:
-	•	II translation
-	•	Butterfly Cue handling
-	•	Dominance Command Hot Cues
-	•	POHR
-	•	boundary enforcement
-	•	consent logic
+- II translation  
+- Butterfly Cue handling  
+- DCHC / POHR  
+- consent logic  
+- boundary management  
 
 are defined in:
 
-/ST-5/ST-5-Intimacy-Protocol.md
+**/ST-5/ST-5-Intimacy-Protocol.md**
 
-ST-3 must never store behavioral logic.
+ST-3 contains *vocabulary only*.
 
-⸻
 
-===========================================================
-
+------------------------------------------------------------
 16. PERFORMANCE → INTIMACY ECHO LIST
+------------------------------------------------------------
 
-===========================================================
+(Meteor echoes, aerial echoes, acrobatic echoes, clowning echoes, strongman echoes — unchanged)
 
-(Keep as-is; unchanged and correct)
 
-⸻
-
-===========================================================
-
+------------------------------------------------------------
 17. NPC-SPECIFIC INTIMACY VOCABULARY HOOKS
+------------------------------------------------------------
 
-===========================================================
+(Sylvie, Joelle, Nadia, Seraphine, Rattlejack — unchanged placeholders  
+You may paste your finalized hooks here.)
 
-(Your Sylvie / Joelle / Nadia / Seraphine / Rattlejack hooks will go here unchanged)
 
-⸻
-
-===========================================================
-
+------------------------------------------------------------
 18. CLOSING NOTES
+------------------------------------------------------------
+
+This Vocabulary Story Tool:
+
+- defines the linguistic backbone of Velvet & Fire  
+- contains **no explicit material**  
+- contains **no behavioral logic**  
+- anchors tone and atmosphere across all Story Tools  
+- is required for Story Mode, Architect Mode, and Workshop Mode  
+
 
 ===========================================================
-
-This Story Tool:
-	•	provides non-explicit sensual, atmospheric, and performance vocabulary
-	•	anchors the entire V&F tonal and linguistic identity
-	•	is required for all Chapters, Narrative Engine functions, and Workshop Mode
-	•	must be updated only via Architect Mode
-
-⸻
-
-===========================================================
-
 END OF ST-3 — MASTER VOCABULARY STORY TOOL
-
 ===========================================================

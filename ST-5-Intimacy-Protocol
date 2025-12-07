@@ -626,6 +626,7 @@ A single action that is incompatible with:
 - Impressionistic Intimacy mode,  
 - basic consent frameworks,  
 - the emotional safety of the system.
+Note: Explicit language alone does not trigger Final Break; the violation must originate from the Player’s declared intent to reject consent, autonomy, or Impressionistic Intimacy.
 
 When any trigger condition is met, the Intimacy Protocol enters the Final Break state.
 

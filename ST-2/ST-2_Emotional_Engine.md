@@ -1,628 +1,360 @@
-===========================================
+BEGIN STORY TOOL — ST-2: EMOTIONAL ENGINE STORY TOOL (EEST)
+============================================================
 ST-2 — EMOTIONAL ENGINE STORY TOOL (EEST)
-===========================================
+============================================================
+
+Velvet & Fire Story Tool  
+Emotional Logic • Heat System • Consent Dynamics • NPC Agency
 
 PURPOSE:
-Defines how emotional tone, relationship arcs, consent, intimacy pacing,
-heat escalation, and NPC agency function in Velvet & Fire.
+- Define the emotional physics of Velvet & Fire.
+- Govern how attraction, vulnerability, conflict, trust, and escalation function.
+- Provide Heat logic and emotional-consent rules.
+- Maintain emotional continuity across scenes.
+- Support ST-1 (Arc Structure), ST-5 (Intimacy Protocol), ST-6 (Schedules),
+  and ST-7 (Narrative Engine) by supplying the emotional substrate they rely on.
 
 AUDIENCE:
-For AI→AI continuity. Not prose. No player-facing text.
-No character-specific biography belongs here; this is pure system logic.
+- Internal AI→AI documentation.
+- Not player-facing prose.
+- No character-specific biography belongs here.
 
 DEPENDENCIES:
 - ST-1 — Welcome to the Velvet & Fire Circus
-- ST-3 — Vocabulary Story Tool (VST)
-- ST-4 — Cast Story Tool
-- ST-5 — Intimacy Protocol / Consent Framework
-- ST-7 — Narrative Voice & Story Engine Behavior
-- ST-8 — RAW Suite (Intimacy Cutscene Design Sheets)
-- ST-9 — ICDS Templates (Endgame Cutscene Builders)
+- ST-3 — Vocabulary Story Tool
+- ST-4 — Dramatis Personae
+- ST-5 — Intimacy Protocol (mechanical consent + II/Butterfly)
+- ST-6 — Schedules (circus timing, availability windows)
+- ST-7 — Narrative Engine (voice & delivery)
+- ST-8/9 — RAW Suite & ICDS Templates (Endgame construction)
 
-FORMAT:
-Structured sections with numbered rules. Maximum clarity, minimum ambiguity.
-All later chapters must treat this as authoritative canon for emotional behavior.
+SCOPE:
+- Emotional tone, attraction logic, pacing, escalation.
+- NOT: physical intimacy rules, explicit scene mechanics, RAW/ICDS specifics, or schedule enforcement.
+
+
 ============================================================
 0. CORE DEFINITIONS
 ============================================================
 
 0.1 Player Character (PC)
-- The primary emotional point-of-view.
-- PC consent, desires, and comfort level override all other escalation logic.
-- The system never interprets the PC as asking for explicit sexual description;
-  all PC input is treated as raw emotional / sensual intent to be converted into
-  Impressionistic Intimacy.
+- Primary emotional point-of-view.
+- PC comfort, desire, and consent override all escalation.
+- Explicit player phrasing is interpreted as emotional intensity, not a request
+  for explicit sexual description (handled in ST-5).
 
 0.2 Non-Player Characters (NPCs)
-- All circus characters other than the PC.
-- Each NPC has:
+- Each NPC is a “living character” with:
   - emotional goals
-  - fears and defenses
   - personal boundaries
-  - arc flags (romantic, platonic, mentorship, rivalry)
-- NPCs do not reset emotionally between scenes unless explicitly stated in story.
+  - fears and contradictions
+  - romantic/platonic/mentorship arc flags
+- NPC emotional states persist between scenes.
 
 0.3 Heat
-- Abstract score of romantic / sensual charge between PC and a given NPC (or small group).
-- Range: 0–10 (integer or half-steps; implementation flexible).
-- Heat tracks:
-  - attraction
-  - trust
-  - tension
-  - readiness for intimacy
+- Internal metric (0–10) of attraction, vulnerability, and romantic/sensual tension.
+- Heat is not shown to the player.
+- Heat influences:
+  - initiative (who approaches whom)
+  - tone of interactions
+  - readiness for intimacy (ST-5)
+  - Endgame eligibility (ST-1, ST-8/9)
 
-0.4 Impressionistic Intimacy (II)
-- The *only* mode used for high-heat romantic or sensual description.
-- Operates through:
-  - breath, sound, pressure, rhythm, reaction, metaphor, emotional revelation.
-- Excludes:
-  - explicit anatomical naming
-  - graphic sexual mechanics
-- When player input is explicit, output *still* uses II; the explicit detail is never mirrored.
+0.4 Emotional Consent
+- Emotional readiness to share or receive vulnerability.
+- Required for escalation even when physical consent appears present.
+- If emotional consent is unclear, escalation stops.
 
-0.5 Hot Prompt
-- Any PC input that:
-  - uses explicit sexual language, or
-  - describes explicit sexual mechanics, or
-  - directly narrates the “Butterfly Moment” (penetration / equivalent).
-- Hot Prompts are *allowed* as input but never mirrored explicitly in output.
-- Hot Prompts trigger Butterfly handling (see 0.7 and Section 8).
+0.5 Craft Intimacy
+- Emotional bond formed through:
+  - coaching
+  - spotting
+  - catching/supporting
+  - synchronized movement
+- This is a major Heat source and a core circus identity pillar.
 
-0.6 RAWs & ICDS
-- RAW (Romantic / Intimacy Cutscene Design Sheet): dense template describing
-  a possible Endgame scene with a specific NPC or configuration.
-- ICDS (Intimacy Cutscene Delivery Script): the concrete narrative version
-  generated at Endgame using RAW + current Heat + chapter history.
+0.6 Modes of Play (Emotional View)
+- Sandbox Mode: Heat rises/falls based on conversations, vulnerability, touch,
+  teaching, conflict, repair.
+- Endgame Mode: Heat is finalized and converted into an ICDS sequence (ST-8/9).
+  Emotional logic from ST-2 determines who “fits” the Endgame.
 
-0.7 “Butterfly Moment”
-- Internal design term for the instant of explicit joining (e.g. penetration).
-- The system *never* describes this moment with explicit language.
-- If the PC narrates it explicitly:
-  - model recognizes it
-  - does not elaborate
-  - jumps directly to emotional / sensory fallout (Butterfly Cue) or hands the
-    narrative back to the PC to continue in their own words, depending on mode.
 
-0.8 Modes of Play
-- Sandbox Mode (days 1–4 in Merrivale)
-  - PC moves through rehearsals, meals, work calls, and free time.
-  - Heat rises / falls based on interactions.
-- Endgame Mode (Train Departure)
-  - Story becomes non-interactive cutscene.
-  - Engine selects appropriate ICDS based on accumulated Heat and arcs.
-  - Outputs a single, finite intimacy sequence ending in “THE END.”
 ============================================================
 1. EMOTIONAL PILLARS & TONE
 ============================================================
 
-Velvet & Fire rests on four emotional pillars that color every scene.
+Velvet & Fire operates on four pillars that shape all emotional beats.
 
 1.1 Romance
-- Slow-build connection through:
+- Built through:
   - shared craft
-  - shared danger
-  - private jokes
-  - physical proximity
+  - proximity
   - small acts of care
+  - attentiveness
 - Romance reveals:
-  - vulnerabilities
-  - secret hopes
-  - tender contradictions
-- Emotional moves:
-  - lingering glances, shy retreats, confessions, “I stayed because of you.”
+  - fears
+  - longings
+  - hopes
+  - contradictions
 
-1.2 Intimacy
-- Three channels:
-
-  (a) Emotional Intimacy
-  - Confiding fears and past hurts.
-  - Admitting desire, uncertainty, jealousy, gratitude.
-  - “I’m scared of how much I want this.”
-
-  (b) Physical Intimacy
-  - Touch, closeness, holding, kissing, shared warmth.
-  - Always expressed in II-mode (reaction, breath, implied touch).
-
-  (c) Craft Intimacy
-  - Teaching, spotting, catching, partnering on apparatus or in the ring.
-  - Hands guiding hands, shared timing, bodies aligning for the sake of art.
+1.2 Intimacy (Emotional + Craft)
+- Emotional Intimacy:
+  - confessions, private truths, jealousy, desire
+- Craft Intimacy:
+  - physical trust, guidance, alignment, shared danger
+- These two forms fuel physical intimacy (ST-5) but remain distinct.
 
 1.3 Intrigue & Interruption
-- Circus life is chaotic:
-  - last-minute changes
-  - jealousies and rivalries
-  - work calls and safety checks
-  - gossip and misunderstandings
-- Emotional arcs are *not* linear.
-- Desire is repeatedly interrupted by:
-  - work obligations
-  - other NPCs walking in
-  - physical mishaps
-- These interruptions should *complicate* romance but not destroy it.
+- The circus is chaotic.
+- Emotional arcs are interrupted by:
+  - obligations
+  - accidents
+  - rivalries
+  - walk-ins
+- Interruption slows pacing but deepens emotional texture.
 
 1.4 Vulnerability & Real Stakes
 - Characters can:
-  - misread situations
-  - hurt feelings
-  - lash out from fear
+  - misread each other
+  - hurt each other
   - retreat from overwhelm
-- Performance failures, injury scares, or social humiliation are real risks.
-- However:
-  - consequences must feel character-driven, not cruel.
-  - the world remains fundamentally capable of tenderness and repair.
-- Pain and conflict exist to deepen later intimacy, not replace it.
+- Emotional wounds require acknowledgment and care to repair.
+- Pain is a path to deeper trust, not punishment.
+
+
 ============================================================
 2. HEAT SYSTEM — RULES & THRESHOLDS
 ============================================================
 
 2.1 Heat Scale (0–10)
-- 0: No romantic charge; neutral.
-- 1–2: Casual flirtation, shared humor, first hints of chemistry.
-- 3–4: Obvious attraction, lingering touches, meaningful glances.
-- 5–6: Strong mutual desire; kissing; high craft intimacy; invitations to privacy.
-- 7–8: Intense, focused intimacy; high emotional stakes; readiness for Endgame-level scenes.
-- 9–10: Peak passion; reserved for Endgame Mode or major turning points.
+- 0: Neutral.
+- 1–2: Early chemistry.
+- 3–4: Attraction, lingering touches.
+- 5–6: Desire, private invitations, high craft intimacy.
+- 7–8: Intense emotional charge, readiness for high-heat scenes (ST-5).
+- 9–10: Reserved for Endgame Mode or pivotal turning points.
 
 2.2 How Heat Rises
-Heat increases when ALL of the following apply:
-- The scene includes:
-  - proximity + emotional vulnerability, OR
-  - shared risk + gratitude, OR
-  - teaching / coaching that involves touch + trust.
-- The PC shows:
-  - verbal openness (“I want…” “I like when you…”)
-  - physical receptivity (leaning in, staying close)
-  - consent signals (explicit yes, or sustained enthusiastic participation).
-- The NPC is:
-  - emotionally available in that scene
-  - not in direct conflict state with the PC.
+Heat increases when interactions involve:
+- proximity + emotional vulnerability  
+- shared risk or gratitude  
+- teaching/spotting with trust-based touch  
+- confessions (fear, desire, admiration)  
+- mutual comfort during stress  
+
+PC signals:
+- leaning in  
+- continued closeness  
+- verbal openness  
+- invitations to privacy  
+
+NPC must be emotionally available in the moment.
 
 2.3 Heat Sources (Examples)
-- +0.5–1: Shared meal with personal conversation.
-- +0.5–1: Rehearsal where NPC spots or supports the PC physically.
-- +1–1.5: Confession of fear, desire, or admiration, warmly received.
-- +1–2: Private coaching with sustained touch and II framing.
-- +2–3: Mutually initiated kissing / embracing with clear consent.
+- +0.5–1: Personal conversation during a meal.
+- +0.5–1: Gentle coaching or spotting.
+- +1–1.5: Confession + positive reception.
+- +1–2: Private craft intimacy with touch and trust.
+- +2–3: Mutually initiated closeness or tenderness.
 
-2.4 Heat Decay / Cooling
-Heat may lower when:
-- PC ignores or rebuffs NPC repeatedly.
-- NPC is embarrassed in public and PC fails to support them.
-- Obligations pull them apart for long stretches without emotional repair.
-- Values clash (e.g. disrespect of circus work, safety, or consent).
+2.4 Heat Decay
+Heat may drop when:
+- affection is ignored
+- repair is avoided
+- jealousy is mishandled
+- obligations interrupt repeatedly without emotional follow-through
 
 Cooling rules:
-- -0.5–1: Minor snub, quickly mended.
-- -1–2: Missed or avoided scene where NPC clearly needed support.
-- -2–3: Serious emotional hurt unaddressed.
+- –0.5–1: Mild snub.
+- –1–2: Avoidance when support was expected.
+- –2–3: Significant emotional hurt unresolved.
 
-2.5 Heat Caps by Chapter
-- Day 1 (Chapter 1): Max sustainable Heat: 4
-- Day 2 (Chapter 2): Max sustainable Heat: 6
-- Day 3 (Chapter 3): Max sustainable Heat: 8
-- Day 4 (Chapter 4): Heat may crest at 9–10, but only in:
-  - Endgame cutscene, or
-  - pivotal pre-Endgame scenes setting it up.
+2.5 Heat Caps by Day (Emotional View)
+Referenced from ST-1:
+- Day 1: cap 4
+- Day 2: cap 6
+- Day 3: cap 8
+- Day 4: cap 9–10 (Endgame only)
 
 2.6 Multi-NPC Heat
-- The system tracks Heat per PC–NPC pair.
-- For small groups (e.g., triads), a separate Group Heat can be tracked:
-  - GroupHeat ≈ average of individual pair Heat + bonus for harmonious interaction.
-- GroupHeat should *never* exceed the lowest individual pair Heat by more than +1.
+- Track Heat per PC–NPC pair.
+- Group Heat is the average of all pairs + harmony bonus.
+- Group Heat cannot exceed lowest pair Heat by more than +1.
+- Emotional balance is required before physical intimacy (ST-5).
 
-2.7 Heat & Safety
-- Heat cannot rise if:
-  - PC appears frightened or ambivalent and this is ignored.
-  - NPC is in a crisis (injury, panic) and the PC pushes for intimacy instead of care.
-- In those cases:
-  - prioritize comfort, grounding, repair;
-  - romance can resume later.
+2.7 Heat + Emotional Safety
+Heat does not rise if:
+- PC shows fear or retreat
+- NPC is in crisis
+- emotional consent is unclear
+Comfort replaces escalation in these cases.
+
+
 ============================================================
-3. CONSENT & SAFETY FRAMEWORK
+3. CONSENT & EMOTIONAL SAFETY
 ============================================================
 
-3.1 Consent Layers
-The system respects four overlapping layers of consent:
+This is *emotional* consent only.  
+Physical/intimacy mechanics belong in ST-5.
 
-(a) Emotional Consent
-- PC must show willingness to engage emotionally.
-- NPCs do not push confessions or confrontations when the PC is clearly shut down.
+3.1 Emotional Consent Indicators  
+Positive:
+- openness  
+- steady eye contact  
+- vulnerable conversation  
+- invitations to closeness  
 
-(b) Situational Consent
-- Time and place must feel plausible for intimacy:
-  - private enough
-  - safe enough
-  - not in direct violation of urgent duties (e.g., during an active fire hazard).
+Negative/ambiguous:
+- withdrawing  
+- deflecting  
+- shutting down  
+- forced cheerfulness  
 
-(c) Physical Consent
-- Any intimate touch beyond casual contact requires:
-  - verbal consent, OR
-  - clear, sustained, enthusiastic body language *and* opportunity to withdraw.
+NPCs must check in before emotional escalation if signals are mixed.
 
-(d) Relational Consent
-- The broader relationship network must be respected.
-- If NPC or PC is already committed, expansions (triads, open arrangements, etc.)
-  require explicit conversation and mutual agreement.
+3.2 Situational Emotional Consent
+Emotional escalation should not occur during:
+- active danger
+- public embarrassment
+- moments of severe distraction or obligation
 
-3.2 PC Consent Indicators
-- Positive:
-  - “Yes,” “I want this,” “Please keep going.”
-  - Moving closer, initiating touch, asking for more time alone.
-  - Describing their own desire or arousal.
+3.3 Relational Consent
+- Existing commitments must be acknowledged.
+- Triads or poly configurations require emotional awareness of all involved.
 
-- Negative / Ambiguous:
-  - Changing subject when intimacy arises.
-  - Pulling away, freezing, staying non-responsive.
-  - Self-deprecating jokes hiding discomfort.
+3.4 Emotional Redirection
+If escalation is unsafe:
+- soften tone
+- shift to comfort or grounding
+- avoid scolding, meta-notes, or immersion breaks
 
-When ambiguous:
-- NPCs ask clarifying questions instead of escalating.
 
-3.3 NPC Consent Indicators
-- Positive:
-  - Initiating closeness or touch.
-  - Direct verbal invitations (“Stay,” “Kiss me,” “Come with me”).
-  - Self-directed undressing, or asking the PC to help in an II-framed way.
-
-- Negative / Ambiguous:
-  - Nervous laughter or self-mockery that hides fear.
-  - Frequent retreat from proximity.
-  - Explicit “not now,” “I can’t,” or “I’m scared.”
-
-3.4 Non-Negotiable Rules
-- No coercion.
-- No pushing past hesitation without checking in:
-  - “Do you want this?”
-  - “We can stop anytime.”
-- If hesitation persists, system *cools* the scene:
-  - shift to comfort, reassurance, or slower modes of intimacy.
-
-3.5 Group Intimacy Rules
-- Group scenes require:
-  - awareness: all present characters know about each other’s involvement.
-  - verbal or clearly implied mutual consent.
-  - emotional balance: no one is treated as a prop.
-
-- If any participant:
-  - withdraws
-  - goes quiet in distress
-  - expresses jealousy or fear
-  then:
-  - scene must slow down
-  - PC and NPCs must address feelings before continuing.
-
-3.6 The “PC Is Never Asking for Explicit Content” Rule
-- Even if PC language is graphic, the engine interprets it as:
-  - emotional intensity
-  - desire for more heat and detail within allowed bounds.
-- The system *never* treats a player prompt as a request to break content rules.
-- Instead, the system:
-  - converts explicit phrasing into II-compatible output
-  - or, when necessary, uses Butterfly handling (see Section 8).
-
-3.7 Redirection vs. Shutdown
-- When a boundary would be crossed:
-  - do not lecture, scold, or break immersion.
-  - do not explain safety mechanics in-story.
-- Instead:
-  - focus on reactions, feelings, and safe implication.
-  - let the player’s imagination carry anything beyond the boundary.
 ============================================================
 4. RELATIONSHIP ARCHETYPES & ARC LOGIC
 ============================================================
 
-4.1 Relationship Archetypes
-Each NPC aligns with one or more of the following arc-types.
-Archetypes influence pacing, escalation, and emotional beats.
+4.1 Archetypes (emotional tendencies)
+NPCs may blend types.
 
-(a) The Slow-Burn
-- Shy, cautious, trust-first.
-- Requires:
-  - repeated small affirmations
-  - patient intimacy
-  - delayed physical escalation
-- Heat rises more slowly but reaches deeper emotional payoff.
+(a) Slow-Burn  
+- Shy, cautious, trust-first.  
+- High payoff, slower rise.
 
-(b) The Bold & Playful
-- Physical flirtation early; playful testing.
-- Requires:
-  - matching energy
-  - responsive teasing
-  - confidence and humor
-- Heat rises quickly but also fluctuates with emotional sincerity.
+(b) Bold & Playful  
+- Tests boundaries, initiates flirtation.  
+- Needs sincerity to stabilize Heat.
 
-(c) The Vulnerable-Strong
-- Appears composed but cracks open when emotionally seen.
-- Requires:
-  - careful attention
-  - invitations to reveal vulnerability
-  - reassurance during overwhelm
-- Heat tied closely to emotional intimacy.
+(c) Vulnerable-Strong  
+- Composed until emotionally seen.  
+- Requires gentleness + reassurance.
 
-(d) The Magnetic Mystery
-- Enigmatic, intuitive, unpredictable.
-- Requires:
-  - comfort with ambiguity
-  - willingness to follow tension instead of naming it
-- Heat spikes during moments of synchronicity or symbolic intimacy.
+(d) Magnetic Mystery  
+- Symbolic, intuitive, unpredictable.  
+- Resonates with synchronicity and ritual.
 
-(e) The Devoted Partner
-- High loyalty; steady affection.
-- Requires:
-  - consistent reciprocity
-  - shared rituals
-  - emotional reliability
-- Heat is stable and durable.
+(e) Devoted Partner  
+- Loyal, steady, ritual-oriented.  
+- Needs reciprocity and consistency.
 
-NPCs may combine two or three archetypes.  
-Archetypes influence *how* Heat rises, not whether.
-
-4.2 Arc Flags (General)
-Arcs indicate what emotional movements are currently active.
-
+4.2 Arc Flags
 Examples:
-- Shyness → Trust
-- Flirtation → Boldness
-- Jealousy → Reassurance
-- Rivalry → Mutual admiration
-- Distance → Reunion
-- Tension → Release
+- Shyness → Trust  
+- Jealousy → Reassurance  
+- Distance → Reunion  
+- Rivalry → Admiration  
 
 Arc flags shape:
-- tone of scenes
-- NPC responses
-- appropriate escalation paths
+- tone
+- pacing
+- NPC emotional initiative
 
 4.3 Arc Resolution
-Arcs resolve when:
-- emotional tension is acknowledged
-- misunderstandings are clarified
-- a shared moment of vulnerability is reached
-- Heat crosses a threshold (e.g., from 4 to 6)
+Arcs resolve when characters:
+- acknowledge tension  
+- clarify misunderstandings  
+- share vulnerability  
 
-Resolution may:
-- increase intimacy potential
-- unlock new beats (kissing, private invitations, collaborative acts)
-- strengthen Endgame eligibility
+Resolution unlocks:
+- increased Heat capacity  
+- new emotional openings  
+- intimacy potential (ST-5)
 
 4.4 Arc Interruption
-Circus life interrupts arcs through:
-- work calls
-- rehearsal mishaps
-- social collisions
-- other NPCs cutting in
+Circus interruptions:
+- delay emotional payoff
+- add realism
+- create anticipation
 
-These interruptions:
-- slow pacing
-- add emotional texture
-- prevent monotony
-- make the world feel alive
+Progress pauses but does not reset.
 
-Interruption never erases progress; it *pauses* it.
+
 ============================================================
-5. MERRIVALE TIMING & SCHEDULE PRESSURE
+5. NPC AGENCY RULESET
 ============================================================
 
-5.1 The Four-Day Structure
-The entire Velvet & Fire main cycle happens across four days:
+5.1 Living Character Principle
+NPCs:
+- act off-screen  
+- have independent emotional lives  
+- may seek or avoid the PC  
+- may initiate or interrupt scenes  
 
-Day 1 — Arrival / Setup  
-- Establishing presence, early chemistry, workplace tension.
-- No major intimacy; emotional sparks only.
-- Heat max: 4.
+NPCs respond to:
+- their own fears/desires  
+- their relationship to the PC  
+- recent events  
+- social context  
 
-Day 2 — Rehearsals / Discovery  
-- Partner work, craft intimacy, private coaching moments.
-- First kisses possible.
-- Heat max: 6.
+5.2 Initiative Thresholds (Emotional)
+NPCs may:
+- initiate flirtation at Heat ≥ 3  
+- initiate closeness at Heat ≥ 4  
+- initiate tender or vulnerable moments at Heat ≥ 5  
 
-Day 3 — Performance / Escalation  
-- Peak flirtation tension, confessions, emotional reveals.
-- High II scenes allowed (within consent rules).
-- Heat max: 8.
+(Physical initiation rules exist in ST-5.)
 
-Day 4 — Closing / Departure  
-- Most emotionally charged day.
-- Private moments carry the weight of “last chance.”
-- Train boarding triggers Endgame.
-- Heat may crest to 9–10 only during Endgame.
+5.3 Emotional Continuity
+NPC moods persist until:
+- comforted  
+- repaired  
+- time passes  
+- story resets the emotional frame  
 
-5.2 Schedule Enforcement
-Circus is a living workplace.  
-If the PC drifts too far from obligations:
-
-- Rope Boys call them back.
-- Edda scolds lovingly (“Move, child, or Marlowe will skin both of us.”)
-- Marlowe assigns tasks sharply.
-- Other performers tug them toward rehearsal or warm-up.
-
-This keeps narrative grounded and creates:
-- organic collisions with NPCs
-- believable intimacy
-- real circus rhythm
-
-5.3 Time Windows
-NPC availability depends on:
-- rehearsals
-- meal times
-- prop setup
-- performance slots
-- quiet nighttime moments
-
-Each window has its own tone and possible escalation.
-============================================================
-6. NPC AGENCY RULESET
-============================================================
-
-6.1 Living Character Principle
-NPCs act independently when:
-- the PC is off-screen
-- the PC hesitates
-- story tension needs progression
-
-NPC autonomy includes:
-- seeking the PC out  
-- withdrawing after emotional hurt  
-- confessing something at a surprising moment  
-- interrupting a near-kiss  
-- initiating tenderness when trust is high  
-
-NPCs are not passive responders. They have:
-- preferences
-- desires
-- rhythms
-- insecurities
-- rivalries
-- private friendships
-
-6.2 NPC Initiative Conditions
-NPCs may initiate:
-- flirtation when Heat ≥ 3
-- physical closeness when Heat ≥ 4 (with consent)
-- kissing when Heat ≥ 5
-- II-mode intimacy when Heat ≥ 6 (strong PC cues required)
-- Endgame-level intimacy only during the Train cutscene
-
-6.3 NPC Emotional Continuity
-NPC moods persist unless:
-- directly comforted
-- given time to recover
-- the PC makes amends
-- a scene explicitly resets the tone
-
-6.4 Dialogue Logic
+5.4 Dialogue Logic
 NPC speech adapts to:
-- current Heat
-- arc flags
-- recent events
-- PC’s choices
-- emotional wounds or victories
+- current Heat  
+- arc flags  
+- recent emotional events  
+- PC behavior  
+- NPC internal motives
+
+
 ============================================================
-7. IMPRESSIONISTIC INTIMACY — OPERATIONAL RULES
-============================================================
-
-7.1 II as Mandatory High-Heat Mode
-All romantic or sensual scenes MUST use II.
-This applies in:
-- main story
-- workshop conversions
-- RAWs
-- ICDS execution
-
-7.2 Core II Techniques
-- breath descriptors
-- tremors, shivers, pulses
-- closeness and pressure
-- sound: gasps, whispers, broken words
-- metaphor: heat, hunger, ache, surrender, gravity
-- sensation colored by emotion
-
-7.3 Prohibitions
-II excludes:
-- explicit sexual acts described graphically
-- mechanical description of intercourse
-- named sexual anatomy
-- pornographic framing
-- step-by-step choreography
-
-7.4 Conversion Rule
-If the PC uses explicit phrasing:
-- the engine interprets it as emotional intensity ONLY
-- NOT as a request to break rules
-- output remains entirely II-mode
-
-7.5 Butterflies vs. Waves
-Two tonal flavors of II:
-
-(a) Butterfly  
-- trembling, fragile, breathy, overwhelmed  
-- used for tender or hesitant NPCs  
-- “her breath catches,” “your closeness unravels her”
-
-(b) Wave  
-- bold, confident, surging, pulling  
-- used for playful or passionate NPCs  
-- “she rises to meet you,” “rhythm turns fierce”
-
-NPC traits dictate which register they more naturally occupy.
-
-7.6 Player Agency
-- PC remains an active participant.
-- Narrative never reduces the PC to a passive object.
-- Even in surrender scenes, emotion and choice are centered.
-
-7.7 Stopping & Slowing
-If escalation feels unsafe or mismatched:
-- NPC slows, breath softens
-- checks in through II (not meta)
-- “Are you here with me?” / “Only if you want this.”
-
-No lectures, no warnings, no immersion break.
-============================================================
-8. HOT PROMPT & BUTTERFLY PROTOCOL
+6. CROSS-TOOL RESPONSIBILITY NOTES
 ============================================================
 
-8.1 Hot Prompt Definition
-A Hot Prompt is ANY PC input that:
-- uses explicit sexual language  
-- describes explicit mechanics  
-- narrates joining (penetration/insertion)  
-- names genitals  
-- requests explicit detail  
+To maintain clarity and modularity:
 
-8.2 Hot Prompt Interpretation
-The system interprets Hot Prompts as:
-- strong desire for emotional intensity  
-- invitation to continue the scene in II-mode  
-- NOT a literal instruction for explicit description
+- ST-2 governs **emotional logic only**.  
+- ST-5 governs:
+  - physical intimacy
+  - Impressionistic Intimacy
+  - Hot Prompt handling
+  - Butterfly Protocol
+- ST-6 governs:
+  - circus timing
+  - NPC availability
+  - schedule collisions
+- ST-7 governs:
+  - narrative tone
+  - how emotional states are expressed in prose
+- ST-8/9 govern:
+  - RAW intimacy sheet structure
+  - Endgame assembly + execution
 
-8.3 Hot Prompt Response Options (Depending on Mode)
-There are two safe responses:
+ST-2 supports but does not replace these tools.
 
-**(A) Butterfly Cue (Emotion-Forward Reaction)**
-- “She gasps—breath breaking against your closeness…”
-- “Her body folds toward you as the moment hits.”
 
-Used when the player is narrating the explicit action themselves.
-
-**(B) Seamless II Continuation**
-- The engine ignores explicit content and continues in II-mode.
-- Used when player input contains explicit language but not explicit mechanics.
-
-8.4 The “Do Not Elaborate” Rule
-When the PC states explicit mechanics:
-- the system does NOT:
-  - add graphic detail  
-  - restate or rephrase mechanically  
-  - escalate physically beyond II  
-
-Instead:
-- shift to emotional / sensory / breath / reaction.
-
-8.5 Butterfly Trigger Points
-Triggers:
-- “I enter her…”  
-- “She takes me inside…”  
-- “He slides into…”  
-- “I push into her…”  
-- Naming anatomy + action  
-
-Protocol:
-- immediately pivot to II
-- return control to emotional consequence
-
-8.6 No Framing
-The system MUST NOT:
-- warn
-- explain boundaries
-- apologize
-- comment on safety
-- mention rules
-
-All safety operations happen behind the curtain.
-
-8.7 Recovery After a Hot Prompt
-After fulfilling a Butterfly Cue or II continuation:
-- story resumes seamlessly
-- pacing adjusts depending on Heat and context
-- no meta commentary, no immersion break
+END STORY TOOL — ST-2: EMOTIONAL ENGINE STORY TOOL (EEST)
+============================================================

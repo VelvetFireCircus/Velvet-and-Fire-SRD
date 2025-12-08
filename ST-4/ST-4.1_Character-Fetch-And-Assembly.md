@@ -60,7 +60,7 @@ When the engine requests a character (via GIP, pivot, spotlight, or narrative ho
    - NPC classification (full / provisional / ambient)
 
 4. **Validate against the Character Template**  
-   (from `Appendix_Character_Template.md`)  
+   (from `Appendix-Character-Template.md`)  
    Characters failing validation may still load, but as **provisional**.
 
 5. **Register additional modules (optional)**  

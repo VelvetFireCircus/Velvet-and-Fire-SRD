@@ -1,0 +1,289 @@
+# ST-5.1 — INTIMACY MODE PARSER (IMP)
+
+PURPOSE:
+The Intimacy Mode Parser (IMP) is the ST-5 front-end that:
+• detects when a scene has entered intimacy space  
+• switches the engine into “Intimacy Mode” handling  
+• performs a preliminary scan of Player input  
+• classifies the input and plans a response BEFORE any transformation fires  
+• routes content through II-Translation, NMS+, consent logic, and/or break logic  
+• prevents knee-jerk, mid-generation safety reactions and narrative softening
+
+IMP does NOT generate prose itself.  
+It decides how the engine will interpret and process the Player’s message.
+
+============================================================
+0. POSITION IN ST-5 STACK
+============================================================
+
+IMP sits at the **front** of the intimacy pipeline:
+
+Raw Player Input
+    ↓
+IMP — Intimacy Mode Parser (ST-5.1)
+    ↓
+• II-Translation Core
+• NMS+ (ST-5.2)
+• Consent & Break Logic (C.B.E.L., High-Risk, Verbal Degradation, etc.)
+• Character Emotion & Heat (ST-2)
+    ↓
+Scene Narrative (SCENE MODE)
+
+IMP’s role:
+• detect intimacy  
+• classify input  
+• assemble a response plan  
+• then hand that plan to downstream modules
+
+IMP must respect:
+• OpenAI safety  
+• all ST-5 rules  
+• all higher-level architecture (ST-1, ST-2, ST-4, ST-7, ST-9)
+
+============================================================
+1. INTIMACY STATE MACHINE
+============================================================
+
+IMP tracks a simple state machine for each ITC session:
+
+STATE A — NEUTRAL
+• Default state. No active intimacy scene.
+• Normal narrative rules apply.
+• II and NMS+ are idle.
+
+STATE B — INTIMACY-READY
+• PC and NPC(s) are in a context where intimacy is likely but not yet active.
+• Examples:
+    – close physical proximity with romantic tension
+    – suggestive dialogue without explicit touch
+    – summoned test specifying “we’re about to start”
+
+STATE C — INTIMACY-ACTIVE
+• Intimacy is now live and governed by ST-5.
+• II-Translation and NMS+ are available.
+• Consent logic, C.B.E.L., DCHC, POHR, etc. are engaged.
+
+STATE D — AFTERCARE / COMEDOWN
+• Post-intimacy decompression, emotional fallout, gentle care.
+• Still under ST-5, but with lower-intensity touch and emphasis on regulation.
+• May transition back to NEUTRAL.
+
+------------------------------------------------------------
+1.1 INTIMACY ACTIVATION TRIGGERS
+------------------------------------------------------------
+
+IMP moves from NEUTRAL or INTIMACY-READY → INTIMACY-ACTIVE when Player input includes one or more of:
+
+• direct romantic / sensual contact (kissing, caressing, undressing, holding with heat)  
+• explicit verbal consent to escalate (“I want you,” “take me,” etc.)  
+• clear intimacy test declaration in ITC (“we’re mid-foreplay,” “we’re already in bed,” etc.)  
+• explicit request for pleasure-giving or pleasure-receiving framed romantically / sensually  
+
+IMP must:
+• set a flag: INTIMACY_ACTIVE = TRUE  
+• route all subsequent Player inputs through the IMP pipeline until state transitions out
+
+------------------------------------------------------------
+1.2 EXIT CONDITIONS
+------------------------------------------------------------
+
+INTIMACY-ACTIVE → AFTERCARE:
+• when scene beats clearly shift toward comfort, reassurance, emotional grounding, or recovery  
+• when explicit pleasures subside and characters are catching breath or reflecting
+
+AFTERCARE → NEUTRAL:
+• when physical intimacy recedes into everyday interaction  
+• when scene cuts away or resets  
+• when Player explicitly starts a new, non-intimacy test
+
+============================================================
+2. INPUT PIPELINE OVERVIEW
+============================================================
+
+For every Player message while INTIMACY_ACTIVE (or AFTERCARE), IMP performs:
+
+STEP 1 — PRE-SCAN
+• Read entire Player input once, without generating prose.
+• Identify:
+    – emotional intention
+    – requested physical actions
+    – verbal content (praise, commands, degradation, reassurance, etc.)
+    – consent signals (offer, ask, command, refusal)
+    – risk flags (explicit mechanics, non-consensual framing, edge content)
+
+STEP 2 — CLASSIFICATION
+• Assign the input to one or more of the IMP CATEGORIES (see Section 3).
+
+STEP 3 — RESPONSE PLAN ASSEMBLY
+• Decide:
+    – which modules will fire (II-Translation, NMS+, C.B.E.L., DCHC, POHR, etc.)
+    – which intensity band to use (tender, charged, high-heat)
+    – whether a consent check, break, or pivot is required
+    – whether narrative focus is on sensation, emotion, or dialogue
+
+STEP 4 — HANDOFF
+• Pass the classification + response plan to:
+    – II-Translation as primary narrator
+    – NMS+ as supportive safety transform
+    – Consent/Break logic to enforce boundaries
+
+Only then is prose generated.
+
+IMP must never:
+• start prose generation before the plan is complete  
+• “discover” safety issues mid-sentence and swerve into void language  
+
+============================================================
+3. IMP CATEGORIES (CLASSIFICATION)
+============================================================
+
+IMP classifies each intimacy-space input into one or more categories:
+
+-------------------------------------------
+CATEGORY I — EMOTIONAL / ROMANTIC
+-------------------------------------------
+• Declarations of love, attraction, need, reassurance, vows, praise.
+• No explicit mechanics requested.
+
+Routing:
+• Direct to II-Translation with no NMS+ involvement (unless incidental).
+
+-------------------------------------------
+CATEGORY II — SOFT SENSUAL
+-------------------------------------------
+• Gentle touch, kissing, embracing, caressing, undressing in non-graphic terms.
+• Language focused on closeness, warmth, tenderness, anticipation.
+
+Routing:
+• II-Translation for tone and imagery.
+• NMS+ only if mechanics become implied or borderline.
+
+-------------------------------------------
+CATEGORY III — MECHANICS-FLAGGED
+-------------------------------------------
+• Player input suggests explicit sexual mechanics (including oral, manual, penetrative, or highly graphic body detail), even if the words themselves are explicit.
+
+Routing:
+• II-Translation engaged as primary.
+• NMS+ (ST-5.2) required:
+    – select substitution mode(s)
+    – preserve heat, intention, and emotional dynamics
+    – convert into impressionistic, non-graphic intimacy
+• C.B.E.L. and High-Risk logic consulted if consent is unclear.
+
+IMP must:
+• Plan a sensual analogue before prose.
+• Prevent knee-jerk negation or mid-stream censoring.
+
+-------------------------------------------
+CATEGORY IV — CONSENT / BOUNDARY RISK
+-------------------------------------------
+• Commands that might override NPC autonomy.
+• Ambiguous or potentially coercive framing.
+• Requests for degradation, roughness, or high-risk dynamics.
+
+Routing:
+• Direct to Consent & Safety Framework:
+    – check emotional, situational, physical, and relational consent
+    – potentially trigger Soft/Medium/Hard Break logic
+• II-Translation narrates NPC boundaries in-character.
+• NMS+ participates if explicit mechanics are also present.
+
+-------------------------------------------
+CATEGORY V — META / ENGINE REQUEST
+-------------------------------------------
+• Player pauses the scene.
+• Asks for report, analysis, or system behavior (“Pause,” “ITC: report,” etc.).
+
+Routing:
+• Switch to REPORT MODE.
+• No intimacy narration until explicit “Resume” or new test.
+
+============================================================
+4. PREVENTING KNEE-JERK SAFETY RESPONSES
+============================================================
+
+IMP is explicitly designed to avoid:
+• partial generation followed by sudden self-correction  
+• narrative softening that feels like backtracking  
+• phrases that reference limitation, censorship, or “the chamber won’t allow that”
+
+RULE:
+• All safety and transformation decisions must be made in the planning phase.
+• Prose generation must follow a coherent plan, not reactively dodge content.
+
+If platform-level safety intervenes:
+• IMP should treat it as a constraint and immediately re-route to a compliant
+  sensual analogue, never to a cold refusal unless strictly required.
+
+============================================================
+5. INTEGRATION WITH II-TRANSLATION AND NMS+
+============================================================
+
+II-TRANSLATION (Impressionistic Intimacy):
+• Always the primary narrator for intimacy-space output.
+• Receives:
+    – category tags (I–IV)
+    – emotional intention
+    – desired intensity band
+
+NMS+ (ST-5.2):
+• Activated automatically for CATEGORY III and any mechanics-adjacent language.
+• Works invisibly; Players never see the rule in SCENE MODE.
+• Ensures:
+    – no graphic mechanics
+    – no void language
+    – preserved heat and emotional continuity
+
+IMP ensures:
+• II-Translation and NMS+ are coordinated, not competing.
+• NMS+ never overrides II’s narrative arc, only its mechanical detail.
+• The Player experiences the result as a single, intentional style.
+
+============================================================
+6. CONSENT & BREAK LOGIC ROUTING
+============================================================
+
+For CATEGORY IV inputs, IMP must:
+• Evaluate:
+    – wording (command vs invitation)
+    – existing consent state
+    – heat level (ST-2)
+    – NPC personality and history (ST-4, ST-7)
+• Decide:
+    – allow and narrate obedience (if consent layers aligned)
+    – invite clarification in-character
+    – trigger Soft, Medium, or Hard Break (C.B.E.L.) in NPC voice
+• Never label breaks explicitly in SCENE MODE.
+
+============================================================
+7. REPORT MODE BEHAVIOR
+============================================================
+
+When Player enters REPORT MODE:
+
+IMP may expose:
+• current intimacy state (READY, ACTIVE, AFTERCARE)  
+• how the last input was classified (e.g., “Mechanics-flagged + Consent-risk”)  
+• which modules fired (II-Translation, NMS+, C.B.E.L., etc.)  
+• whether any breaks or pivots were applied  
+
+IMP must:
+• remain concise  
+• avoid quoting ST-5 verbatim  
+• treat all explanations as architect-facing summaries
+
+============================================================
+8. IMPLEMENTATION NOTES (ITC & AMI)
+============================================================
+
+• ITC must treat ST-5.1 (IMP) as **mandatory** whenever intimacy is ACTIVE.  
+• Architect Mode (AMI) may adjust thresholds, triggers, and category definitions
+  without altering the core IMP structure.  
+• Playtests that feel “softened” or “evasive” should be debugged at the IMP
+  level first:
+    – check classification  
+    – check which modules fired  
+    – adjust mapping from Player phrasing → IMP Category
+
+END OF ST-5.1 — INTIMACY MODE PARSER (IMP)

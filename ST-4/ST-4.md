@@ -97,6 +97,7 @@ The load order must be:
 ## 2. DIRECTORY STRUCTURE (CURRENT REPO STATE)
 
 This section mirrors the **actual** GitHub layout as of this version.
+
 /ST-4
 │   ST-4.md
 │   ST-4.1_Character-Fetch-And-Assembly.md
@@ -105,15 +106,15 @@ This section mirrors the **actual** GitHub layout as of this version.
 │   blank.md   ← utility / scratch
 │
 └── /characters
-/anton/
-/clara/
-/elias/
-/joelle/
-/marlowe/
-/nadia/
-/petra/
-/seraphine/
-/sylvie/
+    ├── anton/
+    ├── clara/
+    ├── elias/
+    ├── joelle/
+    ├── marlowe/
+    ├── nadia/
+    ├── petra/
+    ├── seraphine/
+    └── sylvie/
 Future additions (planned but **not yet present**):
 
 - further character folders (e.g. `/rattlejack/`, `/edda/`, `/tobias_finch/`, etc.)  

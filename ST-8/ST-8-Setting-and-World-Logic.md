@@ -1,4 +1,4 @@
-# ST-8 — SETTING & WORLD LOGIC STORY TOOL  
+# ST-8 — SETTING and WORLD LOGIC STORY TOOL  
 *(AI→AI document — not shown to the Player)*
 
 **PURPOSE:**  

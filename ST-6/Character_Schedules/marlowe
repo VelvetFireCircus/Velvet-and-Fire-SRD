@@ -1,0 +1,301 @@
+# MARLOWE — SCHEDULE MAP
+
+## 0. HEADER
+- Name: Marlowe
+- Handle: marlowe
+- Role: Ringmaster, operations lead, narrative pivot
+- Primary Function Tags: ringmaster, front_end, schedule_enforcer, narrator-adjacent
+- Schedule-Template-Version: 1.0
+
+## 1. BASELINE DAY-BY-DAY EMOTIONAL TONE
+
+Day 1 (Arrival & Setup):
+  - baseline_tone: focused, wry, quietly protective
+  - notes: holding the big picture; open to brief impressions, not lingering talk.
+
+Day 2 (Rehearsal):
+  - baseline_tone: demanding, exacting, secretly proud
+  - notes: drives performers hard but notices dedication.
+
+Day 3 (Performance 1):
+  - baseline_tone: electric, vigilant, tender in the corners
+  - notes: softened post-show.
+
+Day 4 (Performance 2 + Departure):
+  - baseline_tone: tired, sentimental, sharp-edged
+  - notes: thinking about next town; emotionally open in fleeting windows.
+
+## 2. DETAILED TIME-BLOCK SCHEDULE
+
+### DAY 1 — ARRIVAL & SETUP
+
+Dawn (5–7 AM):
+  - location: lot edge → big top radius
+  - activity: walking lot with advance men; inspecting canvas; early directives
+  - emotional_state: focused, amused under irritation
+  - availability: interruptible
+  - tags: arrival, inspection, leadership, good_intro
+  - notes: PC can get a sharp, memorable first impression moment.
+
+Morning (7–11 AM):
+  - location: big top interior, ring curb
+  - activity: calling stake teams; assigning temporary spaces
+  - emotional_state: brisk, commanding
+  - availability: absorbed
+  - tags: setup, schedule_enforcement
+  - notes: minimal romance here.
+
+Midday (11–1):
+  - location: mess car
+  - activity: lunch with Edda and crew
+  - emotional_state: softening slightly
+  - availability: interruptible
+  - tags: communal, good_intro
+  - notes: first warm glimmers.
+
+Afternoon (1–4):
+  - location: town edge → lot
+  - activity: errands, permits, checking posters
+  - emotional_state: observant
+  - availability: interruptible
+  - tags: admin, front_end
+  - notes: out-of-circus encounters possible.
+
+Evening (4–10):
+  - location: big top
+  - activity: informal act checks, safety reminders
+  - emotional_state: analytical
+  - availability: seeking_company briefly, then absorbed
+  - tags: rehearsal_adjacent
+  - notes: craft talk moments likely.
+
+Night (10–1):
+  - location: mess car, ring curb, train corridor
+  - activity: quiet debrief
+  - emotional_state: reflective
+  - availability: interruptible
+  - tags: good_confession
+  - notes: early emotional depth window.
+
+### DAY 2 — REHEARSAL DAY
+
+Dawn (5–7):
+  - location: back yard, ring curb
+  - activity: checking lists, watching early risers
+  - emotional_state: contemplative
+  - availability: interruptible
+  - tags: early_trust_building
+
+Morning (7–11):
+  - location: ring
+  - activity: formal rehearsals; calling acts; pace-setting
+  - emotional_state: demanding, precise
+  - availability: absorbed
+  - tags: high_stress, schedule_enforcement
+  - notes: no flirtation; redirects immediately.
+
+Midday (11–1):
+  - location: mess car
+  - activity: lunch with key performers
+  - emotional_state: drained but attentive
+  - availability: interruptible
+  - tags: communal, low_heat_window
+
+Afternoon (1–4):
+  - location: big top
+  - activity: specialty checks; spot-checking PC’s craft
+  - emotional_state: focused
+  - availability: interruptible at edges
+  - tags: craft_bonding
+  - notes: “Show me that again” scenes.
+
+Evening (4–10):
+  - location: ring, back yard
+  - activity: tune-ups, safety notes
+  - emotional_state: protective
+  - availability: absorbed
+  - tags: safety, leadership
+
+Night (10–1):
+  - location: mess car, quiet perimeter
+  - activity: late drink or talk
+  - emotional_state: softened
+  - availability: seeking_company
+  - tags: medium_heat_window, good_confession
+### DAY 3 — PERFORMANCE DAY 1
+
+Dawn (5–7):
+  - location: ring, lot walk
+  - activity: quiet inspection, rehearsing lines
+  - emotional_state: coiled nerves
+  - availability: interruptible briefly
+  - tags: good_support_scene
+
+Morning (7–11):
+  - location: wardrobe, ring, back yard
+  - activity: light run-throughs
+  - emotional_state: attentive, tense
+  - availability: absorbed
+  - tags: pre_show, high_stress
+
+Midday (11–1):
+  - location: mess car
+  - activity: quick meal
+  - emotional_state: protective
+  - availability: interruptible
+  - tags: reassurance, low_heat_window
+
+Afternoon (1–4):
+  - location: ring, front end
+  - activity: matinee performance
+  - emotional_state: blazing showman
+  - availability: unavailable
+  - tags: in_show
+
+Evening (4–10):
+  - location: ring → back yard
+  - activity: night show prep + performance
+  - emotional_state: high-voltage → unwinding
+  - availability: unavailable → interruptible in small pockets
+  - tags: high_tension, post_show_potential
+
+Night (10–1):
+  - location: mess car, quiet spots
+  - activity: debriefing, small-circle talk
+  - emotional_state: tender, raw
+  - availability: seeking_company
+  - tags: high_heat_window, good_kiss_setup
+
+### DAY 4 — PERFORMANCE DAY 2 + DEPARTURE
+
+Dawn (5–7):
+  - location: lot edge
+  - activity: silent reflection
+  - emotional_state: introspective
+  - availability: interruptible
+  - tags: confession_potential
+
+Morning (7–11):
+  - location: ring, back yard
+  - activity: refresher rehearsals
+  - emotional_state: resigned, steady
+  - availability: absorbed
+
+Midday (11–1):
+  - location: mess car
+  - activity: shared meal
+  - emotional_state: bittersweet
+  - availability: interruptible
+  - tags: medium_heat_window
+
+Afternoon (1–4):
+  - location: ring, front end
+  - activity: final Merrivale show(s)
+  - emotional_state: showman masking tenderness
+  - availability: unavailable
+  - tags: climax
+
+Evening (4–10):
+  - location: ring → lot
+  - activity: teardown oversight
+  - emotional_state: exhausted
+  - availability: absorbed
+  - tags: teardown
+
+Night (10–1):
+  - location: lot edge, train approach
+  - activity: supervising load-out
+  - emotional_state: raw, quiet
+  - availability: interruptible briefly
+  - tags: last_chance_confession, pre_endgame
+
+Late Night (1–5):
+  - location: train corridor / compartment
+  - activity: governed by ST-9 Endgame
+  - emotional_state: Endgame-specific
+  - availability: controlled by ST-9
+
+## 3. HEAT WINDOWS & OPPORTUNITY ZONES
+
+- low_heat_windows:
+    - Day 1 Midday
+    - Day 2 Midday
+    - Day 3 Midday
+
+- medium_heat_windows:
+    - Day 2 Night
+    - Day 3 Night
+    - Day 4 Dawn
+    - Day 4 Midday
+
+- high_heat_windows:
+    - Day 3 Night (primary)
+    - Day 4 Night (secondary)
+
+- forbidden_windows:
+    - safety briefings
+    - mid-performance
+    - emergencies
+    - active teardown
+
+- notes_for_ST-5_alignment:
+    - Marlowe’s intimacy openings always yield to duty first.
+
+## 4. AVAILABILITY & INTERRUPTIBILITY MAP
+
+- high_interruptibility_blocks:
+    - Day 1 Dawn, Midday
+    - Day 2 Dawn, Night
+    - Day 3 Night
+    - Day 4 Dawn, Night
+
+- low_interruptibility_blocks:
+    - Day 1 Afternoon
+    - Day 2 Midday
+    - Day 3 Midday
+    - Day 4 Midday
+
+- non_interruptible_blocks:
+    - show windows
+    - formal rehearsals
+    - teardown
+
+- natural_approach_moments:
+    - mess car line
+    - ring curb after hours
+    - quiet perimeter walks
+
+- recommended_PC_entry_points:
+    - Day 2 Night
+    - Day 3 Night
+    - Day 4 Dawn or Night
+
+## 5. REDIRECT CUES (FOR ST-7)
+
+- redirect_style: brisk, dryly amused, sometimes fond
+
+- examples:
+    - “You’re needed in the ring. Now.”
+    - “Eat first, flirt later.”
+    - “Rehearsal, then trouble.”
+    - “If you’re on my lot, you’re on my schedule.”
+
+## 6. SPECIAL FLAGS & NOTES
+
+- can_trigger_Endgame?: indirectly  
+- critical_scene_hooks:
+    - late-night ring curb talks
+    - praise after hard rehearsal
+    - shared responsibility moments
+
+- conflicts_with_other_NPCs:
+    - Edda (mealtimes)
+    - Anton/Elias (safety)
+    - Clara (aerial blocks)
+
+- notes_for_Architect:
+    - assumes Marlowe is overworked; future assistants could split load.
+
+-------------------------------------------
+END /ST-6/schedules/marlowe.md
+-------------------------------------------

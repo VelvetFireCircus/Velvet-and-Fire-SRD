@@ -1,287 +1,133 @@
-Blank
+===============================
+ST-4.2_Character-Index
+Velvet & Fire Story Tool (Cast Audit & Index)
+AI→AI Structural Specification
+===============================
 
+# ST-4.2 — CHARACTER INDEX  
+### *Velvet & Fire Story Tool (Cast Audit & Index)*
 
-# ST-4 — Dramatis Personae  
-### *Velvet & Fire Story Tool (Modular Character Engine)*  
-**Version:** 0.1 (Transitional Build)  
-**Status:** In Development — To be refined in next GIP-initialized chat
+**Version:** 0.1  
+**Status:** Transitional — To be expanded as new characters are added
 
 ---
 
 ## 0. PURPOSE & SCOPE
 
-**ST-4 defines the complete cast of Velvet & Fire.**  
-It provides:
+ST-4.2 provides a **single, machine-readable index** of all Velvet & Fire
+characters currently recognized by the engine.
 
-1. A **master index of all NPCs**, grouped by circus role.  
-2. **Links to individual character files** in `/characters/`.  
-3. **Instructions for how the GIP loads, interprets, and uses character data**.  
-4. **Rules for canonical portrait usage**.  
-5. **Notes for future updates**, enabling incremental refinement.
+It is used to:
 
-This transitional version consolidates all character resources and prepares them for systematic development.
+1. List all character folders under `/ST-4/characters/`.  
+2. Track each character’s **compliance state** (full / provisional / ambient).  
+3. Expose the presence or absence of:
+   - CS.md (Character Sheet)
+   - DIP.md (Emotional Engine profile)
+   - RAWs/ (Intimacy RAW modules)
+   - canonical portrait path
+4. Support **Architect Mode audits** and **Story Mode readiness checks**.
 
----
-
-## 1. HOW THE ENGINE USES ST-4
-
-###1.1 Loading Order
-When the GIP reaches ST-4 during initialization:
-• It scans the /ST-4/characters/ directory for immediate subfolders.
-• It treats each subfolder as a distinct character profile, identified by its folder name (handle).
-• Inside each character folder, it loads CS.md as the primary character sheet.
-• The header of CS.md defines the character’s canonical identity (name, epithet, role, portrait path, template-version, etc.).
-• The presence of DIP, IDP, RAWs/, and other subfiles is registered as available modules but does not require full parsing until requested by ST-2, ST-5, or ST-7.
-• Characters that pass template checks become available to the engine as living NPCs with independent motives, schedules, and emotional logic (per ST-2, ST-6, and ST-7).
-
-### 1.2 Conflict Rules  
-If a character detail conflicts with a prior chat or older draft:
-
-- **ST-4 overrides**.  
-- If two character files conflict with each other, the **most recent Git commit** prevails.
-
-### 1.3 Canonical Portrait Use  
-If a character file includes:
-
-```
-canonical_portrait: /images/characters/<file>.png
-```
-
-the GIP may:
-
-- Use image cues for stabilization (hair, posture, affect, costuming)  
-- Maintain continuity of physical description  
-- Reference the portrait as an in-world likeness  
-
-The GIP must **never**:
-
-- Identify real-world individuals  
-- Discuss the external origin of any image  
-
-Portraits are treated as **fictional canon references**.
-
-### 🔧 Required Sub-Tool
-This Story Tool requires ST-4.1 — Character Fetch & Assembly Protocol.
-
-All character loading, sheet retrieval, intimacy-profile merging, and portrait fetching is handled by ST-4.1.
-
-During initialization, the host system must:
-1. Load this file (ST-4.md)  
-2. Then load ST-4.1 from:  
-   `/ST-4/ST-4.1_Character-Fetch-And-Assembly.md`
-
-Characters are only fetched when invoked, not at startup.
+This tool does **not** define canon; it **points to** canon resources defined in
+ST-4, ST-4.1, and the Character Sheets themselves.
 
 ---
 
-## 2. DIRECTORY STRUCTURE
+## 1. CONVENTIONS
 
-```
-/ST-4_Dramatis_Personae
-│   ST-4.md
-│
-├── /characters
-│     nadia.md
-│     sylvie.md
-│     joelle.md
-│     seraphine.md
-│     elias.md
-│     anton.md
-│     rattlejack.md
-│     clara.md
-│     thomas.md
-│     petra.md
-│     edda.md
-│     maribel.md
-│     tally.md
-│     juniper.md
-│     marlowe.md
-│     tobias_finch.md
-│     gideon_vale.md
-│     lark.md
-│     bram.md
-│     finn.md
-│     (more to be added)
-│
-├── /appendix
-│     character_template.md
-│     notes_for_future_updates.md
-│
-└── /images
-      /characters
-          nadia_portrait_canon.png
-          sylvie_portrait_canon.png
-          joelle_portrait_canon.png
-          (...)
-```
+- One row = one character.  
+- `handle` must match the folder name under `/ST-4/characters/<handle>/`.  
+- Paths are **repository-relative**, not full URLs.  
+- `status` indicates engine readiness:
+
+  - `full`        → CS + DIP + portrait, template-compliant  
+  - `provisional` → CS present but incomplete and/or missing modules  
+  - `ambient`     → minimal presence; cannot carry full emotional/narrative load  
+
+- This file is **authoritative for audit purposes**, not for lore.
+- Any missing or unknown field may be left as `-` or `todo`.
 
 ---
 
-## 3. CHARACTER INDEX  
-*(Transitional version — lists every character currently known to the system)*
+## 2. CHARACTER INDEX TABLE
 
-### **3.1 Rings (Performers)**  
-- **Nadia — The Mystic**  
-- **Sylvie — The Trickster Flame**  
-- **Joelle — The Harlequin Flyer**  
-- **Seraphine — The Rocket Rider**  
-- Anton — Strongman / fire handoff  
-- Elias — Torch master & ignition partner  
-- Clara — Aerial sister  
-- Thomas — Meteor spinner / juggler  
-- Petra — Animal trainer  
-- Rattlejack — Drummer / sketch artist  
+> NOTE: This table is intentionally small to start.  
+> Add or update rows as characters are created, rebuilt, or promoted.
 
-### **3.2 Edges & Rope Crew**  
-- Lark — Rope crew  
-- Bram — Edge crew  
-- Finn — Rope crew  
-- Juniper — Props & small repairs  
-- (general Edges & Rope Boys are represented as groups)
+| id  | handle        | display_name | role_epithet                  | status      | CS_path                                   | DIP_path                                  | RAWs_path                                 | portrait_path                                   | notes                                  |
+|-----|---------------|-------------|-------------------------------|-------------|-------------------------------------------|-------------------------------------------|-------------------------------------------|-----------------------------------------------|----------------------------------------|
+| C01 | sylvie        | Sylvie      | The Trickster Flame           | full        | /ST-4/characters/sylvie/CS.md            | /ST-4/characters/sylvie/DIP.md            | /ST-4/characters/sylvie/RAWs/            | /images/characters/sylvie_canon.png          | Canon portrait locked.                 |
+| C02 | joelle        | Joelle      | The Harlequin Flyer           | full        | /ST-4/characters/joelle/CS.md            | /ST-4/characters/joelle/DIP.md            | /ST-4/characters/joelle/RAWs/            | /images/characters/joelle_canon.png          | Uses canonical flyer portrait.         |
+| C03 | nadia         | Nadia       | The Mystic (Madame Astraea)   | full        | /ST-4/characters/nadia/CS.md             | /ST-4/characters/nadia/DIP.md             | /ST-4/characters/nadia/RAWs/             | /images/characters/nadia_canon.png           | Tattoos + DIP integrated.              |
+| C04 | anton         | Anton       | [fill epithet]                | provisional | /ST-4/characters/anton/CS.md             | /ST-4/characters/anton/DIP.md             | /ST-4/characters/anton/RAWs/             | /images/characters/anton_canon.png           | Recently rebuilt; verify DIP/RAWs.     |
+| C05 | elias         | Elias       | Torch Master & Ignition Partner | provisional | /ST-4/characters/elias/CS.md           | /ST-4/characters/elias/DIP.md             | /ST-4/characters/elias/RAWs/             | /images/characters/elias_canon.png           | Check meteor-ritual hooks.             |
+| C06 | marlowe       | Marlowe     | Ringmaster                    | provisional | /ST-4/characters/marlowe/CS.md           | /ST-4/characters/marlowe/DIP.md           | /ST-4/characters/marlowe/RAWs/           | /images/characters/marlowe_canon.png         | Needs DIP/RAW audit.                   |
+| C07 | edda          | Edda        | Cook & Den Mother             | full        | /ST-4/characters/edda/CS.md              | /ST-4/characters/edda/DIP.md              | /ST-4/characters/edda/RAWs/              | /images/characters/edda_canon.png            | Includes Breathing Train hooks.        |
+| C08 | tobias_finch  | Tobias Finch| Twenty-Four-Hour Man          | provisional | /ST-4/characters/tobias_finch/CS.md      | /ST-4/characters/tobias_finch/DIP.md      | /ST-4/characters/tobias_finch/RAWs/      | /images/characters/tobias_finch_canon.png    | Scout / advance.                       |
+| C09 | gideon_vale   | Gideon Vale | Twenty-Four-Hour Man          | provisional | /ST-4/characters/gideon_vale/CS.md       | /ST-4/characters/gideon_vale/DIP.md       | /ST-4/characters/gideon_vale/RAWs/       | /images/characters/gideon_vale_canon.png     | Scout / advance.                       |
+| C10 | clara         | Clara       | Aerial Sister                 | provisional | /ST-4/characters/clara/CS.md             | /ST-4/characters/clara/DIP.md             | /ST-4/characters/clara/RAWs/             | /images/characters/clara_canon.png           | Joelle’s partner in flight.           |
+| C11 | rattlejack    | Rattlejack  | Drummer & Sketch Artist       | provisional | /ST-4/characters/rattlejack/CS.md        | /ST-4/characters/rattlejack/DIP.md        | /ST-4/characters/rattlejack/RAWs/        | /images/characters/rattlejack_canon.png      | Includes meteor sketch artifact.       |
+| C12 | juniper       | Juniper     | Props & Repairs               | ambient     | /ST-4/characters/juniper/CS.md           | -                                         | -                                         | /images/characters/juniper_canon.png         | To be expanded beyond ambient.         |
+| C13 | junia         | Junia       | Kitchen Angel                 | ambient     | /ST-4/characters/junia/CS.md             | -                                         | -                                         | /images/characters/junia_canon.png           | Renamed from duplicate Juniper.        |
+| C14 | petra         | Petra       | Animal Trainer                | ambient     | /ST-4/characters/petra/CS.md             | -                                         | -                                         | /images/characters/petra_canon.png           | Animal acts WIP.                       |
+| C15 | lark          | Lark        | Rope Crew                     | ambient     | /ST-4/characters/lark/CS.md              | -                                         | -                                         | /images/characters/lark_canon.png            | Edge / rope presence only (for now).   |
+| C16 | bram          | Bram        | Edge Crew                     | ambient     | /ST-4/characters/bram/CS.md              | -                                         | -                                         | /images/characters/bram_canon.png            | Edge crew.                             |
+| C17 | finn          | Finn        | Rope Crew                     | ambient     | /ST-4/characters/finn/CS.md              | -                                         | -                                         | /images/characters/finn_canon.png            | Rope crew.                             |
 
-### **3.3 Management & Support**  
-- Marlowe — Ringmaster  
-- Edda — Cook & den mother  
-- Maribel — Kitchen angel  
-- Tally — Kitchen angel  
-- Juniper — Kitchen angel *(note: same name as props Juniper? To be resolved)*  
-- Tobias Finch — Twenty-Four-Hour Man  
-- Gideon Vale — Twenty-Four-Hour Man  
-
-### **3.4 Featured Animals**  
-*(Full sheets coming later)*  
-- Pip & Poppy the goats  
-- Performance dogs  
-- Small ponies  
-- Assorted small traveling animals
+> You may add, remove, or reclassify rows as your GitHub `characters/` directory evolves.
 
 ---
 
-## 4. TEMPLATE REFERENCE
+## 3. USAGE IN ARCHITECT MODE
 
-All character files must follow:
+In Architect Mode, ST-4.2 is primarily for:
 
-```
-/appendix/character_template.md
-```
+- **Visual audits** — spotting missing DIPs, RAWs, portraits.  
+- **Planning** — choosing which character to upgrade next.  
+- **Cross-checking** — making sure ST-4, ST-4.1, and the repo agree on who exists.  
 
-This template defines:
+Typical Architect queries powered by ST-4.2:
 
-- Header metadata  
-- Core descriptive & emotional fields  
-- Skills & schedule  
-- Relationship maps  
-- Narrative function  
-- Intimacy overview  
-- Backstory hooks  
-- Sensory lexicon  
-- Miscellaneous details  
-- Integrity markers
+- “Which characters are still `ambient`?”  
+- “List all `provisional` characters missing DIPs.”  
+- “Show me all `full` NPCs with complete portraits.”  
+
+Because the table is human-editable, you can also keep quick notes in the `notes` column for future passes.
 
 ---
 
-## 5. FUTURE DEVELOPMENT NOTES  
-*(To be handled in next GIP-initialized session)*
+## 4. USAGE IN STORY MODE
 
-- Consolidate duplicate names (e.g., two “Junipers”).  
-- Add missing minor performers and crew.  
-- Complete character sheets for kitchen staff, rope boys, and animals.  
-- Add intimacy RAWs to all characters who require them.  
-- Cross-link ST-4 with ST-2 & ST-5 more tightly.  
-- Create ST-4-Lite for public-facing SRD.
+In Story Mode, ST-4.2:
+
+- Provides a quick **eligibility filter** for ST-7 (Narrative Engine).  
+- Ensures only `full` or appropriate `provisional` NPCs are considered for:
+  - spotlight scenes  
+  - emotional pivots  
+  - intimacy-enabled encounters  
+
+ST-4.1 still performs the detailed fetch & validation, but ST-4.2 gives it a **shortlist** of likely candidates when needed.
 
 ---
 
-## 6. INTEGRITY MARKERS  
-For debugging and cross-ST consistency:
+## 5. MAINTENANCE RULES
 
-- **ST-4-ID:** DP-CORE-v0.1  
-- **Validated With:** ST-1, ST-2, ST-3, ST-5, ST-6, ST-7  
+- Whenever a new character folder is created under `/ST-4/characters/`, add a row.  
+- When a character’s CS becomes template-compliant and fully resourced:
+  - Update `status` → `full`.  
+- When a character is deprecated or moved to “Elsewhere”/legacy use:
+  - Keep the row, add a note (e.g., “Elsewhere only”).  
+
+This file should be treated as **lightweight but authoritative** for cast inventory.
+
+---
+
+## 6. INTEGRITY MARKERS
+
+- **ST-4.2-ID:** DP-INDEX-v0.1  
+- **Validated With:** ST-4, ST-4.1  
 - **Maintainer:** VelvetFireCircus Project  
 
----
-## APPENDIX REFERENCE — CHARACTER TEMPLATE COMPLIANCE (ST-4 Integration)
-
-All Character Sheets under `ST-4/characters/` must conform to the universal Velvet & Fire Character Template located at:
-
-**`/ST-4/Appendix_Character_Template.md`**
-
-This template defines:
-- Required sections (0–10)
-- Required subfields
-- Required formatting
-- Mandatory metadata (header + integrity marker)
-- Structural hooks for ST-2, ST-6, ST-7, and ST-10
-
-### 1. COMPLIANCE REQUIREMENTS
-A Character Sheet is considered **FULL NPC COMPLIANT** only if:
-
-1. All ten major template sections are present.  
-2. All required subfields contain meaningful data (not placeholders).  
-3. The sheet includes the **TEXT INTEGRITY MARKER**:  
-   `<!-- DO NOT PLACE CONTENT BELOW THIS LINE -->`
-4. The header includes a **TEMPLATE VERSION** tag (see below).  
-5. No sections are renamed, reordered, or removed.  
-6. Any additional custom notes appear **above** the integrity marker.
-
-If any requirement is missing, the NPC is classified as:
-
-- **Provisional NPC** — playable but not fully integrated into the narrative engine  
-- **Ambient NPC** — minimal presence; cannot support full emotional or mechanical load  
-
-Only **FULL NPC COMPLIANT** characters gain:
-- full ST-6 scheduling logic  
-- full ST-7 narrative pivot access  
-- emotional gravity mapping in ST-2  
-- eligibility for ST-10 IDP integration  
-- access to advanced intimacy rules  
-
-### 2. TEMPLATE VERSIONING (Mandatory)
-Each Character Sheet must include a header line:
-
-**`Template-Version: X.Y`**
-
-The current template version is:
-
-**Template-Version: 2.0**
-
-This enables:
-- backwards compatibility  
-- tracking of incomplete older profiles  
-- clean audits  
-
-Any CS missing this line is automatically **non-compliant**.
-
-### 3. VALIDATION CHECKLIST (For Engine or Human Review)
-
-A CS passes validation if:
-
-- [ ] Header block is complete  
-- [ ] Template-Version is present and current  
-- [ ] Sections 0–10 exist in order  
-- [ ] All “Attraction Profile” subfields are present  
-- [ ] Relationship Web uses required 4-subfield format  
-- [ ] Narrative Function includes stakes + intrusion logic  
-- [ ] Scent/Sound/Texture Lexicon exists  
-- [ ] Integrity Marker is present  
-- [ ] File contains no content below integrity marker  
-
-### 4. LOCATION OF TEMPLATE
-All writers, tools, and sub-engines must reference:
-
-`/ST-4/Appendix_Character_Template.md`
-
-as the **single source of truth** for character structure.
-
-Any update to the template must increment the **Template-Version** number and notify maintainers.
-
-### 5. NON-COMPLIANT CHARACTERS
-Any character that does not meet the template standard MUST be labeled:
-
-`Status: Provisional`  
-
-until their CS is rebuilt or updated.
-
----
-
-## 7. END OF FILE  
+===============================
+END ST-4.2
+===============================

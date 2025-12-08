@@ -1,3 +1,6 @@
+Blank
+
+
 # ST-4 — Dramatis Personae  
 ### *Velvet & Fire Story Tool (Modular Character Engine)*  
 **Version:** 0.1 (Transitional Build)  

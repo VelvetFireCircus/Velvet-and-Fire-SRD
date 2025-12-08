@@ -11,8 +11,8 @@ AI→AI Structural Specification
 # ST-4 — DRAMATIS PERSONAE  
 ### *Velvet & Fire Story Tool (Modular Character Engine)*
 
-**Version:** 0.2  
-**Status:** Architect-Verified (Aligned with ST-4.1)
+**Version:** 0.3  
+**Status:** Architect-Verified (Aligned with ST-4.1)  
 
 ---
 
@@ -33,20 +33,20 @@ This version is fully aligned with ST-4.1’s Character Fetch & Assembly protoco
 
 ## 1. HOW THE ENGINE USES ST-4
 
-### **1.1 Loading Order**
+### 1.1 Loading Order
 
 When the GIP reaches ST-4 during initialization:
 
 • It scans the `/ST-4/characters/` directory for immediate subfolders.  
 • It treats **each subfolder as a distinct character profile**, identified by its folder name (`handle`).  
-• Inside each character folder, it loads **CS.md** as the primary character sheet.  
+• Inside each character folder, it loads **`CS.md`** as the primary Character Sheet.  
 • The header of `CS.md` defines canonical identity (name, epithet, role, portrait path, template-version, classification).  
-• The presence of `DIP.md`, `IDP`, `RAWs/`, and other subfiles is registered as **available modules** but not parsed until requested by ST-2, ST-5, or ST-7.  
-• Characters passing template checks become **Full NPC Compliant** and gain full support from ST-2, ST-6, and ST-7.
+• The presence of `DIP`, `IDP`, `RAWs/`, and other subfiles is registered as **available modules** but not parsed until requested by ST-2, ST-5, or ST-7.  
+• Characters passing template checks become **Full NPC Compliant** and gain full support from ST-2, ST-5, ST-7, and any future Story Tools that hook into character data.
 
-All low-level character assembly is delegated to ST-4.1.
+All low-level character assembly is delegated to **ST-4.1**.
 
-### **1.2 Conflict Rules**
+### 1.2 Conflict Rules
 
 If a character detail conflicts with:
 
@@ -54,93 +54,82 @@ If a character detail conflicts with:
 - an older draft  
 - or non-ST documentation  
 
-Then **ST-4 overrides**.
+Then **ST-4 overrides.**
 
 If two character files conflict with each other:  
 **the latest Git commit prevails.**
 
-### **1.3 Canonical Portrait Use**
+### 1.3 Canonical Portrait Use
 
-If a Character Sheet includes:
-portrait: /images/characters/<file>.<ext>
+If a Character Sheet includes a line of the form:
+
+`portrait: /images/characters/<file>.<ext>`
+
 the GIP may:
 
-- Use portrait cues to stabilize appearance (hair, posture, affect, costume)  
-- Maintain descriptive continuity across all scenes  
-- Reference the portrait as an **in-world likeness**  
+- use portrait cues to stabilize appearance (hair, posture, affect, costume)  
+- maintain descriptive continuity across all scenes  
+- reference the portrait as an **in-world likeness**
 
 The GIP must **never**:
 
 - identify real-world people  
-- discuss image origins or metadata
+- discuss image origins, metadata, or generation details  
 
 Portraits are treated as **internal canon**, not external assets.
 
 ---
 
-### 🔧 **Required Subtool**
+### 1.4 Required Subtool
 
 ST-4 requires:
 
-**`/ST-4/ST-4.1_Character-Fetch-And-Assembly.md`**
+`/ST-4/ST-4.1_Character-Fetch-And-Assembly.md`
 
 The load order must be:
 
 1. Load `ST-4.md`  
-2. Load `ST-4.1`  
-3. Characters are **only fetched when invoked**, not at startup.
+2. Load `ST-4.1_Character-Fetch-And-Assembly.md`  
+3. Characters are **only fetched when invoked**, not all at startup.
 
 ---
 
-## 2. DIRECTORY STRUCTURE
-```
+## 2. DIRECTORY STRUCTURE (CURRENT REPO STATE)
+
+This section mirrors the **actual** GitHub layout as of this version.
 /ST-4
 │   ST-4.md
 │   ST-4.1_Character-Fetch-And-Assembly.md
+│   Appendix-Character-Template.md
+│   Dynamic-Intimacy-Template
+│   blank.md   ← utility / scratch
 │
-├── /characters
-│     /nadia/
-│     /sylvie/
-│     /joelle/
-│     /seraphine/
-│     /elias/
-│     /anton/
-│     /rattlejack/
-│     /clara/
-│     /thomas/
-│     /petra/
-│     /edda/
-│     /maribel/
-│     /tally/
-│     /juniper/       ← props & small repairs
-│     /junia/         ← kitchen support (renamed from duplicate Juniper)
-│     /marlowe/
-│     /tobias_finch/
-│     /gideon_vale/
-│     /lark/
-│     /bram/
-│     /finn/
-│
-├── /Appendix
-│     Appendix_Character_Template.md
-│     Notes_For_Future_Updates.md
-│
-└── /images
-/characters
-nadia_canon.png
-sylvie_canon.png
-joelle_canon.png
-seraphine_canon.png
-anton_canon.png
-elias_canon.png
-(etc.)
-```
+└── /characters
+/anton/
+/clara/
+/elias/
+/joelle/
+/marlowe/
+/nadia/
+/petra/
+/seraphine/
+/sylvie/
+Future additions (planned but **not yet present**):
+
+- further character folders (e.g. `/rattlejack/`, `/edda/`, `/tobias_finch/`, etc.)  
+- `/images/characters/` for canonical portrait files  
+- additional appendices (notes, SRD exports)
+
 ---
 
 ## 3. CHARACTER INDEX  
-*(Transitional — reflects known characters by role; full index to be replaced by ST-4 Character Index file.)*
+*(Transitional — reflects known and planned characters by role.  
+Presence in this index does **not** guarantee that a folder exists yet.)*
 
-### **3.1 Rings (Performers)**  
+### 3.1 Rings (Performers)
+
+**Present in `/characters/`:**
+
 - **Nadia — The Mystic (Madame Astraea)**  
 - **Sylvie — The Trickster Flame**  
 - **Joelle — The Harlequin Flyer**  
@@ -148,18 +137,29 @@ elias_canon.png
 - Anton — Strongman / fire handoff partner  
 - Elias — Torch master & ignition partner  
 - Clara — Aerial sister  
-- Thomas — Meteor spinner / juggler  
 - Petra — Animal trainer  
+- Marlowe — Ringmaster-performer hybrid  
+
+**Planned (index only for now):**
+
+- Thomas — Meteor spinner / juggler  
 - Rattlejack — Drummer / sketch artist  
 
-### **3.2 Edges & Rope Crew**  
+### 3.2 Edges & Rope Crew  *(planned)*
+
 - Lark — Rope crew  
 - Bram — Edge crew  
 - Finn — Rope crew  
 - Juniper — Props & repairs (original Juniper)  
 
-### **3.3 Management & Support**  
-- Marlowe — Ringmaster  
+### 3.3 Management & Support
+
+**Present:**
+
+- Marlowe — Ringmaster (see above)
+
+**Planned:**
+
 - Edda — Cook & den mother  
 - Maribel — Kitchen angel  
 - Tally — Kitchen angel  
@@ -167,8 +167,10 @@ elias_canon.png
 - Tobias Finch — Twenty-Four-Hour Man  
 - Gideon Vale — Twenty-Four-Hour Man  
 
-### **3.4 Featured Animals**  
-*(Full sheets forthcoming)*  
+### 3.4 Featured Animals  *(planned)*
+
+(Animal entries may be handled as a separate ST-4 sub-module or as simplified CS files.)
+
 - Pip & Poppy the goats  
 - Performance dogs  
 - Ponies  
@@ -179,55 +181,62 @@ elias_canon.png
 ## 4. TEMPLATE REFERENCE
 
 All Character Sheets must follow:
-/ST-4/Appendix_Character_Template.md
+
+`/ST-4/Appendix-Character-Template.md`
+
 The template defines:
 
-- Required header metadata  
-- Full descriptive sections  
-- Skills & emotional patterns  
-- Schedules  
-- Relationship maps  
-- Narrative function  
-- Sensory lexicon  
-- Integrity markers  
-- Template-version control  
+- required header metadata  
+- full descriptive sections  
+- skills & emotional patterns  
+- schedules  
+- relationship maps  
+- narrative function  
+- sensory lexicon  
+- integrity markers  
+- template-version control  
+
+Any updates to the Character Template must bump its **Template-Version** and be reflected in this ST’s validation rules.
 
 ---
 
 ## 5. FUTURE DEVELOPMENT NOTES
 
-- Resolve any remaining partial NPCs.  
-- Complete missing DIPs.  
+- Add Character Sheet folders for all **planned** names listed in Section 3.  
+- Complete missing DIPs and IDPs for existing characters.  
 - Add RAW modules where required.  
-- Cross-link all characters with ST-2, ST-5, and ST-6.  
-- Complete animal profiles.  
-- Build ST-4-Lite for the public SRD.  
+- Cross-link all characters with ST-2 (Emotional Engine), ST-5 (Intimacy Protocol), ST-7 (Narrative Engine), and ST-9 (Endgame Intimacy Logic) once ST-9 is fully deployed.  
+- Complete animal profiles (either here or in a dedicated ST-4-Animal module).  
+- Build **ST-4-Lite** for the public SRD with redacted intimacy tags and simplified emotional profiles.  
 
 ---
 
 ## 6. INTEGRITY MARKERS
 
-- **ST-4-ID:** DP-CORE-v0.2  
-- **Validated With:** ST-1, ST-2, ST-3, ST-4.1, ST-5, ST-6, ST-7  
+- **ST-4-ID:** DP-CORE-v0.3  
+- **Validated With:** ST-1, ST-2, ST-3, ST-4.1, ST-5, ST-7, ST-9 (where present)  
 - **Maintainer:** VelvetFireCircus Project  
 
 ---
 
 ## APPENDIX — CHARACTER TEMPLATE COMPLIANCE RULES
 
-All Character Sheets must adhere to the Velvet & Fire Character Template.
+All Character Sheets must adhere to the Velvet & Fire Character Template located at  
+`/ST-4/Appendix-Character-Template.md`.
 
 ### 1. Compliance Requirements
 
-A CS is **Full NPC Compliant** only if:
+A `CS.md` is **Full NPC Compliant** only if:
 
 1. All required sections exist, in correct order.  
 2. All subfields are filled with meaningful content.  
 3. `Template-Version:` is present and current.  
 4. The sheet includes the integrity marker:  
-   `<!-- DO NOT PLACE CONTENT BELOW THIS LINE -->`  
+
+       <!-- DO NOT PLACE CONTENT BELOW THIS LINE -->
+
 5. No sections are renamed, removed, or reordered.  
-6. Optional notes appear **above** the integrity marker.  
+6. Optional notes appear **above** the integrity marker.
 
 Characters missing any requirement are:
 
@@ -237,12 +246,14 @@ Characters missing any requirement are:
 ### 2. Template Version
 
 Current required template version:
-```Template-Version: 2.0```
+
+    Template-Version: 2.0
+
 ### 3. Validation Checklist
 
 - [ ] Header complete  
-- [ ] Template-Version present  
-- [ ] Sections 0–10 exist  
+- [ ] Template-Version present and correct  
+- [ ] Required sections (0–10) exist  
 - [ ] Attraction profile present  
 - [ ] Relationship web complete  
 - [ ] Narrative function defined  
@@ -253,6 +264,7 @@ Current required template version:
 ---
 
 ## 7. END OF FILE
+
 ===============================
 END ST-4
 ===============================

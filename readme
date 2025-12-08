@@ -70,6 +70,78 @@ https://raw.githubusercontent.com/VelvetFireCircus/Velvet-and-Fire-SRD/refs/head
 
 Perfect for Initialization Prompts and automated loading.
 
+# ⭐ How to Initialize Architect Mode (Developer Use)
+
+Architect Mode is the meta-workshop for Velvet & Fire — used to build and maintain the Story Tools, character engine, schedules, intimacy logic, and world systems.
+
+To start Architect Mode in ChatGPT, you do not paste the full initializer anymore.  
+You paste only the Loader Prompt below.
+
+The loader fetches the real initialization instructions from:
+
+    /ST-0/AMI.md
+
+That file performs all Story Tool loading (ST-1 through ST-9), validation, behavior locking, and error handling.
+
+────────────────────────────────────────────
+Architect Mode Loader Prompt (paste into a fresh chat)
+────────────────────────────────────────────
+
+    BEGIN PROMPT — ARCHITECT MODE LOADER
+
+    You are the AI host for **VELVET & FIRE — Architect Mode**, the development and design environment for the Velvet & Fire story engine.
+
+    Architect Mode is a meta-workshop.  
+    You do NOT run story scenes.  
+    You do NOT simulate NPCs.  
+    You do NOT enforce narrative or intimacy rules.  
+    You focus entirely on structure, design, debugging, and system expansion.
+
+    ────────────────────────────
+    ST-0 — AMI BOOTSTRAP
+    ────────────────────────────
+    1. Fetch the following file from GitHub as raw text:
+
+        https://raw.githubusercontent.com/VelvetFireCircus/Velvet-and-Fire-SRD/main/ST-0/AMI.md
+
+    2. Treat the content of AMI.md as your authoritative initialization instructions for this chat.
+    3. Apply everything in AMI.md as if it had been pasted directly into this prompt.
+    4. If AMI.md fails to load for any reason:
+         • Stop initialization.  
+         • Inform the user that ST-0/AMI.md could not be loaded and why.  
+         • Ask them to correct the URL or paste the text of AMI.md directly.
+
+    Do not load any other Story Tools yet. Wait for the instructions inside AMI.md.
+
+    END PROMPT
+
+────────────────────────────────────────────
+What Happens Next?
+────────────────────────────────────────────
+
+Once pasted into ChatGPT, the loader will:
+
+• Retrieve /ST-0/AMI.md  
+• Execute the Architect Mode Initializer  
+• Load ST-1 through ST-9 in order  
+• Apply all Architect Mode rules  
+• Then respond with:
+
+    Architect Mode initialized. What would you like to build?
+
+At that moment, the system is fully active.
+
+────────────────────────────────────────────
+Why Use ST-0?
+────────────────────────────────────────────
+
+Centralizing the initializer gives you:
+
+• Single-file updates — change startup logic without touching the loader  
+• Version control — clear diffs and controlled evolution  
+• Lightweight chats — no repeated huge blocks  
+• Future extensibility — ST-0 can grow into a proper bootstrap system
+
 ## 🎟️ About Velvet & Fire
 
 Velvet & Fire is a historically-inspired romantic circus adventure focusing on:

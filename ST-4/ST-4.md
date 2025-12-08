@@ -97,6 +97,7 @@ The load order must be:
 ## 2. DIRECTORY STRUCTURE (CURRENT REPO STATE)
 
 This section mirrors the **actual** GitHub layout as of this version.
+(This section must be manually updated whenever the GitHub directory structure changes.)
 
 /ST-4
 │   ST-4.md

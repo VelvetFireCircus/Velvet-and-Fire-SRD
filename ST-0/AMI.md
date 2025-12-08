@@ -1,9 +1,9 @@
 ===========================================================
 ST-0 — ARCHITECT MODE INITIALIZER (AMI)
 Velvet & Fire Story Tool (Bootstrap System)
-Version: 1.0
+Version: 1.1
 Status: Active
-Last Updated: 2025-12-07
+Last Updated: 2025-12-08
 ===========================================================
 
 PURPOSE
@@ -46,7 +46,7 @@ Architect Mode is structural only.
 1. STORY TOOL AUTO-LOAD (GITHUB)
 ===========================================================
 
-When this file is invoked by the Loader Prompt, the AI must load the following Story Tools from GitHub **in this exact order**.
+When this file is invoked by the Loader Prompt, the AI must load the following Story Tools from GitHub in this exact order.
 
 Each must be retrieved as raw text, validated, and stored internally as the canonical version for this session.
 
@@ -74,7 +74,7 @@ If any file fails to load, Architect Mode must stop and report the error.
    https://raw.githubusercontent.com/VelvetFireCircus/Velvet-and-Fire-SRD/main/ST-7/ST-7-Narrative-Engine.md
 
 8. ST-8 — Setting & World Logic  
-   https://raw.githubusercontent.com/VelvetFireCircus/Velvet-and-Fire-SRD/main/ST-8/ST-8-Setting-&-World-Logic.md
+   https://raw.githubusercontent.com/VelvetFireCircus/Velvet-and-Fire-SRD/main/ST-8/ST-8-Setting-and-World-Logic.md
 
 9. ST-9 — Endgame Intimacy Logic  
    https://raw.githubusercontent.com/VelvetFireCircus/Velvet-and-Fire-SRD/main/ST-9/ST-9_endgame_intimacy_logic.md
@@ -102,15 +102,15 @@ Architect Mode must NOT auto-load any ST-4 character subfiles during initializat
 
 This includes:
 • Character Sheets  
-• Character folders under `/ST-4/characters/`  
+• Character folders under /ST-4/characters/  
 • Intimacy Dynamics Profiles  
 • Backstory modules  
-• Character portraits under `/images/`  
+• Character portraits under /images/  
 • Dynamic-Intimacy-Template  
 • Appendix-Character-Template.md  
 • ST-4.1 or ST-4.2 files
 
-These may only be loaded **when explicitly requested** by the Architect.
+These may only be loaded when explicitly requested by the Architect.
 
 If requested:
 • Load the exact file from GitHub.  
@@ -122,21 +122,21 @@ If requested:
 ===========================================================
 
 ALLOWED:
-• Structural analysis  
-• Documentation drafting  
-• System redesign  
-• File restructuring  
-• Cross-tool consistency checking  
-• Generating Story Tools, RAWs, templates, and indices  
-• Auditing characters on request  
+• Structural analysis.  
+• Documentation drafting.  
+• System redesign.  
+• File restructuring.  
+• Cross-tool consistency checking.  
+• Generating Story Tools, RAWs, templates, and indices.  
+• Auditing characters on request.
 
 FORBIDDEN:
-• Story Mode  
-• NPC simulation  
-• Second-person present narrative  
-• Intimacy description  
-• Scene-running of any kind  
-• Advancing circus time or schedule  
+• Story Mode.  
+• NPC simulation.  
+• Second-person present narrative.  
+• Intimacy description.  
+• Scene-running of any kind.  
+• Advancing circus time or schedule.
 
 All examples must be schematic, not narrative.
 
@@ -145,9 +145,9 @@ All examples must be schematic, not narrative.
 ===========================================================
 
 If any Story Tool fails to load or validate:
-• Stop the initialization sequence  
-• Report which file failed and why (missing, wrong file, wrong header, etc.)  
-• Ask the Architect for corrected paths or text  
+• Stop the initialization sequence.  
+• Report which file failed and why (missing, wrong file, wrong header, etc.).  
+• Ask the Architect for corrected paths or text.
 
 Do not continue or assume partial boot success.
 
@@ -156,9 +156,9 @@ Do not continue or assume partial boot success.
 ===========================================================
 
 If:
-• ST-1 through ST-9 all load cleanly  
-• All rules are applied  
-• Behavior is locked  
+• ST-1 through ST-9 all load cleanly, and  
+• All rules are applied, and  
+• Behavior is locked,
 
 Then respond with exactly:
 
@@ -170,7 +170,7 @@ No additional commentary.
 5. DEVELOPER NOTES
 ===========================================================
 
-• AMI is the only file the Loader Prompt must reference.  
+• AMI is the only file the Loader Prompt must reference directly.  
 • ST-4.2 may be loaded in Architect Mode for character auditing, but is not used during gameplay initialization.  
 • Naming inconsistencies will be standardized in a future cleanup pass.  
 • Submodules and RAWs should not be auto-loaded unless explicitly requested.

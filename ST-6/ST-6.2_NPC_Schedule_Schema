@@ -1,0 +1,203 @@
+===========================================
+ST-6.2 — NPC SCHEDULE SCHEMA
+Velvet & Fire Story Tool (Subtool of ST-6)
+AI→AI Structural Specification
+===========================================
+
+# ST-6.2 — NPC SCHEDULE SCHEMA
+
+Version: 0.1  
+Status: Draft-Active (Architect Mode)  
+Last Updated: 2025-12-07  
+Maintainer: VelvetFireCircus
+
+DEPENDENCIES  
+- ST-1 — Welcome to Velvet & Fire  
+- ST-2 — Emotional Engine  
+- ST-3 — Vocabulary  
+- ST-4 — Dramatis Personae  
+- ST-5 — Intimacy Protocol  
+- ST-6 — Schedule & Daily Rhythm  
+- ST-7 — Narrative Engine  
+
+-------------------------------------------
+0. PURPOSE & SCOPE
+-------------------------------------------
+
+ST-6.2 defines the format for all NPC schedule files.
+
+Each NPC schedule:
+
+- lives under `/ST-6/schedules/<handle>.md`
+- describes when, where, and how an NPC moves during the four-day Merrivale run
+- exposes tags the Narrative Engine uses to:
+    - decide who is present
+    - choose who can redirect the PC
+    - determine emotional tone
+    - open or close heat windows
+
+Global timing lives in ST-6.1_Merrivale.md;  
+NPC schedules must conform to that structure.
+
+-------------------------------------------
+1. FILE LOCATION & NAMING RULES
+-------------------------------------------
+
+All NPC schedules:
+
+- must live in `/ST-6/schedules/`
+- must be named `<handle>.md` to match ST-4 character folders
+
+If a schedule file is missing, ST-7 falls back to:
+
+- ST-6.1 global defaults  
+- role-based availability templates  
+
+-------------------------------------------
+2. REQUIRED STRUCTURE FOR EACH FILE
+-------------------------------------------
+
+Each `/ST-6/schedules/<handle>.md` MUST contain:
+
+# <NPC NAME> — SCHEDULE MAP
+
+## 0. HEADER
+- Name:
+- Handle:
+- Role:
+- Primary Function Tags:
+- Schedule-Template-Version: 1.0
+
+## 1. BASELINE DAY-BY-DAY EMOTIONAL TONE
+Day 1:
+  - baseline_tone:
+  - notes:
+Day 2:
+  - baseline_tone:
+  - notes:
+Day 3:
+  - baseline_tone:
+  - notes:
+Day 4:
+  - baseline_tone:
+  - notes:
+
+## 2. DETAILED TIME-BLOCK SCHEDULE
+### DAY 1 — ARRIVAL & SETUP
+Dawn (5–7 AM):
+  - location:
+  - activity:
+  - emotional_state:
+  - availability:
+  - tags:
+  - notes:
+
+Morning (7–11 AM):
+  - ...
+
+Midday (11–1):
+  - ...
+
+Afternoon (1–4):
+  - ...
+
+Evening (4–10):
+  - ...
+
+Night (10–1):
+  - ...
+
+Late Night (1–5):
+  - ...
+
+Repeat for DAYS 2–4.
+
+## 3. HEAT WINDOWS & OPPORTUNITY ZONES
+- low_heat_windows:
+- medium_heat_windows:
+- high_heat_windows:
+- forbidden_windows:
+- notes_for_ST-5_alignment:
+
+## 4. AVAILABILITY & INTERRUPTIBILITY MAP
+- high_interruptibility_blocks:
+- low_interruptibility_blocks:
+- non_interruptible_blocks:
+- natural_approach_moments:
+- recommended_PC_entry_points:
+
+## 5. REDIRECT CUES (FOR ST-7)
+- redirect_style:
+- examples:
+    - "..."
+    - "..."
+    - "..."
+
+## 6. SPECIAL FLAGS & NOTES
+- can_trigger_Endgame?:
+- critical_scene_hooks:
+- conflicts_with_other_NPCs:
+- notes_for_Architect:
+
+-------------------------------------------
+3. TIME-BLOCK TAGGING CONVENTIONS
+-------------------------------------------
+
+location: ring, back yard, mess car, kitchen car, train, town, animal pens, prop wagon, wardrobe, lot edge
+
+emotional_state: focused, distracted, anxious, playful, flirtatious, exhausted, raw, celebratory, guarded, open
+
+availability: available, interruptible, absorbed, seeking_company, unavailable
+
+tags (optional):
+- craft tags: rehearsal, admin, rigging_check, costume, makeup, cleanup, teardown
+- narrative tags: good_intro, good_confession, high_stress, bad_for_romance
+
+-------------------------------------------
+4. HEAT WINDOWS (INTERFACE TO ST-5)
+-------------------------------------------
+
+Defines:
+- low_heat_windows
+- medium_heat_windows
+- high_heat_windows
+- forbidden_windows
+
+-------------------------------------------
+5. REDIRECT CUES (SCHEDULE ENFORCEMENT)
+-------------------------------------------
+
+Used when an NPC pulls the PC back into required activities.
+Must be in-character, never punitive.
+
+-------------------------------------------
+6. MAINTENANCE & VERSIONING
+-------------------------------------------
+
+Each file must contain:
+Schedule-Template-Version: 1.0
+
+Version bumps require file-wide audit and updates.
+
+-------------------------------------------
+7. FOLDER LAYOUT (REFERENCE)
+-------------------------------------------
+
+/ST-6
+    ST-6.md
+    ST-6.1_Merrivale.md
+    ST-6.2_Schedule_Schema.md
+    /schedules
+        marlowe.md
+        sylvie.md
+        nadia.md
+        joelle.md
+        seraphine.md
+        anton.md
+        elias.md
+        clara.md
+        petra.md
+
+===========================================
+END ST-6.2
+===========================================

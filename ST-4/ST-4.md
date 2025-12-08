@@ -45,6 +45,7 @@ When the GIP reaches ST-4 during initialization:
 • Characters passing template checks become **Full NPC Compliant** and gain full support from ST-2, ST-5, ST-7, and any future Story Tools that hook into character data.
 
 All low-level character assembly is delegated to **ST-4.1**.
+For audit and development support, see ST-4.2 — Character Index.
 
 ### 1.2 Conflict Rules
 

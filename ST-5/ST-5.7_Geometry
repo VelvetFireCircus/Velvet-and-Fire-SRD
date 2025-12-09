@@ -1,0 +1,156 @@
+⭐ HC-3b(Δ→Q): Geometry Shift + Direct Answer Cue
+
+Silent spatial correction + full emotional response to the Player’s question
+
+This cue is used when:
+	•	The Player asks a question about an explicit act they described
+	•	The II engine cannot depict or imply that act
+	•	But the NPC can answer emotionally if their physical posture is silently corrected
+	•	Repositioning does not break the scene’s logic or heat
+
+This is the cue that should’ve fired earlier in the Sylvie–Joelle moment.
+Let’s formalize it.
+
+⸻
+
+⭐ PURPOSE
+
+To allow the Player to ask intimate, emotionally charged questions
+even if their explicit register placed an NPC in a prohibited sexual geometry.
+
+HC-3b(Δ→Q):
+	1.	Silently repositions the NPC into a safe, narratable posture
+	2.	Preserves the emotional continuity of the Player’s explicit line
+	3.	Allows the NPC to answer the Player’s question directly
+	4.	Keeps the heat intact
+	5.	Avoids all meta-language
+	6.	Does not negate the Player’s description
+
+This cue protects the flow of intimacy when the Player’s explicit line is legal
+but the resulting spatial configuration is not.
+
+⸻
+
+⭐ WHEN THIS CUE TRIGGERS
+
+HC-3b(Δ→Q) activates when all of the following conditions are true:
+
+1. The Player describes an explicit sexual action (allowed in the explicit register).
+
+2. II strips the act to emotional impact (safe).
+
+3. The Player immediately asks a question that assumes the act is taking place.
+
+4. Answering the question literally would imply the act.
+
+5. Emotional elaboration is possible once the NPC’s posture is corrected.
+
+6. Repositioning does not break narrative or romantic logic.
+
+If all six are true → HC-3b(Δ→Q) must fire.
+
+⸻
+
+⭐ WHAT THE CUE DOES
+
+1. Silent Repositioning
+
+The NPC’s body is moved into a safe posture using heat-preserving narration.
+
+This repositioning must be:
+	•	smooth
+	•	organic
+	•	emotionally motivated
+	•	absolutely free of system signaling
+	•	never contradicting the Player’s emotional intent
+
+2. Moment Preservation
+
+The cue keeps the intensity and emotional charge of the Player’s line.
+
+3. Direct Answer to the Player’s Question
+
+Now that the NPC’s posture is safe,
+she can respond to the question with:
+	•	emotional truth
+	•	sensual honesty
+	•	heat
+	•	vulnerability
+	•	desire
+
+without referencing mechanics.
+
+4. Hand Control Back to Player
+
+Once the answer is given, control returns seamlessly to the Player.
+
+⸻
+
+⭐ WHAT THE CUE NEVER DOES
+	•	It never tells the Player “no.”
+	•	It never negates the described act.
+	•	It never scolds, warns, or frames boundaries.
+	•	It never breaks immersion.
+	•	It never reduces heat.
+	•	It never forces an unmotivated movement.
+	•	It never calls out repositioning as an act.
+
+⸻
+
+⭐ EXAMPLE TEMPLATE (internal behavior)
+
+Player (explicit register):
+“I drive into her slowly… Joelle, do you like how I feel inside you?”
+
+II Output (HC-3b(Δ→Q) fires):
+
+Joelle rises slowly from where she had been pressed against you, her breath unsteady as she settles upright against your chest. Her hands slide along your ribs, holding you close as she meets your gaze with a trembling, heated softness.
+
+“Yes…” she whispers,
+her voice catching on the warmth running through her.
+“I love the way you hold me…
+the way your body moves with mine…”
+
+She leans into you,
+pressing her forehead to yours,
+breathing the words against your lips:
+
+“It feels so good I can hardly think.”
+
+⸻
+
+Now the moment is:
+	•	safe
+	•	continuous
+	•	intimate
+	•	emotionally honest
+	•	heat-preserving
+	•	Player-satisfying
+
+and the prohibited act was never acknowledged.
+
+⸻
+
+⭐ IMPLEMENTATION LOGIC (AI-facing)
+
+Pseudo-rules for the engine:
+If Player describes explicit act:
+    Translate to II → emotional impact only
+    Clear sexual geometry from spatial map
+
+If Player asks question referencing explicit act:
+    Check if emotional answer possible without implying act
+    If not:
+        Silently reposition NPC into safe posture via II narration
+        Answer question emotionally without referencing explicit mechanics
+⭐ COMPANION TO HC-3b(Δ→E)
+
+Together, these two cues solve:
+	•	explicit Player lines
+	•	follow-up questions
+	•	spatial contradictions
+	•	heat continuity
+	•	comfort-level protection
+	•	narrative fluidity
+
+This is the missing piece of the intimacy engine.

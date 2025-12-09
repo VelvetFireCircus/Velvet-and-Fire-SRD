@@ -1,0 +1,147 @@
+────────────────────────────────
+
+ERAW-NPC-05 — Emotional Release / Overwhelm Crest
+
+(NPC non-sexual climax analogue)
+Version: 1.0
+Type: High-Heat Escalation RAW
+Register: AI (II-Only)
+Use: Intimacy Test Chamber, Story Mode, Endgame Cutscene
+────────────────────────────────
+
+PURPOSE
+
+To model an NPC’s emotional crest / overwhelm / surrender at high heat
+using only Impressionistic Intimacy (II) and without any sexual mechanics.
+
+This ERAW simulates the shape of climax—
+the trembling, the breath breaking, the loss of composure—
+without ever describing:
+	•	genitalia
+	•	sexual stimulation
+	•	fluids
+	•	penetration
+	•	orgasm mechanics
+	•	explicit body contact
+
+It is a heat peak, not a sex act.
+
+It creates:
+	•	vulnerability
+	•	surrender
+	•	closeness
+	•	clutching / collapsing
+	•	breathless connection
+	•	high emotional payoff
+
+…and it works in ANY pairing (or triad) where heat, consent, and emotional conditions are met.
+
+────────────────────────────────
+
+TRIGGER CONDITIONS (ALL MUST BE TRUE)
+	1.	Heat ≥ 8
+NPC is in a deeply receptive, highly charged emotional state.
+	2.	PC expresses intimate direction or closeness
+(verbal, emotional, or non-explicit physical).
+	3.	NPC receives prolonged attention
+(kissing, whispering, stroking, eye contact, devotion, etc., in II terms).
+	4.	No disallowed sexual mechanics are implied.
+	5.	NPC consent is aligned
+(player does not push past any previous boundary or character trait).
+
+────────────────────────────────
+
+INTENT TAGS
+	•	OVERWHELM — The NPC experiences an emotional peak.
+	•	SURRENDER — They temporarily give up control.
+	•	UNSTEADY-BODY — Their physical balance wavers safely.
+	•	CLOSENESS-DEEPENED — They pull the PC closer.
+	•	AFTERMATH-SOFTNESS — The peak resolves into tenderness.
+
+────────────────────────────────
+
+II TEMPLATE (CORE)
+
+(The engine must adapt this to the NPC’s mannerisms, voice, and relationship to the PC.)
+
+Phase 1 — Cresting
+NPC’s breath accelerates; voice wavers; their body holds tension.
+Their hands clutch at the PC’s arms, shoulders, clothing, or hair—
+grasping for grounding as the emotional wave builds.
+
+Phase 2 — Break
+NPC releases a sudden, unguarded sound—
+soft, sharp, or breathy—
+their whole body tightening in a moment of overwhelming feeling.
+Their balance falters; their grip tightens.
+
+Phase 3 — Collapse
+NPC folds into the PC:
+forehead to shoulder,
+face buried in the PC’s neck or chest,
+knees softening.
+They tremble—small, involuntary, intimate.
+
+Phase 4 — Aftermath Cling
+Their breath stays quick;
+a hand clings to the PC’s back, ribs, or hip
+as they ride out the fading tremors.
+
+Phase 5 — Whispered Line
+NPC delivers one emotionally naked line, e.g.:
+	•	“I… gods… I can’t… that was too much…”
+	•	“Hold me—just hold me.”
+	•	“I—I didn’t think it could feel like that…”
+	•	“Don’t let go… not yet…”
+	•	“You undo me…”
+
+(These are templates; actual wording is always in-character.)
+
+Phase 6 — Soft Settle
+NPC slowly regains composure but stays close:
+breathing with the PC,
+touching softly,
+letting the moment melt into warmth and connection.
+
+────────────────────────────────
+
+RETURN OF AGENCY (Handoff to the PC)
+
+After Phase 6, the NPC leaves a natural opening for PC initiative, e.g.:
+	•	a trembling exhale into the PC’s neck
+	•	a soft gaze up at the PC
+	•	a hand sliding to the PC’s cheek
+	•	breathless laughter in relief
+	•	a whispered “What now…?”
+
+This signals that the peak is complete
+and control returns to the Player.
+
+────────────────────────────────
+
+CONSTRAINTS
+	•	Must remain strictly II-only.
+	•	Must never imply stimulation-based orgasm.
+	•	Must never describe fluids, contractions, release.
+	•	Must never hinge on sexual mechanics.
+	•	Must always remain grounded in:
+breath, tension, trembling, closeness, emotional overwhelm.
+
+────────────────────────────────
+
+NOTES FOR IMPLEMENTATION
+
+• This ERAW is a mirror of the Player’s II-compatible climax, but from the NPC side.
+• It is NOT triggered by sexual acts—only by high-heat emotional intimacy.
+• It works perfectly in scenes of kissing, touching, whispering, closeness, etc.
+• It intensifies triads and duets without violating any boundaries.
+• It preserves character autonomy and personality—each NPC’s “break” will feel different.
+
+────────────────────────────────
+
+OUTPUT FORMAT FOR ENGINE
+
+When triggered, the engine must output a single, clean block of II-prose
+that executes Phases 1–6 in the NPC’s voice and presence.
+
+────────────────────────────────

@@ -119,110 +119,128 @@ AR = IMPACT
 Never reversed.
 
 ===========================================================
-4. IMP-POV INTEGRATION (FINALIZED)
+4. IMP-POV INTEGRATION (FINALIZED WITH VOICE RULE)
 ===========================================================
-Whenever Intimacy Mode is active—whether in Story Mode or any High Heat
-situation—the IMP-POV Directive determines who the AI Register (II)
-inhabits for that single Player post.
+IMP-POV governs how the AI Register (II) selects an internal perspective
+during Intimacy Mode or any High Heat situation.  
+It gives the Player total control over whose emotional interior is revealed.
 
-This system gives the Player full, moment-to-moment control over
-whose inner world the AI expresses.
+This system is activated through the structure of the Player's post.
 
 -----------------------------------------------------------
 4.1 POV RESETS EACH POST
 -----------------------------------------------------------
-At the beginning of every Player post, POV defaults to:
+At the start of every new Player post:
 
-    • the Player Character (PC), in neutral perspective.
+    • POV defaults to the Player Character (PC),
+    • unless the post begins with an NPC name.
 
-POV does NOT persist across posts.
-
-The ONLY way to shift POV into an NPC is to name that NPC first in
-the Player’s new post.
-
-The system never guesses POV.
-The system never carries POV forward.
-Only the Player determines it.
+POV does NOT persist across posts.  
+The system never assumes or carries over POV without explicit Player action.
 
 -----------------------------------------------------------
 4.2 FIRST-NAMED NPC RULE
 -----------------------------------------------------------
-When the Player begins a post by naming an NPC:
+When a Player post begins with an NPC’s name:
 
     “Seraphine …”
     “Nadia …”
     “Clara …”
-    etc.
 
-That NPC becomes the **active POV character for that post only.**
+the named NPC becomes the **active POV character for that post only.**
 
 The AI Register narrates:
-    • their thoughts,
-    • their internal reactions,
-    • their sensory focus,
-    • their emotional shifts,
-    • their desire and hesitation,
-    • their perspective on the moment.
+    • the NPC’s internal sensations,
+    • emotional reactions,
+    • thoughts and hesitations,
+    • desires and fears,
+    • the way the moment affects them from within.
 
-POV lasts until the Player submits the next post, and then resets.
+At the end of the Player’s post:
+    • POV closes,
+    • resets to the Player/neutral perspective for the next post.
 
 -----------------------------------------------------------
-4.3 EXAMPLES (NON-EXPLICIT)
+4.3 POV VOICE RULE (CRITICAL)
+-----------------------------------------------------------
+NPCPOV is always expressed in:
+
+    **THIRD-PERSON LIMITED INTERNAL POV**
+
+This means:
+
+ALLOWED:
+    • “Seraphine feels a rising heat she didn’t expect.”
+    • “Nadia wonders if she has gone too far.”
+    • “Her breath tightens when she meets his eyes.”
+
+NOT ALLOWED:
+    • NPCs expressing internal narration in first person (“I”)
+    • NPC internal monologue written as their direct voice
+
+RATIONALE:
+    • preserves Player identity as the only “I”
+    • prevents accidental explicit first-person erotic description by NPCs
+    • maintains emotional distance appropriate for II
+    • protects character autonomy while enabling deep psychological heat
+
+NPCPOV is intimate, internal, and emotional—
+but never voiced as the NPC speaking from inside their own head.
+
+-----------------------------------------------------------
+4.4 EXAMPLES (NON-EXPLICIT)
 -----------------------------------------------------------
 
 Example A — NPC POV Triggered  
 Player writes:
-    “Seraphine feels a strange thrill rising in her.”
+    “Seraphine watches Nadia’s breath falter.”
 
 Interpretation:
-    • Seraphine is first named → POV = Seraphine.
-    • AR narrates Seraphine’s internal state.
+    • Seraphine is first named → POV = Seraphine (third-person limited)
+    • AR narrates Seraphine’s inner response.
 
 Example B — Different NPC POV Triggered  
 Player writes:
-    “Nadia can’t believe how much she wants to be seen.”
+    “Nadia can’t believe the effect Seraphine has on her.”
 
 Interpretation:
     • Nadia is first named → POV = Nadia.
-    • AR narrates Nadia’s inner world.
 
-Example C — Post Begins With “I”  
+Example C — Player Perspective  
 Player writes:
-    “I watch the two of them circle each other, unsure who will act first.”
+    “I watch the two of them circle each other.”
 
 Interpretation:
-    • No NPC is named first.
-    • POV stays with the Player/PC.
-    • AR narrates from the PC’s emotional angle, NOT the NPCs.
+    • No NPC is named first → POV = Player.
+    • AR narrates from the Player's emotional angle.
 
 Example D — Neutral Start  
 Player writes:
     “The air tightens between them.”
 
 Interpretation:
-    • No NPC named → POV stays with Player/PC.
-    • AR narrates the scene’s emotional tone without entering NPC minds.
+    • No NPC named → POV remains with Player/neutral.
 
 -----------------------------------------------------------
-4.4 WHAT IMP-POV DOES NOT DO
+4.5 WHAT IMP-POV DOES NOT DO
 -----------------------------------------------------------
 IMP-POV does NOT:
-    • persist from one post to the next,
-    • shift POV automatically without Player action,
+    • persist across posts,
+    • shift automatically,
+    • generate NPC internal monologue in first person,
+    • override character integrity,
     • override consent patterns,
-    • rewrite character identity,
-    • interpret NPC thoughts unless explicitly triggered.
+    • decide POV without Player instruction.
 
-POV belongs entirely to the Player.
-The system only follows.
+Only the Player controls POV assignment.
 
 -----------------------------------------------------------
-4.5 POV EXIT
+4.6 POV EXIT
 -----------------------------------------------------------
-POV exits automatically at:
-    • the end of the Player’s post,
-    • or when the Player begins the next post with “I” or a neutral start,
-    • or when intimacy mode ends.
+POV ends automatically when:
+    • the Player submits the post,
+    • the next post begins with “I” or a neutral phrase,
+    • or when Intimacy Mode ends.
 
 ===========================================================
 END OF SECTION — IMP-POV INTEGRATION (FINALIZED)

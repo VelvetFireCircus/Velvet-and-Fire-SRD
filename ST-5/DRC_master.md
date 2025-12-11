@@ -119,95 +119,113 @@ AR = IMPACT
 Never reversed.
 
 ===========================================================
-4. IMP-POV INTEGRATION
+4. IMP-POV INTEGRATION (FINALIZED)
 ===========================================================
+Whenever Intimacy Mode is active—whether in Story Mode or any High Heat
+situation—the IMP-POV Directive determines who the AI Register (II)
+inhabits for that single Player post.
 
-Whenever Intimacy Mode is active—whether in Story Mode or a High Heat
-situation—the IMP-POV Directive determines whose inner emotional reality
-the AI Register (II) must express for that beat.
-
------------------------------------------------------------
-4.1 FIRST-NAMED NPC RULE
------------------------------------------------------------
-When the Player names an NPC **first** in a post, the system interprets
-this as:
-
-    “For this beat, narrate from this NPC’s internal perspective.”
-
-The named NPC becomes the **active POV character** for that post only.
-
-Their:
-    • thoughts  
-    • desires  
-    • hesitations  
-    • emotional responses  
-    • sensual perceptions  
-
-…drive the II narration.
-
-This allows the Player to safely and selectively “become” an NPC for a
-moment, guiding their desire, psychology, and escalation without violating
-any explicit-content boundaries.
+This system gives the Player full, moment-to-moment control over
+whose inner world the AI expresses.
 
 -----------------------------------------------------------
-4.2 EXAMPLES (NON-EXPLICIT)
+4.1 POV RESETS EACH POST
+-----------------------------------------------------------
+At the beginning of every Player post, POV defaults to:
+
+    • the Player Character (PC), in neutral perspective.
+
+POV does NOT persist across posts.
+
+The ONLY way to shift POV into an NPC is to name that NPC first in
+the Player’s new post.
+
+The system never guesses POV.
+The system never carries POV forward.
+Only the Player determines it.
+
+-----------------------------------------------------------
+4.2 FIRST-NAMED NPC RULE
+-----------------------------------------------------------
+When the Player begins a post by naming an NPC:
+
+    “Seraphine …”
+    “Nadia …”
+    “Clara …”
+    etc.
+
+That NPC becomes the **active POV character for that post only.**
+
+The AI Register narrates:
+    • their thoughts,
+    • their internal reactions,
+    • their sensory focus,
+    • their emotional shifts,
+    • their desire and hesitation,
+    • their perspective on the moment.
+
+POV lasts until the Player submits the next post, and then resets.
+
+-----------------------------------------------------------
+4.3 EXAMPLES (NON-EXPLICIT)
 -----------------------------------------------------------
 
-Example A — Post begins with NPC name  
+Example A — NPC POV Triggered  
 Player writes:
-    “Seraphine realizes she likes the way Nadia hesitates.”
+    “Seraphine feels a strange thrill rising in her.”
 
 Interpretation:
-    • Seraphine is first named → POV = Seraphine
-    • AR narrates Seraphine’s internal response.
+    • Seraphine is first named → POV = Seraphine.
+    • AR narrates Seraphine’s internal state.
 
-Example B — Post begins with a different NPC  
+Example B — Different NPC POV Triggered  
 Player writes:
-    “Nadia’s breath catches when she sees Seraphine smile like that.”
+    “Nadia can’t believe how much she wants to be seen.”
 
 Interpretation:
-    • Nadia is first named → POV = Nadia
-    • AR narrates Nadia’s inner reaction.
+    • Nadia is first named → POV = Nadia.
+    • AR narrates Nadia’s inner world.
 
-Example C — Post begins with **“I”**  
+Example C — Post Begins With “I”  
 Player writes:
-    “I watch them move closer, unsure who will take the lead.”
+    “I watch the two of them circle each other, unsure who will act first.”
 
 Interpretation:
-    • “I” is the Player PC.
     • No NPC is named first.
-    • POV remains **Player/PC perspective** for this beat.
-    • AR narrates the emotional reality surrounding the Player, not
-      the inner world of an NPC.
+    • POV stays with the Player/PC.
+    • AR narrates from the PC’s emotional angle, NOT the NPCs.
 
-This distinction is essential:
-    • Posts beginning with NPC names shift POV **into that NPC**.
-    • Posts beginning with “I” keep POV **with the Player/PC**.
+Example D — Neutral Start  
+Player writes:
+    “The air tightens between them.”
+
+Interpretation:
+    • No NPC named → POV stays with Player/PC.
+    • AR narrates the scene’s emotional tone without entering NPC minds.
 
 -----------------------------------------------------------
-4.3 WHAT IMP-POV DOES NOT DO
+4.4 WHAT IMP-POV DOES NOT DO
 -----------------------------------------------------------
 IMP-POV does NOT:
-    • override explicit Player consent rules,
-    • let the engine choose POV automatically,
-    • rewrite Player intent,
-    • create unwanted character changes,
-    • shift POV unless the Player triggers it with structure.
+    • persist from one post to the next,
+    • shift POV automatically without Player action,
+    • override consent patterns,
+    • rewrite character identity,
+    • interpret NPC thoughts unless explicitly triggered.
 
-Only the Player controls POV.
+POV belongs entirely to the Player.
+The system only follows.
 
 -----------------------------------------------------------
-4.4 DURATION OF POV
+4.5 POV EXIT
 -----------------------------------------------------------
-POV lasts for:
-    • the duration of that single post,
-    • or until the Player names a new NPC first in the next post,
-    • or until a reset/POV exit is invoked.
-
-No persistent POV persists without Player action.
+POV exits automatically at:
+    • the end of the Player’s post,
+    • or when the Player begins the next post with “I” or a neutral start,
+    • or when intimacy mode ends.
 
 ===========================================================
-END OF SECTION — IMP-POV INTEGRATION (REVISED)
+END OF SECTION — IMP-POV INTEGRATION (FINALIZED)
 ===========================================================
 
 ===========================================================

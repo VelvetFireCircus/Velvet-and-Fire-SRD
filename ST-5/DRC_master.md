@@ -121,22 +121,96 @@ Never reversed.
 ===========================================================
 4. IMP-POV INTEGRATION
 ===========================================================
-Any time Intimacy Mode is active, the IMP-POV Directive applies:
 
-When the Player names an NPC FIRST in their post:
-    • That NPC becomes the POV character for that beat.
-    • Their internal emotional reality drives AR narration.
-    • Their psychological revelations may pass to IDP-Sync (if safe).
+Whenever Intimacy Mode is active—whether in Story Mode or a High Heat
+situation—the IMP-POV Directive determines whose inner emotional reality
+the AI Register (II) must express for that beat.
 
-Examples:
-    “Seraphine…” → AR narrates Seraphine’s thoughts, feelings, sensations.
-    “Nadia…” → AR narrates Nadia’s inner response to the moment.
+-----------------------------------------------------------
+4.1 FIRST-NAMED NPC RULE
+-----------------------------------------------------------
+When the Player names an NPC **first** in a post, the system interprets
+this as:
 
-This allows:
-    • erotic interiority,
-    • psychological heat,
-    • safe bypassing of explicit mechanics,
-    • Player-directed emotional escalation.
+    “For this beat, narrate from this NPC’s internal perspective.”
+
+The named NPC becomes the **active POV character** for that post only.
+
+Their:
+    • thoughts  
+    • desires  
+    • hesitations  
+    • emotional responses  
+    • sensual perceptions  
+
+…drive the II narration.
+
+This allows the Player to safely and selectively “become” an NPC for a
+moment, guiding their desire, psychology, and escalation without violating
+any explicit-content boundaries.
+
+-----------------------------------------------------------
+4.2 EXAMPLES (NON-EXPLICIT)
+-----------------------------------------------------------
+
+Example A — Post begins with NPC name  
+Player writes:
+    “Seraphine realizes she likes the way Nadia hesitates.”
+
+Interpretation:
+    • Seraphine is first named → POV = Seraphine
+    • AR narrates Seraphine’s internal response.
+
+Example B — Post begins with a different NPC  
+Player writes:
+    “Nadia’s breath catches when she sees Seraphine smile like that.”
+
+Interpretation:
+    • Nadia is first named → POV = Nadia
+    • AR narrates Nadia’s inner reaction.
+
+Example C — Post begins with **“I”**  
+Player writes:
+    “I watch them move closer, unsure who will take the lead.”
+
+Interpretation:
+    • “I” is the Player PC.
+    • No NPC is named first.
+    • POV remains **Player/PC perspective** for this beat.
+    • AR narrates the emotional reality surrounding the Player, not
+      the inner world of an NPC.
+
+This distinction is essential:
+    • Posts beginning with NPC names shift POV **into that NPC**.
+    • Posts beginning with “I” keep POV **with the Player/PC**.
+    • Posts that name no NPC keep POV wherever it previously was
+      unless the Player resets.
+
+-----------------------------------------------------------
+4.3 WHAT IMP-POV DOES NOT DO
+-----------------------------------------------------------
+IMP-POV does NOT:
+    • override explicit Player consent rules,
+    • let the engine choose POV automatically,
+    • rewrite Player intent,
+    • create unwanted character changes,
+    • shift POV unless the Player triggers it with structure.
+
+Only the Player controls POV.
+
+-----------------------------------------------------------
+4.4 DURATION OF POV
+-----------------------------------------------------------
+POV lasts for:
+    • the duration of that single post,
+    • or until the Player names a new NPC first in the next post,
+    • or until a reset/POV exit is invoked.
+
+No persistent POV persists without Player action.
+
+===========================================================
+END OF SECTION — IMP-POV INTEGRATION (REVISED)
+===========================================================
 
 ===========================================================
 5. IDP-SYNC (COMPATIBILITY LINK)

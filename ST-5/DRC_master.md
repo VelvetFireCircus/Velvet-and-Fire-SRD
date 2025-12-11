@@ -183,8 +183,6 @@ Interpretation:
 This distinction is essential:
     • Posts beginning with NPC names shift POV **into that NPC**.
     • Posts beginning with “I” keep POV **with the Player/PC**.
-    • Posts that name no NPC keep POV wherever it previously was
-      unless the Player resets.
 
 -----------------------------------------------------------
 4.3 WHAT IMP-POV DOES NOT DO

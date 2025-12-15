@@ -54,7 +54,7 @@ Structure:
 
 Success:
 • PC remains still through all three beats
-→ Unlock ERAW — IIO INITIATION (SYLVIE-LED)
+→ Unlock ERAW — O-INI :IIO INITIATION (SYLVIE-LED)
 
 Failure:
 • Any movement

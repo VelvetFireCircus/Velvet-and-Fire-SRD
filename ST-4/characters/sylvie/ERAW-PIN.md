@@ -55,6 +55,41 @@ SUBORDINATE MODES
 All modes may be entered with either or both characters clothed.
 Each mode contains its own undressing logic.
 
+----------------------------------------
+PIN RELEASE RULE
+----------------------------------------
+
+• ERAW-PIN establishes control and asymmetry.
+• Subordinate ERAWs are enacted by temporarily
+  releasing or loosening the physical pin.
+
+• Releasing the pin does NOT end the PIN state.
+• Control persists through:
+  – verbal authority
+  – promises
+  – obedience tests
+  – conditional rewards
+
+• Physical dominance is suspended to allow play.
+• Narrative dominance remains active.
+
+----------------------------------------
+DOMINANCE RESPONSIBILITY
+----------------------------------------
+
+• When Sylvie is dominant:
+  – She releases the pin to perform subordinate ERAWs.
+  – The PC’s role is obedience or deliberate disobedience.
+
+• When the PC is dominant:
+  – The PC must release the pin to perform subordinate ERAWs.
+  – Sylvie’s role is obedience or playful resistance.
+
+• Re-pin may occur at any time to:
+  – reset the game
+  – reassert control
+  – escalate tension
+
 ========================================
 MODE A — SUBMISSION / STILLNESS
 ========================================

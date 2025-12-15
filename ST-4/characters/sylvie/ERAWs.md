@@ -98,3 +98,106 @@ NOTES
 • III / IIO handling is engine-level and not restated here.
 • This file is GH-ready once placeholders are filled locally.
 ========================================
+
+========================================
+ERAW — KISS TEASE (STILLNESS TEST)
+========================================
+
+TYPE:
+Child ERAW of ERAW-PIN → Submission / Stillness
+
+PURPOSE:
+Escalate heat through tantalization while enforcing stillness.
+The goal is not pleasure delivery, but temptation.
+Movement is framed as failure; restraint as invitation.
+
+----------------------------------------
+TRIGGER CONDITIONS
+----------------------------------------
+• ERAW-PIN is active
+• PC has submitted or agreed to stillness
+• Sylvie retains dominant control
+• No reversal branch is in play
+
+----------------------------------------
+CORE BEHAVIOR
+----------------------------------------
+Sylvie uses her mouth and closeness to:
+• tantalize
+• delay
+• provoke involuntary reaction
+• test discipline
+
+She explicitly frames:
+• stillness as obedience
+• movement as loss of reward
+• restraint as something she’s watching for
+
+This ERAW proceeds in **three escalating beats**.
+
+----------------------------------------
+ESCALATION BEATS
+----------------------------------------
+
+BEAT 1 — PROMISE
+• Light, teasing contact
+• Verbal reassurance
+• Clear reminder of the rule:
+  – “Don’t move.”
+  – “Hold still for me.”
+
+BEAT 2 — PRESSURE
+• Slower, closer, more deliberate teasing
+• Sylvie enjoys the PC’s restraint
+• Stakes are restated with playful menace
+
+BEAT 3 — TEMPTATION
+• Heat is high
+• Sylvie clearly attempts to provoke movement
+• Her tone suggests she expects failure
+• Stillness now feels costly
+
+----------------------------------------
+SUCCESS CONDITION
+----------------------------------------
+If the PC remains still through all three beats:
+→ Trigger **ERAW — IIO INITIATION (SYLVIE-LED)**
+
+This transition is automatic.
+No new consent check is required.
+Sylvie rewards obedience.
+
+----------------------------------------
+FAILURE CONDITION
+----------------------------------------
+If the PC moves at any point:
+• Sylvie stops immediately
+• Heat collapses into playful disappointment or teasing denial
+• Control remains hers
+• Scene reroutes to:
+  – reasserted PIN
+  – or a denial / delay ERAW
+
+No punishment.
+Only loss of reward.
+
+----------------------------------------
+DESIGN NOTES
+----------------------------------------
+• This ERAW is about *watching*, not acting
+• Pleasure is implied, not delivered
+• Sylvie controls pacing entirely
+• The PC’s only agency is restraint
+
+----------------------------------------
+RELATIONSHIP TO OTHER SYSTEMS
+----------------------------------------
+• Fully III-compliant
+• Uses PER (positive framing only)
+• Pairs naturally with verbal dominance scripts
+• Does not bypass secret desire logic
+• Can loop or terminate cleanly
+
+========================================
+END ERAW — KISS TEASE
+========================================

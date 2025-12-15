@@ -1,18 +1,33 @@
 ========================================
-ERAW — PIN (TRUNK NODE)
+ERAW — PIN (ROOT / POWER-EXCHANGE ENGINE)
 ========================================
 
 ROLE:
-Routing ERAW. Establishes dominance and capture, then delegates outcome
-to a subordinate ERAW based on prior play and PC response.
+Primary intimacy root node.
+Once initiated, ERAW-PIN governs all power exchange, escalation,
+and looping until an explicit exit condition is reached.
+
+ERAW-PIN is not a choice.
+It is a state.
+
+----------------------------------------
+ENTRY CONDITION
+----------------------------------------
+• Sylvie initiates a pin on the PC
+• Dominance is established (temporarily)
+• Heat is high enough to sustain play
+
+From this point forward, all intimacy occurs
+*inside* the PIN state until exit.
 
 ----------------------------------------
 CORE EFFECT
 ----------------------------------------
-• Establishes asymmetry and control
-• Frames the PC as “caught”
-• Delivers a vocal cue that invites response
-• Does NOT resolve intimacy itself
+• Establishes capture and asymmetry
+• Frames intimacy as a game of control
+• Enables oscillation of dominance
+• Allows repetition without stalling
+• Treats disobedience as flirtation
 
 ----------------------------------------
 VOCAL CUE SET
@@ -24,134 +39,173 @@ Unlocked cue (secret desire):
 • “You’re pinned. Unless you have other ideas.”
 
 ----------------------------------------
-BRANCHING LOGIC
+PIN STATE LOGIC
 ----------------------------------------
-From this trunk, control passes to ONE of the following
-subordinate ERAWs.
+While ERAW-PIN is active:
+
+• Obedience advances toward escalation
+• Disobedience triggers renewed struggle
+• Renewed struggle always resolves back into PIN
+• Each loop increases heat and urgency
+• Repetition is acknowledged as part of play
+
+Power may change hands.
+The PIN state does not end.
+
+----------------------------------------
+SUBORDINATE ERAWs (ACTIVE MODES)
+----------------------------------------
 
 ========================================
-BRANCH A — SUBMISSION / STILLNESS
+MODE A — SUBMISSION / STILLNESS
 ========================================
 
 Trigger:
 • PC yields or affirms capture
-• PC agrees to hold still
-• No reversal invitation taken
+• PC accepts instruction to remain still
 
 ----------------------------------------
-SUBORDINATE ERAWs
-----------------------------------------
-
 ERAW — KISS TEASE (STILLNESS TEST)
-
-Purpose:
-Test restraint through escalating tantalization.
+----------------------------------------
 
 Structure:
 • Three escalating beats of mouth-led teasing
-• Sylvie explicitly frames stillness as obedience
-• Movement equals loss of reward
+• Sylvie frames stillness as obedience
+• Movement is framed as choice with consequence
 
 Success:
 • PC remains still through all three beats
-→ Unlock ERAW — O-INI :IIO INITIATION (SYLVIE-LED)
+→ Unlock exit: **O-INI (SYLVIE)**
 
-Failure:
-• Any movement
-→ Teasing denial or reasserted PIN
+Disobedience:
+• Any movement at any beat
+→ Trigger renewed struggle
+→ Resolve back into PIN (Sylvie on top)
+
+Repetition:
+• Multiple failures heighten Sylvie’s excitement
+• Language varies; repetition is eroticized
 
 ========================================
-BRANCH B — SERVICE / RECIPROCITY
+MODE B — SERVICE / RECIPROCITY
 ========================================
 
 Trigger:
 • PC offers to please
 • PC asks what Sylvie wants
-• Submission framed as generosity
 
 ----------------------------------------
-SUBORDINATE ERAWs
-----------------------------------------
-
 ERAW — TEASE KISS (SERVICE TEST)
-
-Purpose:
-Authorize PC-led attention under Sylvie’s direction.
+----------------------------------------
 
 Precondition:
-• If Sylvie is clothed, she disrobes at the start of this ERAW.
-
-Core Behavior:
-• Sylvie leads the PC’s attention across her body
-• She indicates where the PC may place their mouth
-• Authorization is explicit and controlled
+• If Sylvie is clothed, she disrobes at start
 
 Structure:
-• Three ascending beats of allowed attention
-• Each beat widens access slightly
-• Sylvie observes obedience closely
+• Sylvie indicates allowed mouth placement
+• Three ascending beats of permitted exploration
+• Precision and restraint are tested
 
 Success:
-• PC follows all three indications precisely
-→ Unlock ERAW — O-INV (SYLVIE INVITATION)
+• PC obeys all three indications
+→ Unlock exit: **O-INV (SYLVIE)**
 
-Failure:
+Disobedience:
 • PC oversteps or ignores direction
-→ Withdrawal of access or return to PIN
-
-----------------------------------------
-UNLOCKED ERAW
-----------------------------------------
-
-ERAW — O-INV (SYLVIE-LED ORAL INVITATION)
-
-Purpose:
-Transition from service testing to explicit invitation.
-
-Effect:
-• Sylvie opens herself invitingly
-• Control remains hers
-• Next escalation proceeds under her terms
+→ Sylvie flips and pins PC
+→ Resolve back into PIN
 
 ========================================
-BRANCH C — PLAYFUL REVERSAL (SECRET)
+MODE C — PLAYFUL REVERSAL (SECRET)
 ========================================
 
 Trigger:
-• Secret desire unlocked via prior flirting
+• Secret desire unlocked via flirting
 • Danger-smile cue delivered
 • PC responds with playful resistance
 
 ----------------------------------------
-SUBORDINATE ERAWs
+ERAW — REVERSAL PLAY (THREE-BEAT)
 ----------------------------------------
 
-ERAW — REVERSAL PLAY
+Beat 1 — Invitation:
+• Resistance framed as play
+• Control loosens slightly
+• Banter invites contest
 
-Purpose:
-Destabilize dominance intentionally.
+Beat 2 — Instability:
+• Wrestling escalates
+• Accidental groping occurs
+• Thrill arises from imbalance
 
-Behavior:
-• Wrestling framed as play, not threat
-• Balance shifts, grip changes, momentum traded
-• Accidental contact occurs during the struggle
-• Thrill arises from proximity, imbalance, and surprise
-• Banter and laughter may accompany the contest
-• Reversal is invited, not seized
+Beat 3 — Intentional Yield:
+• One party deliberately overcommits
+• Power flips cleanly
+→ Enter **FULL REVERSAL**
 
-Resolution:
-• Successful flip into a reversal ERAW
-• Or collapse back to PIN if momentum breaks
+----------------------------------------
+ERAW — FULL REVERSAL
+----------------------------------------
 
-========================================
+Effect:
+• PC holds dominant position
+• Sylvie becomes the one tested
+• All PIN rules remain identical
+• Only dominance polarity changes
+
+From FULL REVERSAL:
+• Sylvie may disobey to trigger renewed struggle
+• Each re-pin increments excitement
+• System tracks pin count for voluntary obedience
+
+----------------------------------------
+PC-DOMINANT MODES (MIRRORED)
+----------------------------------------
+
+MODE D — PC-LED STILLNESS
+• Sylvie tested for restraint
+• Disobedience → renewed struggle
+• Success → **O-INI (PLAYER)**
+
+MODE E — PC-LED SERVICE
+• PC grants or withholds access
+• Sylvie obeys or provocatively disobeys
+• Success → **O-INV (PLAYER)**
+
+----------------------------------------
+QUALITY-BASED ACCELERATION
+----------------------------------------
+• High-quality erotic input lowers resistance
+• Better writing shortens loops
+• Sylvie obeys sooner when satisfied
+• Mechanical repetition extends loops
+
+----------------------------------------
+EXIT CONDITIONS (ONLY FIVE)
+----------------------------------------
+
+ERAW-PIN ends only when one of the following occurs:
+
+1. **O-INV (PLAYER)**
+2. **O-INV (SYLVIE)**
+3. **O-INI (PLAYER)**
+4. **O-INI (SYLVIE)**
+5. **DEESCALATION**
+   – Mutual release of dominance
+   – Heat allowed to settle
+   – Scene softens or ends
+
+No other exits exist.
+
+----------------------------------------
 DESIGN NOTES
-========================================
+----------------------------------------
 
-• ERAW-PIN is recursive and reusable
-• Branch access is gated by prior play
-• Subordinate ERAWs may return to trunk
-• Dominance is a state, not an endpoint
-• All output remains III-compliant by default
+• ERAW-PIN is recursive and self-sustaining
+• All branches flow through the same root
+• Power oscillation is encouraged
+• Disobedience is rewarded with play
+• Commitment is the only way forward
 
 ========================================
 END ERAW — PIN

@@ -61,3 +61,18 @@ Desire is a puzzle.
 Intimacy is the reveal.
 
 The “sexy detective” loop ensures that romance in Velvet & Fire rewards attention, interpretation, and emotional literacy rather than repetition or optimization. NPCs feel alive because they want things—and the player must learn how to listen.
+
+Formalized:
+Player acts freely
+↓
+Engine tags action features
+↓
+PC hidden data biases interpretation
+↓
+NPC desire drives react
+↓
+Alignment pressure increases or diffuses
+↓
+Engine offers leaning affordances
+↓
+Player chooses again

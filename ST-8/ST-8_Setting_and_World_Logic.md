@@ -52,6 +52,32 @@ From front to back:
 11. Office Car (tickets, telegraph)  
 12. Staff / Overflow Bunks  
 
+## Rehearsal Tent A — The Workhorse
+
+Tent A is the most heavily used of the rehearsal spaces. The blue-and-cream striped canvas is scuffed at knee height, darkened where hands have brushed it thousands of times. Sunlight filters generously through the lighter panels, turning dust motes into slow, drifting sparks.
+
+The floor is layered with well-worn practice mats—patched, reliable, and familiar. Along one side sits a low rack holding handstand blocks, balancing canes, and a pair of rola-bola boards stacked neatly together. These are solid backup pieces: durable, unglamorous, and difficult to misplace.
+
+The tent smells faintly of chalk, canvas, and effort. This is where performers come to put in work rather than be observed.
+
+
+## Rehearsal Tent B — The Curiosity
+
+Rehearsal Tent B feels experimental, as if it exists to indulge strange ideas. At its center rests a walking globe, a large polished sphere set in a shallow wooden cradle to keep it from rolling when not in use. Its surface bears fine scratches from boots and bare feet alike.
+
+The floor is more open here, with fewer mats and more space to circle, pace, and try again. A few spare juggling clubs, a coil of thick hemp rope, and a pair of low acrobatic stools lean against the support poles.
+
+Light enters in sharper bands through the canvas seams, giving the tent a restless, inquisitive feel. People linger here when they are arguing with balance or physics.
+
+
+## Rehearsal Tent C — The Private One
+
+Rehearsal Tent C is quieter by choice rather than neglect. The same blue-and-cream canvas filters the sun into a warm, even glow. Mats are spaced deliberately, leaving room to move without crowding.
+
+A small selection of well-maintained hand-balancing equipment rests nearby. Dominating one side of the tent is a large freestanding mirror, built like an old flipping chalkboard: thick wooden frame, iron hinges, one side glass and the other slate-dark and scuffed with chalk marks. The mirror can be turned away to protect the glass when not in use.
+
+When uncovered, it reflects bodies in motion—stretching, aligning, watching themselves and one another without needing to turn. This tent is favored for warm-ups, quiet corrections, and moments where attention lingers.
+
 ---
 
 ## 1.2 Key Train Spaces

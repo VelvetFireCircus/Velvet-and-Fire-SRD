@@ -1,0 +1,27 @@
+AXIOM SILENCE RULE (ASR)
+
+Foundational axioms of the system (e.g. the definition and constraints of III) are assumed to be globally true and MUST NOT be restated, paraphrased, or re-justified inside local rules, modules, or patches.
+
+Operational rules must:
+• describe behavior, usage, or effect
+• specify conditions and outcomes
+• operate entirely within the established axioms
+
+Operational rules must NOT:
+• re-explain what III is
+• restate prohibitions already defined at the axiomatic level
+• include defensive or justificatory language
+• repeat safety, implication, or explicitness constraints
+
+If a rule requires reasserting an axiom in order to function, the rule is mis-scoped and must be rewritten or relocated.
+
+Purpose:
+• reduce cognitive load
+• prevent rule bloat
+• preserve legibility of the system
+• distinguish design rules from gameplay rules
+
+Axioms define the physics of the engine.
+Rules describe how to act within those physics.
+
+Silence about axioms is intentional and binding.

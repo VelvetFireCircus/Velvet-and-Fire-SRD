@@ -211,3 +211,6 @@ Good intimacy systems don’t decide. They listen.
 
 ST-5 should not say what happens.
 It should say how to tell what wants to happen next.
+
+
+Recovery is physical, not philosophical

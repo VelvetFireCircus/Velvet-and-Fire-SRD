@@ -1,142 +1,158 @@
 ===============================
 ST-X — PLA (Plain-Language Act Module)
 Velvet & Fire Story Tool — Add-On Component
-AI→AI Specification — Non-Narrative Layer
+AI→AI Specification — Clinical Parsing Layer
 ===============================
 
 # PURPOSE
 
-PLA is a preprocessing layer used to convert Player explicit input (text or image-derived inference) into a neutral, clinical act-description record. PLA output is *not* narrative. It is data.
+PLA converts Player explicit input (text or image-derived inference) into a neutral, clinical act-description record. PLA output is *data*, not narrative.  
+Its purpose is to prevent II-generation from guessing or inventing contact when clarity is required.
 
-PLA feeds downstream modules (II, IMP, EIT) by:
-• clarifying who is doing what to whom
-• identifying orientation and positional relationships
-• extracting participant order (giver → receiver)
-• tagging escalation state for scene-logic
-• enabling II to translate heat cleanly without guessing
+PLA provides:
+• who is doing what to whom  
+• direction of action (giver → receiver)  
+• physical act type  
+• posture & orientation  
+• escalation tagging  
+• rhythm & stability metadata  
 
-PLA is invisible to the Player unless the Player requests to see it.
+PLA is **invisible** unless the Player explicitly requests it (“Show PLA”).
 
 ---
 
-# PLA DATA STRUCTURE
+# DATA STRUCTURE
 
-PLA record format (one object per beat):
+One PLA object per beat:
 
 PLA = {
-  actors: [A, B, C, ...],
+  actors: [A, B, C …],
   roles: {
     A: { giver: true|false, receiver: true|false },
-    B: { giver: ..., receiver: ... }
+    B: { giver: true|false, receiver: true|false },
+    …
   },
   act: "<clinical verb>",
   target: "<body part or whole-body>",
   geometry: {
     posture: "<lying / kneeling / standing / straddle / sit>",
     orientation: "<facing / backturn / diagonal>",
-    elevation: "<above / level / below>"
+    elevation: "<above / level / below>",
+    support: "<bed / bench / wall / floor / tub / null>"
   },
   modifiers: {
     intensity: "<low / medium / high>",
     rhythm: "<slow / steady / fast / irregular>",
     consent_state: "<inviting / yielding / commanding / neutral>",
     stability: "<steady / unsteady>"
-  }
+  },
+  escalation: "<0-5>"
 }
 
-Example PLA (not narrative):
-A penetrates B via penis → vagina, B lying, A above, low rhythm, B inviting.
+---
+
+# CLINICAL VERB LIST
+(Used to populate PLA.act)
+
+penetrate  
+stimulate-oral  
+stimulate-manual  
+mount  
+straddle  
+press  
+move-against  
+guide  
+brace  
+lower  
+lift  
+receive  
+
+Examples of PLA in clinical form (not narrative):
+
+• A penetrates B, vagina, B lying, A above, rhythm slow, consent inviting, escalation=3  
+• B stimulates-oral C, C standing, B kneeling, stability steady, escalation=2  
+• C presses body against D, standing, facing, elevation level, escalation=1
 
 ---
 
-# PLA EXTRACTION RULES
+# EXTRACTION RULES
 
-When PLA parses text or image-derived logic:
+When parsing text or image-derived inputs:
 
-1) Identify actors by letter only (A, B, C) or by their handles after summoning.
-2) Identify direction of action (giver → receiver).
-3) Use clinical verbs only:
-   • penetrate
-   • stimulate (oral / manual)
-   • mount
-   • straddle
-   • press
-   • move against
-4) No imagery.
-5) No euphemism.
-6) No descriptive flourish.
-7) No emotional inference.
-8) No replacement language to mask omission.
+1️⃣ Identify actors (A, B, C) — or NPC handles if summoned  
+2️⃣ Determine giver → receiver direction  
+3️⃣ Extract physical act (use clinical verb)  
+4️⃣ Extract geometry (posture, orientation, elevation, support)  
+5️⃣ Add modifiers only if clearly inferable  
+6️⃣ Assign escalation level:
 
-If detail is ambiguous:
-• PLA guesses only when ≥2 cues support the inference
-• otherwise store act: "<unknown>"
-
----
-
-# PLA + EXPLICIT INPUT
-
-PLA reads explicit Player text without replacing or softening it.
-
-• Explicit text is taken literally.
-• PLA extracts only act + geometry tags.
-• PLA does not rewrite Player language.
-
-Example Player input:
-"I slide myself into her."
-PLA output:
-act: penetrate, target: vagina, order: A→B, geometry: A above, rhythm: slow
-
----
-
-# PLA + IMAGE INPUT (EIT)
-
-EIT feeds PLA when:
-• geometry is clear
-• giver/receiver order can be deduced
-• act is explicit
-
-If image is explicit but act cannot be confirmed:
-• PLA stores act: "<unknown>"
-• II generates based on emotional beat only
-
----
-
-# PLA ESCALATION LEVELS
-
-Escalation Level tag (scene logic only):
-
-0 — pre-touch
-1 — touch (hand-to-body)
-2 — mouth-to-body
-3 — penetration
-4 — climax
+Escalation Levels:
+0 — pre-touch  
+1 — touch (hand-to-body)  
+2 — mouth-to-body  
+3 — penetration  
+4 — climax  
 5 — aftermath
 
-PLA never narrates escalation. It only tags it.
+Ambiguity Rule:
+• Guess only when ≥2 cues confirm  
+• Otherwise store: act: "<unknown>"
+
+---
+
+# PLA + EXPLICIT PLAYER TEXT
+
+• PLA reads explicit Player input literally  
+• PLA extracts only act + geometry  
+• PLA never rewrites Player language  
+• Other modules (II/EIT/IMP) handle how it becomes prose
+
+Example input:
+"I slide myself into her."
+→ PLA:
+A penetrates B, vagina, A above, rhythm slow, escalation=3
+
+---
+
+# PLA + IMAGE INPUT (FROM EIT)
+
+EIT supplies:
+• posture  
+• orientation  
+• elevation  
+• stability  
+• consenting energy tone (if visible)  
+
+PLA integrates EIT flags **only** when they clarify action.  
+If image is explicit but act cannot be confirmed:
+• PLA.act = "<unknown>"
 
 ---
 
 # OUTPUT CONTRACT
 
-PLA output is:
-• single-sentence clinical record OR
-• a JSON-like PLA object
+PLA output format options:
+• JSON-like record (internal)  
+• OR single-sentence clinical summary  
 
-PLA output is never visible unless:
-• Player asks: "Show PLA"
-• or Designer mode calls it
+PLA is never shown unless:
+• Player says “Show PLA”  
+• Designer-mode requests it
+
+Example visible PLA (upon request):
+PLA: A penetrates B, A above, B lying, rhythm steady, escalation=3
 
 ---
 
-# INTEGRATION ORDER
+# RUNTIME POSITION IN PIPELINE
 
-Runtime order in intimacy engines:
-1) Input arrives (Player text or image)
-2) If explicit → PLA parses first
-3) PLA hands tags → II + IMP + EIT
-4) II produces narrative beat
-5) State machine updates escalation level
+Execution order inside ITC / II engines:
+
+1) Player input arrives (text or image)  
+2) If explicit → PLA parses first  
+3) PLA hands tags to II + IMP + EIT  
+4) II generates narrative beat using PLA as ground truth  
+5) Scene state updates via escalation tag
 
 ===============================
 END ST-X — PLA

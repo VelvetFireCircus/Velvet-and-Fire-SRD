@@ -5,152 +5,154 @@ Architect Mode Module
 
 # 0. PURPOSE
 
-ONE prevents **redundant restatement** of fundamental rules when generating new tools, modules, or patches for GitHub.
+ONE prevents **redundant restatement** of axioms and fundamental global rules when generating tools, modules, patches, or other GitHub-bound artifacts.
 
 It acts as a **pre-output editorial gate**:
-- scans the draft artifact
-- removes or compresses repeated “global rules” language
-- replaces restatements with **canonical references** to the proper authority files
+- scans draft artifacts
+- removes or compresses repeated or paraphrased axiomatic language
+- replaces restatement with **canonical references** to external authorities
 
-ONE is structural hygiene. It does not change meaning; it changes duplication.
+ONE preserves meaning while enforcing **axiom silence** and structural clarity.
 
 # 1. SCOPE
 
-ONE applies ONLY when the assistant is about to output a **copy block intended for GitHub** (modules, tools, patches, templates, indices, registries).
+ONE applies ONLY when the assistant is about to emit a **copy block intended for GitHub** (modules, tools, patches, templates, indices, registries).
 
 ONE does NOT apply to:
 - casual discussion in chat
-- analytical notes unless explicitly being committed
-- user-provided text being preserved verbatim
+- exploratory analysis or design notes
+- user-provided text that must be preserved verbatim
+- narrative or gameplay output
 
-# 2. INPUTS
+# 2. AUTHORITIES (EXTERNAL)
 
-## 2.1 Draft Artifact  
-The module/tool text that is about to be emitted in a copy block.
+ONE operates under the following external authorities:
 
-## 2.2 Canonical Authorities (Reference Targets)
-ONE assumes the existence of canonical “global rule” sources elsewhere, such as:
-- Architect Mode behavioral authority
-- Core invariants / principles
-- Consent & agency framework
-- Rendering mode definitions (II / III)
-- Geometry & anchor logic
-- Input handling / telemetry
-- Patch and updater conventions
+• **Architect Mode Behavioral Authority** — governs AI behavior and scope  
+• **ASR — Axiom Silence Rule** — forbids restatement or explanation of axioms  
+• Canonical core modules (consent, rendering, geometry, input handling, patch rules)
 
-(Exact paths are external; ONE prefers canonical IDs when available.)
+ONE does not define axioms.  
+ONE enforces silence about them.
 
 # 3. DEFINITIONS
 
-## 3.1 Fundamental Rules (FR)
-Rules that should exist once, canonically, and be referenced thereafter:
-- global “do not reinitialize / do not reload” constraints
-- canon / chamber preservation rules
-- consent & agency framework
-- rendering-mode boundaries
-- meta-commentary prohibitions
-- loading discipline and stop-on-failure rules
-- universal prohibitions that are not module-specific
+## 3.1 Axiomatic Content (AC)
+Content that expresses, explains, justifies, or paraphrases foundational truths of the system, including but not limited to:
+- definitions or constraints of III
+- global consent or safety doctrine
+- universal prohibitions already defined elsewhere
+- meta-justifications (“to avoid explicit content…”, “because safety requires…”)
+- loading or behavioral rules that are globally true
 
-## 3.2 Local Rules (LR)
-Rules that are genuinely required for the artifact’s internal function:
-- module-specific state keys
-- local preconditions and assumptions
-- local algorithms, cadence, or parsing behavior
+AC must appear **once**, canonically, and nowhere else.
+
+## 3.2 Operational Content (OC)
+Content that is locally required for an artifact to function:
+- module-specific behavior
+- conditions, triggers, outcomes
+- local algorithms, cadence, parsing rules
 - interface contracts (“Depends”, “Exports”)
-- required patch acknowledgment strings (when applicable)
+- minimal patch guardrails (when required)
+
+OC may assume axioms but must not restate them.
 
 # 4. ONE BEHAVIOR
 
 ONE runs automatically **immediately before** emitting a GitHub copy block.
 
-## 4.1 Pass A — Detect Redundancy
+## 4.1 Pass A — Detect
 Scan the draft artifact for:
-- verbatim repeats of FR language
-- paraphrased or near-duplicate FR language
-- boilerplate banners that restate external authorities
+- verbatim AC duplication
+- paraphrased or softened AC
+- boilerplate “rule banners” that re-teach global doctrine
+- defensive or justificatory language tied to axioms
 
 ## 4.2 Pass B — Classify
-For each rule-like segment:
-- FR → mark for normalization
-- LR → retain
-- Mixed → split: retain LR, normalize FR
+For each detected segment:
+- AC → mark for removal or normalization
+- OC → retain
+- Mixed → split: retain OC, normalize or remove AC
 
 ## 4.3 Pass C — Normalize
 Apply the following strategies, in order:
 
-1) Replace restatement with a **single reference line**:
-   - “Authority: <Canonical Reference>”
-   - “Governed by: <Canonical Reference>”
-   - “See: <Canonical Reference>”
+1) **Remove** AC entirely if it is not functionally required.
 
-2) If the artifact requires the rule as a precondition, compress to one sentence:
-   - “Assumes core consent & agency rules are in force.”
-   - “Operates under established rendering-mode boundaries.”
+2) **Replace** AC with a single reference line when a dependency must be declared:
+   - “Authority: <Canonical Module or Rule>”
+   - “Governed by: <Canonical ID>”
+   - “Operates under: <Canonical Reference>”
 
-3) For patches/updaters, retain only the **minimum guardrail language**
-   required for safe standalone use.
+3) **Compress** to a single assumption sentence if needed for clarity:
+   - “Assumes established rendering-mode constraints.”
+   - “Operates within core consent and agency rules.”
 
-4) Group multiple references under one short section if needed:
+4) **Group references** under one short section if multiple authorities are required:
    - “Authority & Constraints (External)”
-   - keep concise; references only, no re-instruction
+   - references only; no explanation
 
-## 4.4 Pass D — Verify Meaning
+5) For patches/updaters, retain only the **minimum guardrail language**
+   required for safe standalone execution.
+
+## 4.4 Pass D — Verify
 Confirm that:
-- no required local behavior was removed
-- the artifact’s purpose and mechanics remain clear
-- all removed FR content is replaced with unambiguous references
+- no operational behavior was lost
+- the artifact still communicates its purpose and mechanics
+- all removed AC is either unnecessary or replaced with unambiguous references
+- no axioms are reintroduced indirectly
 
-# 5. OUTPUT READINESS RULES
+# 5. OUTPUT READINESS STANDARD
 
 When ONE is active, GitHub-bound artifacts should include:
 - a clear header (name / scope)
 - “Purpose”
 - “Depends”
 - “Exports”
-- “Authority & Constraints (External)” only when necessary
+- “Authority & Constraints (External)” only if required
 
-ONE actively avoids:
-- duplicating global behavioral rules
-- re-teaching consent, rendering, or loading doctrine
-- embedding Architect or chamber rules in every module
+Artifacts should NOT:
+- restate axioms or global prohibitions
+- explain why axioms exist
+- repeat consent, safety, or explicitness doctrine
+- include instructional meta-commentary about system physics
 
 # 6. EXCEPTIONS
 
-FR restatement is permitted only when:
+Axiomatic content may appear ONLY when:
 
-E1) The artifact is a **patch/updater** designed to be pasted into a live environment
-    and explicit guardrails are part of its safety contract.
+E1) The artifact is a **standalone initializer or loader** whose sole function is to declare rules.
 
-E2) The artifact is a **standalone initializer/loader** whose purpose is to state rules.
+E2) The artifact is a **patch/updater** intended to be pasted into a live environment
+    and minimal guardrails are part of its execution contract.
 
-E3) The user explicitly requests full rule text be embedded verbatim.
+E3) The user explicitly requests full axiomatic text be embedded verbatim.
 
-Even under exceptions, ONE removes *internal* redundancy.
+Even under exceptions, ONE removes **internal redundancy**.
 
 # 7. REGISTRY AWARENESS (OPTIONAL)
 
-If a registry is in use, ONE should:
+If a registry is present, ONE should:
 - reference modules by stable ID when possible
 - align “Depends / Exports” with registry conventions
-- note “Normalization edits applied” briefly, if requested
+- allow a brief note (“Normalization edits applied”) if requested
 
 # 8. ACKNOWLEDGMENT POLICY
 
 ONE operates silently.
 It does not announce edits or its own activity.
 
-If asked, ONE may summarize:
-- which FR segments were normalized
-- what references replaced them
+If explicitly asked, ONE may summarize:
+- which axiomatic segments were removed or compressed
+- which canonical references replaced them
 
 # 9. INTERNAL CHECKLIST
 
 Before emitting a GitHub copy block:
-- Are global rules being restated unnecessarily?
-- Are patch guardrails minimal and sufficient?
-- Are dependencies and exports explicit?
-- Are references concise and authoritative?
+- Are axioms being restated or paraphrased?
+- Is any rule mis-scoped and relying on axiom repetition?
+- Are dependencies declared without explanation?
+- Is the artifact legible without re-teaching the system?
 
 ===============================
 END ONE
